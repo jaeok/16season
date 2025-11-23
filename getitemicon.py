@@ -70,9 +70,16 @@ def download_all_item_images_selenium(url, save_path):
             # 2. 파일명에서 확장자를 분리합니다.
             base_name, file_extension = os.path.splitext(raw_file_name)
             
-            # 3. 파일명에 '_'가 있으면 첫 번째 '_'까지만 사용합니다.
-            if '_' in base_name:
-                cleaned_name = base_name.split('_')[0]
+            # 3. 파일명 정리: URL에 따라 'TFT16_Item_<Name>' 같은 형태가 많으므로
+            #    실제 아이템명(<Name>)을 사용하도록 처리합니다.
+            #    - 파일명에 'item_'이 포함되면 마지막 '_' 뒤의 부분을 사용합니다.
+            #    - 그 외에 '_'가 있으면 마지막 부분을 사용합니다 (충돌 가능성 낮음).
+            #    - '_'가 없으면 전체 base_name을 사용합니다.
+            lower_base = base_name.lower()
+            if 'item_' in lower_base:
+                cleaned_name = base_name.split('_')[-1]
+            elif '_' in base_name:
+                cleaned_name = base_name.split('_')[-1]
             else:
                 cleaned_name = base_name
             
