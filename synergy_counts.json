@@ -1,0 +1,392 @@
+[
+  {
+    "synergy_name": "별 수호자",
+    "count": 10,
+    "targetSynergy": true
+  },
+  {
+    "synergy_name": "수정 갬빗",
+    "count": 10,
+    "targetSynergy": true
+  },
+  {
+    "synergy_name": "별 수호자",
+    "count": 9,
+    "targetSynergy": true
+  },
+  {
+    "synergy_name": "책략가",
+    "count": 5,
+    "targetSynergy": true
+  },
+  {
+    "synergy_name": "신동",
+    "count": 5,
+    "targetSynergy": true
+  },
+  {
+    "synergy_name": "해적선장",
+    "count": 1,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "처형자",
+    "count": 4,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "책략가",
+    "count": 4,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "처형자",
+    "count": 3,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "소울 파이터",
+    "count": 8,
+    "targetSynergy": true
+  },
+  {
+    "synergy_name": "레슬링 챔피언",
+    "count": 1,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "태세의 대가",
+    "count": 1,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "이단아",
+    "count": 2,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "프로레슬러",
+    "count": 2,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "장미 어머니",
+    "count": 1,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "신동",
+    "count": 2,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "멘토",
+    "count": 4,
+    "targetSynergy": true
+  },
+  {
+    "synergy_name": "처형자",
+    "count": 2,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "저격수",
+    "count": 5,
+    "targetSynergy": true
+  },
+  {
+    "synergy_name": "거대 메크",
+    "count": 7,
+    "targetSynergy": true
+  },
+  {
+    "synergy_name": "거대 메크",
+    "count": 5,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "요새",
+    "count": 2,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "전투사관학교",
+    "count": 7,
+    "targetSynergy": true
+  },
+  {
+    "synergy_name": "별 수호자",
+    "count": 8,
+    "targetSynergy": true
+  },
+  {
+    "synergy_name": "처형자",
+    "count": 5,
+    "targetSynergy": true
+  },
+  {
+    "synergy_name": "마법사",
+    "count": 2,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "헤비급",
+    "count": 2,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "책략가",
+    "count": 2,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "거대 메크",
+    "count": 3,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "저격수",
+    "count": 2,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "결투가",
+    "count": 6,
+    "targetSynergy": true
+  },
+  {
+    "synergy_name": "크루",
+    "count": 4,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "전쟁기계",
+    "count": 2,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "프로레슬러",
+    "count": 4,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "전쟁기계",
+    "count": 6,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "악령",
+    "count": 2,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "봉쇄자",
+    "count": 6,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "멘토",
+    "count": 1,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "봉쇄자",
+    "count": 2,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "악령",
+    "count": 6,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "소울 파이터",
+    "count": 2,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "슈프림 셀",
+    "count": 4,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "책략가",
+    "count": 3,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "요새",
+    "count": 6,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "결투가",
+    "count": 2,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "요새",
+    "count": 4,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "별 수호자",
+    "count": 3,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "전투사관학교",
+    "count": 3,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "신동",
+    "count": 3,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "슈프림 셀",
+    "count": 2,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "크루",
+    "count": 2,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "저격수",
+    "count": 3,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "헤비급",
+    "count": 6,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "수정 갬빗",
+    "count": 3,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "이단아",
+    "count": 4,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "별 수호자",
+    "count": 2,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "괴물 트레이너",
+    "count": 1,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "마법사",
+    "count": 6,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "전쟁기계",
+    "count": 4,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "이단아",
+    "count": 6,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "봉쇄자",
+    "count": 4,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "소울 파이터",
+    "count": 4,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "별 수호자",
+    "count": 4,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "신동",
+    "count": 4,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "전투사관학교",
+    "count": 5,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "마법사",
+    "count": 4,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "헤비급",
+    "count": 4,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "결투가",
+    "count": 4,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "악령",
+    "count": 4,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "저격수",
+    "count": 4,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "크루",
+    "count": 3,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "별 수호자",
+    "count": 7,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "소울 파이터",
+    "count": 6,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "수정 갬빗",
+    "count": 7,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "슈프림 셀",
+    "count": 3,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "별 수호자",
+    "count": 5,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "별 수호자",
+    "count": 6,
+    "targetSynergy": false
+  },
+  {
+    "synergy_name": "수정 갬빗",
+    "count": 5,
+    "targetSynergy": false
+  }
+]

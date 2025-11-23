@@ -1,0 +1,704 @@
+"synergies": [
+    {
+      "synergy_name": "1",
+      "average_rank": "10 별 수호자",
+      "top4_rate": "#1.31",
+      "win_rate": 98.63,
+      "pick_rate": 80.2,
+      "games_played": "0.04%",
+      "top_champions": "293"
+    },
+    {
+      "synergy_name": "2",
+      "average_rank": "10 수정 갬빗",
+      "top4_rate": "#1.33",
+      "win_rate": 100.0,
+      "pick_rate": 66.67,
+      "games_played": "0.00%",
+      "top_champions": "6"
+    },
+    {
+      "synergy_name": "3",
+      "average_rank": "9 별 수호자",
+      "top4_rate": "#2.85",
+      "win_rate": 81.24,
+      "pick_rate": 28.02,
+      "games_played": "0.40%",
+      "top_champions": "3,001"
+    },
+    {
+      "synergy_name": "4",
+      "average_rank": "5 책략가",
+      "top4_rate": "#3.48",
+      "win_rate": 67.47,
+      "pick_rate": 25.15,
+      "games_played": "0.20%",
+      "top_champions": "1,491"
+    },
+    {
+      "synergy_name": "5",
+      "average_rank": "5 신동",
+      "top4_rate": "#3.66",
+      "win_rate": 67.24,
+      "pick_rate": 14.58,
+      "games_played": "0.48%",
+      "top_champions": "3,593"
+    },
+    {
+      "synergy_name": "6",
+      "average_rank": "1 해적선장",
+      "top4_rate": "#3.69",
+      "win_rate": 64.18,
+      "pick_rate": 24.67,
+      "games_played": "1.31%",
+      "top_champions": "9,786"
+    },
+    {
+      "synergy_name": "7",
+      "average_rank": "4 처형자",
+      "top4_rate": "#3.72",
+      "win_rate": 64.01,
+      "pick_rate": 21.15,
+      "games_played": "0.17%",
+      "top_champions": "1,267"
+    },
+    {
+      "synergy_name": "8",
+      "average_rank": "4 책략가",
+      "top4_rate": "#3.72",
+      "win_rate": 64.35,
+      "pick_rate": 21.57,
+      "games_played": "0.58%",
+      "top_champions": "4,348"
+    },
+    {
+      "synergy_name": "9",
+      "average_rank": "3 처형자",
+      "top4_rate": "#3.73",
+      "win_rate": 63.97,
+      "pick_rate": 19.7,
+      "games_played": "0.61%",
+      "top_champions": "4,579"
+    },
+    {
+      "synergy_name": "10",
+      "average_rank": "8 소울 파이터",
+      "top4_rate": "#3.73",
+      "win_rate": 65.1,
+      "pick_rate": 16.94,
+      "games_played": "2.03%",
+      "top_champions": "15,173"
+    },
+    {
+      "synergy_name": "11",
+      "average_rank": "1 레슬링 챔피언",
+      "top4_rate": "#3.84",
+      "win_rate": 62.35,
+      "pick_rate": 19.74,
+      "games_played": "4.45%",
+      "top_champions": "33,251"
+    },
+    {
+      "synergy_name": "12",
+      "average_rank": "1 태세의 대가",
+      "top4_rate": "#3.88",
+      "win_rate": 61.31,
+      "pick_rate": 19.11,
+      "games_played": "3.57%",
+      "top_champions": "26,645"
+    },
+    {
+      "synergy_name": "13",
+      "average_rank": "2 이단아",
+      "top4_rate": "#3.93",
+      "win_rate": 60.8,
+      "pick_rate": 17.86,
+      "games_played": "5.09%",
+      "top_champions": "38,050"
+    },
+    {
+      "synergy_name": "14",
+      "average_rank": "2 프로레슬러",
+      "top4_rate": "#3.95",
+      "win_rate": 59.81,
+      "pick_rate": 20.03,
+      "games_played": "2.59%",
+      "top_champions": "19,329"
+    },
+    {
+      "synergy_name": "15",
+      "average_rank": "1 장미 어머니",
+      "top4_rate": "#3.97",
+      "win_rate": 59.74,
+      "pick_rate": 20.39,
+      "games_played": "2.52%",
+      "top_champions": "18,802"
+    },
+    {
+      "synergy_name": "16",
+      "average_rank": "2 신동",
+      "top4_rate": "#4.00",
+      "win_rate": 59.5,
+      "pick_rate": 15.86,
+      "games_played": "2.77%",
+      "top_champions": "20,698"
+    },
+    {
+      "synergy_name": "17",
+      "average_rank": "4 멘토",
+      "top4_rate": "#4.05",
+      "win_rate": 58.69,
+      "pick_rate": 15.36,
+      "games_played": "2.23%",
+      "top_champions": "16,695"
+    },
+    {
+      "synergy_name": "18",
+      "average_rank": "2 처형자",
+      "top4_rate": "#4.06",
+      "win_rate": 58.29,
+      "pick_rate": 16.92,
+      "games_played": "3.19%",
+      "top_champions": "23,795"
+    },
+    {
+      "synergy_name": "19",
+      "average_rank": "5 저격수",
+      "top4_rate": "#4.10",
+      "win_rate": 58.15,
+      "pick_rate": 13.35,
+      "games_played": "0.27%",
+      "top_champions": "1,993"
+    },
+    {
+      "synergy_name": "20",
+      "average_rank": "7 거대 메크",
+      "top4_rate": "#4.14",
+      "win_rate": 57.49,
+      "pick_rate": 12.27,
+      "games_played": "0.44%",
+      "top_champions": "3,277"
+    },
+    {
+      "synergy_name": "21",
+      "average_rank": "5 거대 메크",
+      "top4_rate": "#4.15",
+      "win_rate": 57.07,
+      "pick_rate": 15.88,
+      "games_played": "0.87%",
+      "top_champions": "6,487"
+    },
+    {
+      "synergy_name": "22",
+      "average_rank": "2 요새",
+      "top4_rate": "#4.17",
+      "win_rate": 56.02,
+      "pick_rate": 16.39,
+      "games_played": "6.61%",
+      "top_champions": "49,402"
+    },
+    {
+      "synergy_name": "23",
+      "average_rank": "7 전투사관학교",
+      "top4_rate": "#4.17",
+      "win_rate": 55.61,
+      "pick_rate": 15.27,
+      "games_played": "1.56%",
+      "top_champions": "11,619"
+    },
+    {
+      "synergy_name": "24",
+      "average_rank": "8 별 수호자",
+      "top4_rate": "#4.17",
+      "win_rate": 57.17,
+      "pick_rate": 9.68,
+      "games_played": "1.37%",
+      "top_champions": "10,248"
+    },
+    {
+      "synergy_name": "25",
+      "average_rank": "5 처형자",
+      "top4_rate": "#4.21",
+      "win_rate": 54.79,
+      "pick_rate": 15.68,
+      "games_played": "0.13%",
+      "top_champions": "982"
+    },
+    {
+      "synergy_name": "26",
+      "average_rank": "2 마법사",
+      "top4_rate": "#4.22",
+      "win_rate": 55.31,
+      "pick_rate": 14.94,
+      "games_played": "5.17%",
+      "top_champions": "38,598"
+    },
+    {
+      "synergy_name": "27",
+      "average_rank": "2 헤비급",
+      "top4_rate": "#4.22",
+      "win_rate": 55.23,
+      "pick_rate": 14.8,
+      "games_played": "3.80%",
+      "top_champions": "28,424"
+    },
+    {
+      "synergy_name": "28",
+      "average_rank": "2 책략가",
+      "top4_rate": "#4.22",
+      "win_rate": 55.09,
+      "pick_rate": 16.59,
+      "games_played": "3.39%",
+      "top_champions": "25,305"
+    },
+    {
+      "synergy_name": "29",
+      "average_rank": "3 거대 메크",
+      "top4_rate": "#4.25",
+      "win_rate": 53.85,
+      "pick_rate": 16.46,
+      "games_played": "2.37%",
+      "top_champions": "17,677"
+    },
+    {
+      "synergy_name": "30",
+      "average_rank": "2 저격수",
+      "top4_rate": "#4.27",
+      "win_rate": 53.75,
+      "pick_rate": 14.93,
+      "games_played": "1.29%",
+      "top_champions": "9,613"
+    },
+    {
+      "synergy_name": "31",
+      "average_rank": "6 결투가",
+      "top4_rate": "#4.28",
+      "win_rate": 53.57,
+      "pick_rate": 14.11,
+      "games_played": "0.64%",
+      "top_champions": "4,812"
+    },
+    {
+      "synergy_name": "32",
+      "average_rank": "4 크루",
+      "top4_rate": "#4.29",
+      "win_rate": 53.45,
+      "pick_rate": 18.01,
+      "games_played": "0.95%",
+      "top_champions": "7,092"
+    },
+    {
+      "synergy_name": "33",
+      "average_rank": "2 전쟁기계",
+      "top4_rate": "#4.30",
+      "win_rate": 53.96,
+      "pick_rate": 14.06,
+      "games_played": "5.76%",
+      "top_champions": "42,999"
+    },
+    {
+      "synergy_name": "34",
+      "average_rank": "4 프로레슬러",
+      "top4_rate": "#4.34",
+      "win_rate": 53.41,
+      "pick_rate": 11.15,
+      "games_played": "0.24%",
+      "top_champions": "1,803"
+    },
+    {
+      "synergy_name": "35",
+      "average_rank": "6 전쟁기계",
+      "top4_rate": "#4.35",
+      "win_rate": 52.05,
+      "pick_rate": 14.03,
+      "games_played": "0.81%",
+      "top_champions": "6,087"
+    },
+    {
+      "synergy_name": "36",
+      "average_rank": "2 악령",
+      "top4_rate": "#4.38",
+      "win_rate": 52.35,
+      "pick_rate": 12.74,
+      "games_played": "1.43%",
+      "top_champions": "10,713"
+    },
+    {
+      "synergy_name": "37",
+      "average_rank": "6 봉쇄자",
+      "top4_rate": "#4.38",
+      "win_rate": 52.92,
+      "pick_rate": 11.38,
+      "games_played": "0.34%",
+      "top_champions": "2,530"
+    },
+    {
+      "synergy_name": "38",
+      "average_rank": "1 멘토",
+      "top4_rate": "#4.41",
+      "win_rate": 51.19,
+      "pick_rate": 14.78,
+      "games_played": "7.33%",
+      "top_champions": "54,752"
+    },
+    {
+      "synergy_name": "39",
+      "average_rank": "2 봉쇄자",
+      "top4_rate": "#4.42",
+      "win_rate": 51.39,
+      "pick_rate": 14.73,
+      "games_played": "2.96%",
+      "top_champions": "22,085"
+    },
+    {
+      "synergy_name": "40",
+      "average_rank": "6 악령",
+      "top4_rate": "#4.43",
+      "win_rate": 50.4,
+      "pick_rate": 13.86,
+      "games_played": "0.42%",
+      "top_champions": "3,123"
+    },
+    {
+      "synergy_name": "41",
+      "average_rank": "2 소울 파이터",
+      "top4_rate": "#4.45",
+      "win_rate": 50.19,
+      "pick_rate": 14.75,
+      "games_played": "2.76%",
+      "top_champions": "20,610"
+    },
+    {
+      "synergy_name": "42",
+      "average_rank": "4 슈프림 셀",
+      "top4_rate": "#4.46",
+      "win_rate": 51.79,
+      "pick_rate": 9.98,
+      "games_played": "0.79%",
+      "top_champions": "5,903"
+    },
+    {
+      "synergy_name": "43",
+      "average_rank": "3 책략가",
+      "top4_rate": "#4.48",
+      "win_rate": 50.05,
+      "pick_rate": 14.51,
+      "games_played": "0.81%",
+      "top_champions": "6,044"
+    },
+    {
+      "synergy_name": "44",
+      "average_rank": "6 요새",
+      "top4_rate": "#4.50",
+      "win_rate": 49.78,
+      "pick_rate": 9.94,
+      "games_played": "0.18%",
+      "top_champions": "1,378"
+    },
+    {
+      "synergy_name": "45",
+      "average_rank": "2 결투가",
+      "top4_rate": "#4.53",
+      "win_rate": 49.69,
+      "pick_rate": 13.35,
+      "games_played": "3.19%",
+      "top_champions": "23,829"
+    },
+    {
+      "synergy_name": "46",
+      "average_rank": "4 요새",
+      "top4_rate": "#4.53",
+      "win_rate": 49.47,
+      "pick_rate": 10.3,
+      "games_played": "0.57%",
+      "top_champions": "4,283"
+    },
+    {
+      "synergy_name": "47",
+      "average_rank": "3 별 수호자",
+      "top4_rate": "#4.56",
+      "win_rate": 49.86,
+      "pick_rate": 9.56,
+      "games_played": "0.47%",
+      "top_champions": "3,484"
+    },
+    {
+      "synergy_name": "48",
+      "average_rank": "3 전투사관학교",
+      "top4_rate": "#4.63",
+      "win_rate": 47.57,
+      "pick_rate": 9.31,
+      "games_played": "0.66%",
+      "top_champions": "4,951"
+    },
+    {
+      "synergy_name": "49",
+      "average_rank": "3 신동",
+      "top4_rate": "#4.63",
+      "win_rate": 47.41,
+      "pick_rate": 10.3,
+      "games_played": "0.56%",
+      "top_champions": "4,204"
+    },
+    {
+      "synergy_name": "50",
+      "average_rank": "2 슈프림 셀",
+      "top4_rate": "#4.66",
+      "win_rate": 47.4,
+      "pick_rate": 10.58,
+      "games_played": "0.42%",
+      "top_champions": "3,118"
+    },
+    {
+      "synergy_name": "51",
+      "average_rank": "2 크루",
+      "top4_rate": "#4.69",
+      "win_rate": 46.96,
+      "pick_rate": 11.26,
+      "games_played": "0.30%",
+      "top_champions": "2,221"
+    },
+    {
+      "synergy_name": "52",
+      "average_rank": "3 저격수",
+      "top4_rate": "#4.70",
+      "win_rate": 46.89,
+      "pick_rate": 9.57,
+      "games_played": "0.22%",
+      "top_champions": "1,610"
+    },
+    {
+      "synergy_name": "53",
+      "average_rank": "6 헤비급",
+      "top4_rate": "#4.70",
+      "win_rate": 46.82,
+      "pick_rate": 8.23,
+      "games_played": "0.39%",
+      "top_champions": "2,879"
+    },
+    {
+      "synergy_name": "54",
+      "average_rank": "3 수정 갬빗",
+      "top4_rate": "#4.72",
+      "win_rate": 46.16,
+      "pick_rate": 13.4,
+      "games_played": "0.78%",
+      "top_champions": "5,808"
+    },
+    {
+      "synergy_name": "55",
+      "average_rank": "4 이단아",
+      "top4_rate": "#4.72",
+      "win_rate": 46.5,
+      "pick_rate": 9.57,
+      "games_played": "0.29%",
+      "top_champions": "2,185"
+    },
+    {
+      "synergy_name": "56",
+      "average_rank": "2 별 수호자",
+      "top4_rate": "#4.75",
+      "win_rate": 46.02,
+      "pick_rate": 8.51,
+      "games_played": "1.30%",
+      "top_champions": "9,679"
+    },
+    {
+      "synergy_name": "57",
+      "average_rank": "1 괴물 트레이너",
+      "top4_rate": "#4.77",
+      "win_rate": 44.87,
+      "pick_rate": 11.76,
+      "games_played": "0.73%",
+      "top_champions": "5,433"
+    },
+    {
+      "synergy_name": "58",
+      "average_rank": "6 마법사",
+      "top4_rate": "#4.79",
+      "win_rate": 43.81,
+      "pick_rate": 7.7,
+      "games_played": "0.17%",
+      "top_champions": "1,260"
+    },
+    {
+      "synergy_name": "59",
+      "average_rank": "4 전쟁기계",
+      "top4_rate": "#4.82",
+      "win_rate": 44.66,
+      "pick_rate": 11.37,
+      "games_played": "0.50%",
+      "top_champions": "3,728"
+    },
+    {
+      "synergy_name": "60",
+      "average_rank": "6 이단아",
+      "top4_rate": "#4.83",
+      "win_rate": 43.89,
+      "pick_rate": 7.36,
+      "games_played": "0.18%",
+      "top_champions": "1,358"
+    },
+    {
+      "synergy_name": "61",
+      "average_rank": "4 봉쇄자",
+      "top4_rate": "#4.84",
+      "win_rate": 43.15,
+      "pick_rate": 10.5,
+      "games_played": "0.27%",
+      "top_champions": "2,000"
+    },
+    {
+      "synergy_name": "62",
+      "average_rank": "4 소울 파이터",
+      "top4_rate": "#4.88",
+      "win_rate": 44.72,
+      "pick_rate": 8.33,
+      "games_played": "0.17%",
+      "top_champions": "1,297"
+    },
+    {
+      "synergy_name": "63",
+      "average_rank": "4 별 수호자",
+      "top4_rate": "#4.89",
+      "win_rate": 43.52,
+      "pick_rate": 8.9,
+      "games_played": "0.12%",
+      "top_champions": "933"
+    },
+    {
+      "synergy_name": "64",
+      "average_rank": "4 신동",
+      "top4_rate": "#4.90",
+      "win_rate": 42.79,
+      "pick_rate": 5.6,
+      "games_played": "0.38%",
+      "top_champions": "2,837"
+    },
+    {
+      "synergy_name": "65",
+      "average_rank": "5 전투사관학교",
+      "top4_rate": "#4.91",
+      "win_rate": 43.5,
+      "pick_rate": 7.92,
+      "games_played": "0.41%",
+      "top_champions": "3,044"
+    },
+    {
+      "synergy_name": "66",
+      "average_rank": "4 마법사",
+      "top4_rate": "#4.95",
+      "win_rate": 42.38,
+      "pick_rate": 9.16,
+      "games_played": "0.12%",
+      "top_champions": "906"
+    },
+    {
+      "synergy_name": "67",
+      "average_rank": "4 헤비급",
+      "top4_rate": "#4.99",
+      "win_rate": 41.49,
+      "pick_rate": 7.75,
+      "games_played": "0.29%",
+      "top_champions": "2,169"
+    },
+    {
+      "synergy_name": "68",
+      "average_rank": "4 결투가",
+      "top4_rate": "#5.09",
+      "win_rate": 38.29,
+      "pick_rate": 9.31,
+      "games_played": "0.22%",
+      "top_champions": "1,622"
+    },
+    {
+      "synergy_name": "69",
+      "average_rank": "4 악령",
+      "top4_rate": "#5.19",
+      "win_rate": 35.18,
+      "pick_rate": 8.73,
+      "games_played": "0.32%",
+      "top_champions": "2,359"
+    },
+    {
+      "synergy_name": "70",
+      "average_rank": "4 저격수",
+      "top4_rate": "#5.19",
+      "win_rate": 35.15,
+      "pick_rate": 5.91,
+      "games_played": "0.17%",
+      "top_champions": "1,286"
+    },
+    {
+      "synergy_name": "71",
+      "average_rank": "3 크루",
+      "top4_rate": "#5.22",
+      "win_rate": 36.59,
+      "pick_rate": 12.6,
+      "games_played": "0.03%",
+      "top_champions": "246"
+    },
+    {
+      "synergy_name": "72",
+      "average_rank": "7 별 수호자",
+      "top4_rate": "#5.54",
+      "win_rate": 27.83,
+      "pick_rate": 2.1,
+      "games_played": "0.48%",
+      "top_champions": "3,615"
+    },
+    {
+      "synergy_name": "73",
+      "average_rank": "6 소울 파이터",
+      "top4_rate": "#5.56",
+      "win_rate": 28.1,
+      "pick_rate": 3.7,
+      "games_played": "0.48%",
+      "top_champions": "3,623"
+    },
+    {
+      "synergy_name": "74",
+      "average_rank": "7 수정 갬빗",
+      "top4_rate": "#5.57",
+      "win_rate": 31.58,
+      "pick_rate": 8.84,
+      "games_played": "0.20%",
+      "top_champions": "1,482"
+    },
+    {
+      "synergy_name": "75",
+      "average_rank": "3 슈프림 셀",
+      "top4_rate": "#5.66",
+      "win_rate": 27.46,
+      "pick_rate": 3.97,
+      "games_played": "0.21%",
+      "top_champions": "1,588"
+    },
+    {
+      "synergy_name": "76",
+      "average_rank": "5 별 수호자",
+      "top4_rate": "#5.73",
+      "win_rate": 26.73,
+      "pick_rate": 3.27,
+      "games_played": "0.07%",
+      "top_champions": "550"
+    },
+    {
+      "synergy_name": "77",
+      "average_rank": "6 별 수호자",
+      "top4_rate": "#5.90",
+      "win_rate": 22.12,
+      "pick_rate": 2.18,
+      "games_played": "0.17%",
+      "top_champions": "1,284"
+    },
+    {
+      "synergy_name": "78",
+      "average_rank": "5 수정 갬빗",
+      "top4_rate": "#6.98",
+      "win_rate": 8.75,
+      "pick_rate": 2.17,
+      "games_played": "0.25%",
+      "top_champions": "1,840"
+    }
+  ]

@@ -1,0 +1,776 @@
+json_data_string = """
+    {
+        "champions_and_traits": [
+            {
+            "name": "가렌",
+            "traits": [
+                "전투사관학교",
+                "요새"
+            ]
+            },
+            {
+            "name": "나르",
+            "traits": [
+                "프로레슬러",
+                "저격수"
+            ]
+            },
+            {
+            "name": "나피리",
+            "traits": [
+                "소울 파이터",
+                "전쟁기계"
+            ]
+            },
+            {
+            "name": "렐",
+            "traits": [
+                "별 수호자",
+                "요새"
+            ]
+            },
+            {
+            "name": "루시안",
+            "traits": [
+                "거대 메크",
+                "마법사"
+            ]
+            },
+            {
+            "name": "말파이트",
+            "traits": [
+                "크루",
+                "봉쇄자"
+            ]
+            },
+            {
+            "name": "시비르",
+            "traits": [
+                "크루",
+                "저격수"
+            ]
+            },
+            {
+            "name": "신드라",
+            "traits": [
+                "수정 갬빗",
+                "별 수호자",
+                "신동"
+            ]
+            },
+            {
+            "name": "아트록스",
+            "traits": [
+                "거대 메크",
+                "전쟁기계",
+                "헤비급"
+            ]
+            },
+            {
+            "name": "이즈리얼",
+            "traits": [
+                "전투사관학교",
+                "신동"
+            ]
+            },
+            {
+            "name": "자크",
+            "traits": [
+                "악령",
+                "헤비급"
+            ]
+            },
+            {
+            "name": "칼리스타",
+            "traits": [
+                "소울 파이터",
+                "처형자"
+            ]
+            },
+            {
+            "name": "케넨",
+            "traits": [
+                "슈프림 셀",
+                "마법사",
+                "봉쇄자"
+            ]
+            },
+            {
+            "name": "케일",
+            "traits": [
+                "악령",
+                "결투가"
+            ]
+            },
+            {
+            "name": "갱플랭크",
+            "traits": [
+                "거대 메크",
+                "결투가"
+            ]
+            },
+            {
+            "name": "라칸",
+            "traits": [
+                "전투사관학교",
+                "봉쇄자"
+            ]
+            },
+            {
+            "name": "럭스",
+            "traits": [
+                "소울 파이터",
+                "마법사"
+            ]
+            },
+            {
+            "name": "문도 박사",
+            "traits": [
+                "프로레슬러",
+                "전쟁기계"
+            ]
+            },
+            {
+            "name": "바이",
+            "traits": [
+                "수정 갬빗",
+                "전쟁기계"
+            ]
+            },
+            {
+            "name": "쉔",
+            "traits": [
+                "크루",
+                "요새",
+                "이단아"
+            ]
+            },
+            {
+            "name": "신 짜오",
+            "traits": [
+                "소울 파이터",
+                "요새"
+            ]
+            },
+            {
+            "name": "자야",
+            "traits": [
+                "별 수호자",
+                "이단아"
+            ]
+            },
+            {
+            "name": "잔나",
+            "traits": [
+                "수정 갬빗",
+                "봉쇄자",
+                "책략가"
+            ]
+            },
+            {
+            "name": "진",
+            "traits": [
+                "악령",
+                "저격수"
+            ]
+            },
+            {
+            "name": "카이사",
+            "traits": [
+                "슈프림 셀",
+                "결투가"
+            ]
+            },
+            {
+            "name": "카타리나",
+            "traits": [
+                "전투사관학교",
+                "처형자"
+            ]
+            },
+            {
+            "name": "코부코",
+            "traits": [
+                "멘토",
+                "헤비급"
+            ]
+            },
+            {
+            "name": "니코",
+            "traits": [
+                "별 수호자",
+                "봉쇄자"
+            ]
+            },
+            {
+            "name": "다리우스",
+            "traits": [
+                "슈프림 셀",
+                "헤비급"
+            ]
+            },
+            {
+            "name": "람머스",
+            "traits": [
+                "괴물 트레이너"
+            ]
+            },
+            {
+            "name": "룰루",
+            "traits": [
+                "괴물 트레이너"
+            ]
+            },
+            {
+            "name": "말자하",
+            "traits": [
+                "악령",
+                "신동"
+            ]
+            },
+            {
+            "name": "비에고",
+            "traits": [
+                "소울 파이터",
+                "결투가"
+            ]
+            },
+            {
+            "name": "세나",
+            "traits": [
+                "거대 메크",
+                "처형자"
+            ]
+            },
+            {
+            "name": "스몰더",
+            "traits": [
+                "괴물 트레이너"
+            ]
+            },
+            {
+            "name": "스웨인",
+            "traits": [
+                "수정 갬빗",
+                "마법사",
+                "요새"
+            ]
+            },
+            {
+            "name": "아리",
+            "traits": [
+                "별 수호자",
+                "마법사"
+            ]
+            },
+            {
+            "name": "야스오",
+            "traits": [
+                "멘토",
+                "이단아"
+            ]
+            },
+            {
+            "name": "우디르",
+            "traits": [
+                "멘토",
+                "결투가",
+                "전쟁기계"
+            ]
+            },
+            {
+            "name": "제이스",
+            "traits": [
+                "전투사관학교",
+                "헤비급"
+            ]
+            },
+            {
+            "name": "직스",
+            "traits": [
+                "크루",
+                "책략가"
+            ]
+            },
+            {
+            "name": "케이틀린",
+            "traits": [
+                "전투사관학교",
+                "저격수"
+            ]
+            },
+            {
+            "name": "코그모",
+            "traits": [
+                "괴물 트레이너"
+            ]
+            },
+            {
+            "name": "라이즈",
+            "traits": [
+                "멘토",
+                "책략가",
+                "처형자"
+            ]
+            },
+            {
+            "name": "레오나",
+            "traits": [
+                "전투사관학교",
+                "요새"
+            ]
+            },
+            {
+            "name": "볼리베어",
+            "traits": [
+                "프로레슬러",
+                "이단아"
+            ]
+            },
+            {
+            "name": "뽀삐",
+            "traits": [
+                "별 수호자",
+                "헤비급"
+            ]
+            },
+            {
+            "name": "사미라",
+            "traits": [
+                "소울 파이터",
+                "이단아"
+            ]
+            },
+            {
+            "name": "세트",
+            "traits": [
+                "소울 파이터",
+                "전쟁기계"
+            ]
+            },
+            {
+            "name": "아칼리",
+            "traits": [
+                "슈프림 셀",
+                "처형자"
+            ]
+            },
+            {
+            "name": "애쉬",
+            "traits": [
+                "수정 갬빗",
+                "결투가"
+            ]
+            },
+            {
+            "name": "유미",
+            "traits": [
+                "전투사관학교",
+                "신동"
+            ]
+            },
+            {
+            "name": "자르반 4세",
+            "traits": [
+                "거대 메크",
+                "책략가"
+            ]
+            },
+            {
+            "name": "징크스",
+            "traits": [
+                "별 수호자",
+                "저격수"
+            ]
+            },
+            {
+            "name": "카르마",
+            "traits": [
+                "거대 메크",
+                "마법사"
+            ]
+            },
+            {
+            "name": "크산테",
+            "traits": [
+                "악령",
+                "봉쇄자"
+            ]
+            },
+            {
+            "name": "그웬",
+            "traits": [
+                "소울 파이터",
+                "마법사"
+            ]
+            },
+            {
+            "name": "리 신",
+            "traits": [
+                "태세의 대가"
+            ]
+            },
+            {
+            "name": "바루스",
+            "traits": [
+                "악령",
+                "저격수"
+            ]
+            },
+            {
+            "name": "브라움",
+            "traits": [
+                "프로레슬러",
+                "레슬링 챔피언",
+                "요새"
+            ]
+            },
+            {
+            "name": "세라핀",
+            "traits": [
+                "별 수호자",
+                "신동"
+            ]
+            },
+            {
+            "name": "에코",
+            "traits": []
+            },
+            {
+            "name": "요네",
+            "traits": [
+                "거대 메크",
+                "이단아"
+            ]
+            },
+            {
+            "name": "자이라",
+            "traits": [
+                "수정 갬빗",
+                "장미 어머니"
+            ]
+            },
+            {
+            "name": "트위스티드 페이트",
+            "traits": [
+                "해적선장",
+                "크루"
+            ]
+            }
+      ],
+      "synergies_and_counts": [
+        {
+            "synergy_name": "별 수호자",
+            "count": 10
+        },
+        {
+            "synergy_name": "수정 갬빗",
+            "count": 10
+        },
+        {
+            "synergy_name": "별 수호자",
+            "count": 9
+        },
+        {
+            "synergy_name": "책략가",
+            "count": 5
+        },
+        {
+            "synergy_name": "신동",
+            "count": 5
+        },
+        {
+            "synergy_name": "해적선장",
+            "count": 1
+        },
+        {
+            "synergy_name": "처형자",
+            "count": 4
+        },
+        {
+            "synergy_name": "책략가",
+            "count": 4
+        },
+        {
+            "synergy_name": "처형자",
+            "count": 3
+        },
+        {
+            "synergy_name": "소울 파이터",
+            "count": 8
+        },
+        {
+            "synergy_name": "레슬링 챔피언",
+            "count": 1
+        },
+        {
+            "synergy_name": "태세의 대가",
+            "count": 1
+        },
+        {
+            "synergy_name": "이단아",
+            "count": 2
+        },
+        {
+            "synergy_name": "프로레슬러",
+            "count": 2
+        },
+        {
+            "synergy_name": "장미 어머니",
+            "count": 1
+        },
+        {
+            "synergy_name": "신동",
+            "count": 2
+        },
+        {
+            "synergy_name": "멘토",
+            "count": 4
+        },
+        {
+            "synergy_name": "처형자",
+            "count": 2
+        },
+        {
+            "synergy_name": "저격수",
+            "count": 5
+        },
+        {
+            "synergy_name": "거대 메크",
+            "count": 7
+        },
+        {
+            "synergy_name": "거대 메크",
+            "count": 5
+        },
+        {
+            "synergy_name": "요새",
+            "count": 2
+        },
+        {
+            "synergy_name": "전투사관학교",
+            "count": 7
+        },
+        {
+            "synergy_name": "별 수호자",
+            "count": 8
+        },
+        {
+            "synergy_name": "처형자",
+            "count": 5
+        },
+        {
+            "synergy_name": "마법사",
+            "count": 2
+        },
+        {
+            "synergy_name": "헤비급",
+            "count": 2
+        },
+        {
+            "synergy_name": "책략가",
+            "count": 2
+        },
+        {
+            "synergy_name": "거대 메크",
+            "count": 3
+        },
+        {
+            "synergy_name": "저격수",
+            "count": 2
+        },
+        {
+            "synergy_name": "결투가",
+            "count": 6
+        },
+        {
+            "synergy_name": "크루",
+            "count": 4
+        },
+        {
+            "synergy_name": "전쟁기계",
+            "count": 2
+        },
+        {
+            "synergy_name": "프로레슬러",
+            "count": 4
+        },
+        {
+            "synergy_name": "전쟁기계",
+            "count": 6
+        },
+        {
+            "synergy_name": "악령",
+            "count": 2
+        },
+        {
+            "synergy_name": "봉쇄자",
+            "count": 6
+        },
+        {
+            "synergy_name": "멘토",
+            "count": 1
+        },
+        {
+            "synergy_name": "봉쇄자",
+            "count": 2
+        },
+        {
+            "synergy_name": "악령",
+            "count": 6
+        },
+        {
+            "synergy_name": "소울 파이터",
+            "count": 2
+        },
+        {
+            "synergy_name": "슈프림 셀",
+            "count": 4
+        },
+        {
+            "synergy_name": "책략가",
+            "count": 3
+        },
+        {
+            "synergy_name": "요새",
+            "count": 6
+        },
+        {
+            "synergy_name": "결투가",
+            "count": 2
+        },
+        {
+            "synergy_name": "요새",
+            "count": 4
+        },
+        {
+            "synergy_name": "별 수호자",
+            "count": 3
+        },
+        {
+            "synergy_name": "전투사관학교",
+            "count": 3
+        },
+        {
+            "synergy_name": "신동",
+            "count": 3
+        },
+        {
+            "synergy_name": "슈프림 셀",
+            "count": 2
+        },
+        {
+            "synergy_name": "크루",
+            "count": 2
+        },
+        {
+            "synergy_name": "저격수",
+            "count": 3
+        },
+        {
+            "synergy_name": "헤비급",
+            "count": 6
+        },
+        {
+            "synergy_name": "수정 갬빗",
+            "count": 3
+        },
+        {
+            "synergy_name": "이단아",
+            "count": 4
+        },
+        {
+            "synergy_name": "별 수호자",
+            "count": 2
+        },
+        {
+            "synergy_name": "괴물 트레이너",
+            "count": 1
+        },
+        {
+            "synergy_name": "마법사",
+            "count": 6
+        },
+        {
+            "synergy_name": "전쟁기계",
+            "count": 4
+        },
+        {
+            "synergy_name": "이단아",
+            "count": 6
+        },
+        {
+            "synergy_name": "봉쇄자",
+            "count": 4
+        },
+        {
+            "synergy_name": "소울 파이터",
+            "count": 4
+        },
+        {
+            "synergy_name": "별 수호자",
+            "count": 4
+        },
+        {
+            "synergy_name": "신동",
+            "count": 4
+        },
+        {
+            "synergy_name": "전투사관학교",
+            "count": 5
+        },
+        {
+            "synergy_name": "마법사",
+            "count": 4
+        },
+        {
+            "synergy_name": "헤비급",
+            "count": 4
+        },
+        {
+            "synergy_name": "결투가",
+            "count": 4
+        },
+        {
+            "synergy_name": "악령",
+            "count": 4
+        },
+        {
+            "synergy_name": "저격수",
+            "count": 4
+        },
+        {
+            "synergy_name": "크루",
+            "count": 3
+        },
+        {
+            "synergy_name": "별 수호자",
+            "count": 7
+        },
+        {
+            "synergy_name": "소울 파이터",
+            "count": 6
+        },
+        {
+            "synergy_name": "수정 갬빗",
+            "count": 7
+        },
+        {
+            "synergy_name": "슈프림 셀",
+            "count": 3
+        },
+        {
+            "synergy_name": "별 수호자",
+            "count": 5
+        },
+        {
+            "synergy_name": "별 수호자",
+            "count": 6
+        },
+        {
+            "synergy_name": "수정 갬빗",
+            "count": 5
+        }
+        ]
+    }
+    """

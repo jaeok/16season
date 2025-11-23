@@ -1,0 +1,841 @@
+import json
+import re
+from flask import Flask, render_template, request, jsonify, session
+import os
+from functools import lru_cache
+
+app = Flask(__name__)
+app.secret_key = 'tft_team_builder_secret_key'  # 세션을 위한 시크릿 키
+
+# --- 추천 점수 가중치 설정 ---
+# 각 점수 요소의 중요도를 조절합니다.
+OVERLAP_WEIGHT = 15          # 선택한 챔피언과 겹치는 수에 대한 가중치
+SYNERGY_TIER_WEIGHT = 10     # 활성화된 시너지 등급 점수에 대한 가중치
+COST_WEIGHT = 0.5            # 챔피언 비용 총합에 대한 가중치
+BONUS_WEIGHT = 15            # '완성 직전' 시너지에 대한 보너스 점수
+FINDABILITY_WEIGHT = 10     # 챔피언 등장 확률 점수에 대한 가중치
+
+# 성능 최적화를 위한 전역 캐시
+@lru_cache(maxsize=1)
+def parse_filtered_teams():
+    """filtered_compositions_all.jsonl에서 팀 정보를 파싱합니다."""
+    teams = []
+    try:
+        with open('filtered_compositions_all.jsonl', 'r', encoding='utf-8') as f:
+            for i, line in enumerate(f, 1):
+                data = json.loads(line)
+
+                synergy_list = [f"{name} ({count})" for name, count in data.get('synergies', {}).items()]
+
+                teams.append({
+                    'id': i,
+                    'champions': data['champions'],
+                    'synergies': synergy_list
+                })
+    except Exception as e:
+        print(f"필터링된 팀 파싱 오류: {e}")
+        return []
+    return teams
+
+
+@lru_cache(maxsize=1)
+def parse_high_value_teams():
+    """filtered_compositions_by_synergy.jsonl에서 팀 정보를 파싱합니다."""
+    teams = []
+    try:
+        with open('filtered_compositions_by_synergy.jsonl', 'r', encoding='utf-8') as f:
+            for i, line in enumerate(f, 1):
+                data = json.loads(line)
+                synergy_list = [f"{name} ({count})" for name, count in data.get('synergies', {}).items()]
+                teams.append({
+                    'id': i,
+                    'champions': data['champions'],
+                    'synergies': synergy_list
+                })
+    except FileNotFoundError:
+        print("경고: filtered_compositions_by_synergy.jsonl 파일을 찾을 수 없습니다.")
+        return []
+    except Exception as e:
+        print(f"고밸류 팀 파싱 오류: {e}")
+        return []
+    return teams
+
+
+@lru_cache(maxsize=1)
+def parse_all_ai_teams():
+    """ai_team_compositions_size_*.jsonl 파일에서 모든 팀 정보를 파싱하고 결합합니다."""
+    teams = []
+    files_to_load = [
+        "ai_team_compositions_size_6.jsonl",
+        "ai_team_compositions_size_7.jsonl",
+        "ai_team_compositions_size_8.jsonl",
+        "ai_team_compositions_size_9.jsonl"
+    ]
+    team_counter = 1
+    for filename in files_to_load:
+        try:
+            with open(filename, 'r', encoding='utf-8') as f:
+                for line in f:
+                    data = json.loads(line)
+                    synergy_list = [f"{name} ({count})" for name, count in data.get('synergies', {}).items()]
+                    teams.append({
+                        'id': team_counter,
+                        'champions': data['champions'],
+                        'synergies': synergy_list
+                    })
+                    team_counter += 1
+        except FileNotFoundError:
+            print(f"경고: {filename}을 찾을 수 없습니다. 건너뜁니다.")
+        except Exception as e:
+            print(f"{filename} 파싱 오류: {e}")
+    return teams
+
+@lru_cache(maxsize=1)
+def build_champion_team_indexes_all_ai():
+    """모든 AI 팀 데이터 기준으로 챔피언별 팀 인덱스를 빌드합니다."""
+    champion_to_team_ids = {}
+    team_id_to_team = {}
+    current_teams = parse_all_ai_teams()
+    for team in current_teams:
+        team_id_to_team[team['id']] = team
+        for champ in team['champions']:
+            if champ not in champion_to_team_ids:
+                champion_to_team_ids[champ] = set()
+            champion_to_team_ids[champ].add(team['id'])
+    return champion_to_team_ids, team_id_to_team
+
+@lru_cache(maxsize=1)
+def build_champion_team_indexes_high_value():
+    """'고밸류덱' (filtered_compositions_by_synergy.jsonl) 기준으로 챔피언별 팀 인덱스를 빌드합니다."""
+    champion_to_team_ids = {}
+    team_id_to_team = {}
+    current_teams = parse_high_value_teams()
+    for team in current_teams:
+        team_id_to_team[team['id']] = team
+        for champ in team['champions']:
+            if champ not in champion_to_team_ids:
+                champion_to_team_ids[champ] = set()
+            champion_to_team_ids[champ].add(team['id'])
+    return champion_to_team_ids, team_id_to_team
+
+@lru_cache(maxsize=1)
+def build_champion_team_indexes_filtered():
+    """filtered_compositions_all.jsonl 기준으로 챔피언별 팀 인덱스를 빌드합니다."""
+    champion_to_team_ids = {}
+    team_id_to_team = {}
+
+    current_teams = parse_filtered_teams()
+
+    for team in current_teams:
+        team_id_to_team[team['id']] = team
+        for champ in team['champions']:
+            if champ not in champion_to_team_ids:
+                champion_to_team_ids[champ] = set()
+            champion_to_team_ids[champ].add(team['id'])
+
+    return champion_to_team_ids, team_id_to_team
+
+@lru_cache(maxsize=1)
+def parse_teams_from_file_size_6():
+    """filtered_ai_team_compositions.jsonl에서 팀 정보를 파싱합니다."""
+    teams = []
+    try:
+        with open('filtered_ai_team_compositions.jsonl', 'r', encoding='utf-8') as f:
+            for i, line in enumerate(f, 1):
+                data = json.loads(line)
+
+                # 프론트엔드 표시를 위해 시너지 데이터를 포맷팅합니다.
+                synergy_list = [f"{name} ({count})" for name, count in data.get('synergies', {}).items()]
+
+                teams.append({
+                    'id': i,
+                    'champions': data['champions'],
+                    'synergies': synergy_list
+                })
+    except Exception as e:
+        print(f"팀 파싱 오류(size 6): {e}")
+        return []
+    return teams
+
+@lru_cache(maxsize=1)
+def parse_teams_from_file_size_8():
+    """ai_team_compositions_size_8.jsonl에서 팀 정보를 파싱합니다."""
+    teams = []
+    try:
+        with open('ai_team_compositions_size_8.jsonl', 'r', encoding='utf-8') as f:
+            for i, line in enumerate(f, 1):
+                data = json.loads(line)
+
+                # 프론트엔드 표시를 위해 시너지 데이터를 포맷팅합니다.
+                synergy_list = [f"{name} ({count})" for name, count in data.get('synergies', {}).items()]
+
+                teams.append({
+                    'id': i,
+                    'champions': data['champions'],
+                    'synergies': synergy_list
+                })
+    except Exception as e:
+        print(f"팀 파싱 오류(size 8): {e}")
+        return []
+    return teams
+
+@lru_cache(maxsize=1)
+def load_champion_data():
+    """tft_all_champions_set15.json에서 챔피언 데이터를 로드합니다."""
+    try:
+        with open('tft_all_champions_set15.json', 'r', encoding='utf-8') as f:
+            champions = json.load(f)
+        
+        # 이름으로 빠른 검색을 위한 딕셔너리 생성
+        champion_dict = {}
+        attack_range_dict = {}  # attack_range만 별도로 저장
+        
+        for champ in champions:
+            champion_dict[champ['name']] = champ
+            attack_range_dict[champ['name']] = champ.get('attack_range', 1)  # 기본값 1
+        
+        return champion_dict, attack_range_dict
+    except Exception as e:
+        print(f"챔피언 데이터 로드 오류: {e}")
+        return {}, {}
+
+@lru_cache(maxsize=1)
+def load_synergy_tiers():
+    """synergy_counts.json에서 시너지 등급 정보를 로드하고 처리합니다."""
+    from collections import defaultdict
+    try:
+        with open('synergy_counts.json', 'r', encoding='utf-8') as f:
+            synergy_data = json.load(f)
+
+        synergy_tiers = defaultdict(list)
+        for item in synergy_data:
+            synergy_tiers[item['synergy_name']].append(item['count'])
+
+        # 각 시너지의 등급을 오름차순으로 정렬
+        for name in synergy_tiers:
+            synergy_tiers[name].sort()
+
+        return dict(synergy_tiers)
+    except Exception as e:
+        print(f"시너지 등급 데이터 로드 오류: {e}")
+        return {}
+
+@lru_cache(maxsize=1)
+def load_champion_traits():
+    """tft_champion_traits.json에서 챔피언 특성 데이터를 로드합니다."""
+    try:
+        with open('tft_champion_traits.json', 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        # 챔피언 이름을 키로, 특성 리스트를 값으로 하는 딕셔너리 생성
+        return {champ['name']: champ['traits'] for champ in data.get('champions_and_traits', [])}
+    except Exception as e:
+        print(f"챔피언 특성 데이터 로드 오류: {e}")
+        return {}
+
+@lru_cache(maxsize=1)
+def load_reroll_probabilities():
+    """tft_reroll_probability.json에서 레벨별 리롤 확률 데이터를 로드합니다."""
+    try:
+        with open('tft_reroll_probability.json', 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        # 리스트를 레벨을 키로 하는 딕셔너리로 변환
+        return {item['level']: item['probabilities'] for item in data}
+    except Exception as e:
+        print(f"리롤 확률 데이터 로드 오류: {e}")
+        return {}
+
+# 전역 변수로 팀과 챔피언 데이터 저장 (캐시된 버전)
+champion_data, attack_range_data = load_champion_data()
+synergy_tiers_data = load_synergy_tiers()
+champion_traits_data = load_champion_traits()
+reroll_probabilities_data = load_reroll_probabilities()
+
+@lru_cache(maxsize=1)
+def load_item_recommendations():
+    """three_core_items.json에서 아이템 추천 데이터를 로드합니다."""
+    try:
+        with open('three_core_items.json', 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"아이템 추천 데이터 로드 오류: {e}")
+        return {}
+
+item_recommendations_data = load_item_recommendations()
+
+# 전역 변수 대신 세션 기반으로 관리
+def get_selected_champions():
+    """현재 세션에서 선택된 챔피언을 가져옵니다."""
+    if 'selected_champions' not in session:
+        session['selected_champions'] = []
+    return set(session['selected_champions'])
+
+def set_selected_champions(champions_set):
+    """세션에 선택된 챔피언을 저장합니다."""
+    session['selected_champions'] = list(champions_set)
+    # 디버깅을 위해 콘솔에도 출력
+    print(f"[DEBUG] 세션에 저장됨: {session['selected_champions']}")
+
+# --- 인덱싱 최적화: 챔피언별로 팀 id 리스트 미리 생성 (캐시된 버전) ---
+@lru_cache(maxsize=1)
+def build_champion_team_indexes_size_6():
+    """챔피언별 팀 인덱스를 빌드합니다 (size 6)."""
+    champion_to_team_ids = {}
+    team_id_to_team = {}
+
+    # parse_teams_from_file_size_6() is cached, so this is efficient
+    current_teams = parse_teams_from_file_size_6()
+
+    for team in current_teams:
+        team_id_to_team[team['id']] = team
+        for champ in team['champions']:
+            if champ not in champion_to_team_ids:
+                champion_to_team_ids[champ] = set()
+            champion_to_team_ids[champ].add(team['id'])
+
+    return champion_to_team_ids, team_id_to_team
+
+@lru_cache(maxsize=1)
+def build_champion_team_indexes_size_8():
+    """챔피언별 팀 인덱스를 빌드합니다 (size 8)."""
+    champion_to_team_ids = {}
+    team_id_to_team = {}
+
+    # parse_teams_from_file_size_8() is cached, so this is efficient
+    current_teams = parse_teams_from_file_size_8()
+
+    for team in current_teams:
+        team_id_to_team[team['id']] = team
+        for champ in team['champions']:
+            if champ not in champion_to_team_ids:
+                champion_to_team_ids[champ] = set()
+            champion_to_team_ids[champ].add(team['id'])
+    
+    return champion_to_team_ids, team_id_to_team
+
+# 인덱스 빌드
+champion_to_team_ids_6, team_id_to_team_6 = build_champion_team_indexes_size_6()
+champion_to_team_ids_8, team_id_to_team_8 = build_champion_team_indexes_size_8()
+champion_to_team_ids_filtered, team_id_to_team_filtered = build_champion_team_indexes_filtered()
+champion_to_team_ids_all_ai, team_id_to_team_all_ai = build_champion_team_indexes_all_ai()
+champion_to_team_ids_high_value, team_id_to_team_high_value = build_champion_team_indexes_high_value()
+
+def calculate_comprehensive_score(team, selected_champions, champion_data, synergy_tiers_data, champion_traits_data, reroll_probabilities_data):
+    """팀의 종합 점수를 새로운 기준(리롤 확률 포함)에 따라 계산합니다."""
+    from collections import defaultdict
+
+    # 1. 팀의 특성별 챔피언 수 계산
+    trait_counts = defaultdict(int)
+    team_champions = team['champions']
+    for champ_name in team_champions:
+        if champ_name in champion_traits_data:
+            for trait in champion_traits_data[champ_name]:
+                trait_counts[trait] += 1
+
+    # 2. 시너지 등급 점수 및 '완성 직전' 보너스 계산
+    synergy_tier_score = 0
+    almost_complete_bonus = 0
+
+    for trait, count in trait_counts.items():
+        if trait in synergy_tiers_data:
+            tiers = synergy_tiers_data[trait]
+            current_tier_val = 0
+            for i, tier_level in enumerate(tiers):
+                if count >= tier_level:
+                    current_tier_val = tier_level
+                else:
+                    if count + 1 == tier_level:
+                        almost_complete_bonus += BONUS_WEIGHT
+                    break
+            synergy_tier_score += current_tier_val
+
+    # 3. 챔피언 비용 점수 계산
+    champion_cost_score = 0
+    for champ_name in team_champions:
+        if champ_name in champion_data:
+            champion_cost_score += champion_data[champ_name].get('cost', 0)
+
+    # 4. '챔피언 등장 확률' 점수 계산
+    findability_score = 0
+    player_level = len(selected_champions) if selected_champions else 1
+    if player_level == 0: player_level = 1
+
+    if player_level in reroll_probabilities_data:
+        level_probs = reroll_probabilities_data[player_level]
+        needed_champions = set(team['champions']) - selected_champions
+
+        for champ_name in needed_champions:
+            if champ_name in champion_data:
+                cost = str(champion_data[champ_name].get('cost', 1))
+                probability = level_probs.get(cost, 0)
+                findability_score += probability
+
+    # 5. 챔피언 일치도 점수 계산
+    overlap_score = 0
+    if selected_champions:
+        overlap_count = len(set(team['champions']).intersection(selected_champions))
+        overlap_score = overlap_count * OVERLAP_WEIGHT
+
+    # 6. 점수 종합
+    total_score = (overlap_score) + \
+                  (synergy_tier_score * SYNERGY_TIER_WEIGHT) + \
+                  (champion_cost_score * COST_WEIGHT) + \
+                  almost_complete_bonus + \
+                  (findability_score * FINDABILITY_WEIGHT)
+
+    return total_score
+
+# --- Recommendation Logic (non-cached) ---
+
+def _get_ai_teams_all_inclusive_logic(selected_champions_tuple, champion_to_team_ids, team_id_to_team):
+    """(AI 추천) 선택된 챔피언을 '모두 포함'하는 팀을 추천합니다. (ID 기준 정렬)"""
+    selected_champions = set(selected_champions_tuple)
+
+    if not selected_champions:
+        return []
+
+    candidate_team_ids = None
+    for champ in selected_champions:
+        if champ not in champion_to_team_ids:
+            return []
+        current_champ_team_ids = champion_to_team_ids[champ]
+        if candidate_team_ids is None:
+            candidate_team_ids = current_champ_team_ids.copy()
+        else:
+            candidate_team_ids.intersection_update(current_champ_team_ids)
+        if not candidate_team_ids:
+            return []
+
+    # ID 기준으로 정렬하여 반환
+    recommended_teams = [team_id_to_team[team_id] for team_id in sorted(list(candidate_team_ids))]
+    return recommended_teams
+
+def _get_overlap_based_teams_logic(selected_champions_tuple, champion_to_team_ids, team_id_to_team):
+    """(AI 추천 2) 선택된 챔피언과 가장 많이 겹치는 팀을 추천합니다."""
+    selected_champions = set(selected_champions_tuple)
+
+    if not selected_champions:
+        return []
+
+    relevant_team_ids = set()
+    for champ in selected_champions:
+        if champ in champion_to_team_ids:
+            relevant_team_ids.update(champion_to_team_ids[champ])
+
+    team_scores = []
+    for team_id in relevant_team_ids:
+        team = team_id_to_team[team_id]
+        overlap_count = len(set(team['champions']).intersection(selected_champions))
+        team_size = len(team['champions'])
+        score = (overlap_count, -team_size)
+        team_scores.append((team, score))
+
+    team_scores.sort(key=lambda x: x[1], reverse=True)
+    return [team for team, score in team_scores]
+
+# --- Cached Recommendation Wrappers ---
+
+@lru_cache(maxsize=16384)
+def get_ai_teams_all_inclusive_size_6(selected_champions_tuple):
+    return _get_ai_teams_all_inclusive_logic(selected_champions_tuple, champion_to_team_ids_6, team_id_to_team_6)
+
+@lru_cache(maxsize=16384)
+def get_ai_teams_all_inclusive_size_8(selected_champions_tuple):
+    return _get_ai_teams_all_inclusive_logic(selected_champions_tuple, champion_to_team_ids_8, team_id_to_team_8)
+
+@lru_cache(maxsize=16384)
+def get_overlap_based_teams_size_6(selected_champions_tuple):
+    return _get_overlap_based_teams_logic(selected_champions_tuple, champion_to_team_ids_6, team_id_to_team_6)
+
+@lru_cache(maxsize=16384)
+def get_overlap_based_teams_size_8(selected_champions_tuple):
+    return _get_overlap_based_teams_logic(selected_champions_tuple, champion_to_team_ids_8, team_id_to_team_8)
+
+# --- AI 추천 로직에서 filtered_compositions_all.jsonl 사용 ---
+@lru_cache(maxsize=16384)
+def get_ai_teams_all_inclusive_filtered(selected_champions_tuple):
+    return _get_ai_teams_all_inclusive_logic(
+        selected_champions_tuple, champion_to_team_ids_filtered, team_id_to_team_filtered
+    )
+
+@lru_cache(maxsize=16384)
+def get_overlap_based_teams_filtered(selected_champions_tuple):
+    return _get_overlap_based_teams_logic(
+        selected_champions_tuple, champion_to_team_ids_filtered, team_id_to_team_filtered
+    )
+
+@lru_cache(maxsize=16384)
+def get_ai_teams_all_inclusive_all_sizes(selected_champions_tuple):
+    return _get_ai_teams_all_inclusive_logic(selected_champions_tuple, champion_to_team_ids_all_ai, team_id_to_team_all_ai)
+
+@lru_cache(maxsize=16384)
+def get_high_value_teams_all_inclusive(selected_champions_tuple):
+    """'고밸류덱'에 대한 '모두 포함' 로직을 실행합니다."""
+    return _get_ai_teams_all_inclusive_logic(selected_champions_tuple, champion_to_team_ids_high_value, team_id_to_team_high_value)
+
+@lru_cache(maxsize=16384)
+def get_high_value_teams_overlap_based(selected_champions_tuple):
+    """'고밸류덱'에 대한 '겹치는' 로직을 실행합니다."""
+    return _get_overlap_based_teams_logic(selected_champions_tuple, champion_to_team_ids_high_value, team_id_to_team_high_value)
+
+def calculate_champion_synergies(champion_name, traits_data):
+    """특정 챔피언의 시너지를 계산합니다. (데이터 직접 참조)"""
+    try:
+        return set(traits_data.get(champion_name, []))
+    except Exception as e:
+        print(f"챔피언 시너지 계산 오류: {e}")
+        return set()
+
+def calculate_current_synergies(selected_champions, traits_data):
+    """현재 선택된 챔피언들의 시너지를 계산합니다."""
+    try:
+        current_synergies = set()
+        for champion in selected_champions:
+            current_synergies.update(calculate_champion_synergies(champion, traits_data))
+        return current_synergies
+    except Exception as e:
+        print(f"시너지 계산 오류: {e}")
+        return set()
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/api/teams')
+def get_teams():
+    """추천 팀을 반환합니다. 페이지네이션을 지원합니다."""
+    selected_champions = get_selected_champions()
+    mode = request.args.get('mode', 'ai')
+    page = request.args.get('page', 0, type=int)
+    page_size = 30
+
+    all_recommended_teams = []
+
+    if not selected_champions:
+        # 다른 모드에서는 선택된 챔피언이 없으면 빈 목록을 반환합니다.
+        return jsonify([])
+    else:
+        # 선택된 챔피언이 있는 경우
+        selected_champions_tuple = tuple(sorted(selected_champions))
+
+        if mode == 'ai_any':
+            all_recommended_teams = get_overlap_based_teams_size_8(selected_champions_tuple)
+        elif mode == 'high_value':
+            all_recommended_teams = get_high_value_teams_all_inclusive(selected_champions_tuple)
+        else:  # mode == 'ai'
+            all_recommended_teams = get_ai_teams_all_inclusive_all_sizes(selected_champions_tuple)
+
+    # 모든 경우에 대해 페이지네이션 적용
+    start_index = page * page_size
+    end_index = start_index + page_size
+    recommended_teams = all_recommended_teams[start_index:end_index]
+
+    return jsonify(recommended_teams)
+
+@app.route('/api/all_champion_data')
+def get_all_champion_data():
+    """모든 챔피언 데이터를 반환합니다."""
+    return jsonify(champion_data)
+
+@app.route('/api/attack_ranges')
+def get_attack_ranges():
+    """모든 챔피언의 공격 범위를 반환합니다."""
+    return jsonify(attack_range_data)
+
+@app.route('/api/select_champion', methods=['POST'])
+def select_champion():
+    """챔피언을 선택하거나 선택 해제합니다."""
+    try:
+        data = request.get_json()
+        champion_name = data.get('champion')
+        action = data.get('action', 'select')  # 'select' 또는 'unselect'
+        
+        if not champion_name:
+            return jsonify({'error': '챔피언 이름이 필요합니다.'}), 400
+        
+        selected_champions = get_selected_champions()
+        
+        if action == 'unselect':
+            selected_champions.discard(champion_name)
+        else:
+            selected_champions.add(champion_name)
+            
+        set_selected_champions(selected_champions)
+        
+        return jsonify({
+            'success': True,
+            'champion': champion_name,
+            'action': action,
+            'selected_count': len(selected_champions)
+        })
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/set_selection', methods=['POST'])
+def set_selection():
+    """선택된 챔피언 목록을 한 번에 설정합니다."""
+    try:
+        data = request.get_json()
+        champions = data.get('champions', [])
+
+        if not isinstance(champions, list):
+            return jsonify({'error': '챔피언 목록은 리스트여야 합니다.'}), 400
+
+        set_selected_champions(set(champions))
+
+        return jsonify({
+            'success': True,
+            'selected_count': len(champions)
+        })
+
+    except Exception as e:
+        print(f"[DEBUG] set_selection 오류: {e}")
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/clear_selection', methods=['POST'])
+def clear_selection():
+    """선택된 챔피언을 모두 초기화합니다."""
+    try:
+        if 'selected_champions' in session:
+            del session['selected_champions']
+        
+        session['selected_champions'] = []
+        
+        return jsonify({
+            'success': True,
+            'message': '선택이 초기화되었습니다.',
+            'selected_count': 0
+        })
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/get_selection_status', methods=['GET'])
+def get_selection_status():
+    """현재 선택 상태를 반환합니다."""
+    try:
+        selected_champions = get_selected_champions()
+        return jsonify({
+            'selected': list(selected_champions),
+            'count': len(selected_champions)
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/champion_info/<champion_name>')
+def get_champion_info(champion_name):
+    """특정 챔피언의 정보를 반환합니다."""
+    try:
+        if champion_name in champion_data:
+            return jsonify(champion_data[champion_name])
+        else:
+            return jsonify({'error': '챔피언을 찾을 수 없습니다.'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/calculate_synergies')
+def calculate_synergies():
+    """현재 선택된 챔피언들의 활성화된 시너지를 계산하여 반환합니다."""
+    try:
+        selected_champions = get_selected_champions()
+        if not selected_champions:
+            return jsonify([])
+
+        with open('tft_champion_traits.json', 'r', encoding='utf-8') as f:
+            champion_traits = json.load(f)
+        champion_traits_dict = {champ['name']: champ['traits'] for champ in champion_traits['champions_and_traits']}
+
+        with open('synergy_counts.json', 'r', encoding='utf-8') as f:
+            synergy_counts = json.load(f)
+        synergy_counts_dict = {}
+        for item in synergy_counts:
+            synergy_name = item['synergy_name']
+            count = item['count']
+            if synergy_name not in synergy_counts_dict:
+                synergy_counts_dict[synergy_name] = []
+            synergy_counts_dict[synergy_name].append(count)
+
+        current_synergies = {}
+        for champion in selected_champions:
+            if champion in champion_traits_dict:
+                for trait in champion_traits_dict[champion]:
+                    if trait not in current_synergies:
+                        current_synergies[trait] = 0
+                    current_synergies[trait] += 1
+
+        active_synergies = []
+        for trait, count in current_synergies.items():
+            if trait in synergy_counts_dict:
+                activation_levels = sorted(synergy_counts_dict[trait])
+                current_level = None
+                next_level = None
+                
+                for level in activation_levels:
+                    if count >= level:
+                        current_level = level
+                    else:
+                        next_level = level
+                        break
+
+                if current_level is not None:
+                    active_synergies.append({
+                        'name': trait,
+                        'count': count,
+                        'current_level': current_level,
+                        'next_level': next_level,
+                        'max_level': activation_levels[-1]
+                    })
+                elif count > 0:
+                    active_synergies.append({
+                        'name': trait,
+                        'count': count,
+                        'current_level': 0,
+                        'next_level': activation_levels[0],
+                        'max_level': activation_levels[-1]
+                    })
+
+        active_synergies.sort(key=lambda x: (-x['count'], x['name']))
+        
+        return jsonify(active_synergies)
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/all_recommended_champions')
+def get_all_recommended_champions():
+    """현재 선택에 대해 추천되는 모든 팀에 포함된 챔피언의 전체 목록을 반환합니다."""
+    selected_champions = get_selected_champions()
+    mode = request.args.get('mode', 'ai')
+
+    if not selected_champions:
+        return jsonify([])
+
+    selected_champions_tuple = tuple(sorted(selected_champions))
+    all_recommended_teams = []
+
+    if mode == 'ai':
+        all_recommended_teams = get_ai_teams_all_inclusive_all_sizes(selected_champions_tuple)
+    elif mode == 'ai_any':
+        all_recommended_teams = get_overlap_based_teams_size_8(selected_champions_tuple)
+    elif mode == 'high_value':
+        all_recommended_teams = get_high_value_teams_all_inclusive(selected_champions_tuple)
+
+    recommended_champion_set = set()
+    for team in all_recommended_teams:
+        for champion in team['champions']:
+            recommended_champion_set.add(champion)
+
+    return jsonify(list(recommended_champion_set))
+
+@app.route('/api/item_recommendations/<champion_name>')
+def get_item_recommendations(champion_name):
+    """특정 챔피언의 추천 아이템을 반환합니다."""
+    recommendations = item_recommendations_data.get(champion_name, [])
+    return jsonify(recommendations)
+
+@app.route('/api/recommended_champion_count/<champion_name>')
+def get_recommended_champion_count(champion_name):
+    """특정 챔피언을 추가했을 때 추천되는 챔피언의 총 수를 계산합니다."""
+    try:
+        mode = request.args.get('mode', 'ai')
+        selected_champions = get_selected_champions()
+
+        # 시뮬레이션을 위해 현재 선택에 챔피언을 추가
+        potential_selection = selected_champions.copy()
+        potential_selection.add(champion_name)
+
+        # 캐시 키로 사용하기 위해 튜플로 변환
+        potential_selection_tuple = tuple(sorted(list(potential_selection)))
+
+        recommended_teams = []
+        if mode == 'ai_any':
+            recommended_teams = get_overlap_based_teams_size_8(potential_selection_tuple)
+        else: # 'ai'
+            recommended_teams = get_ai_teams_all_inclusive_all_sizes(potential_selection_tuple)
+
+        if not recommended_teams:
+            return jsonify({'count': 0})
+
+        # 추천되는 팀 조합의 수를 반환
+        return jsonify({'count': len(recommended_teams)})
+
+    except Exception as e:
+        print(f"추천 챔피언 수 계산 오류: {e}")
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/bulk_recommendation_counts')
+def get_bulk_recommendation_counts():
+    """모든 챔피언에 대한 추천 카운트를 한 번에 계산합니다."""
+    selected_champions = get_selected_champions()
+    mode = request.args.get('mode', 'ai')
+
+    if mode != 'ai':
+        return jsonify({})
+
+    all_champs = set(champion_data.keys())
+    champs_to_check = all_champs - selected_champions
+
+    counts = {}
+    for champ_name in champs_to_check:
+        potential_selection = selected_champions.copy()
+        potential_selection.add(champ_name)
+        potential_selection_tuple = tuple(sorted(list(potential_selection)))
+
+        recommended_teams = get_ai_teams_all_inclusive_all_sizes(potential_selection_tuple)
+        if recommended_teams:
+            counts[champ_name] = len(recommended_teams)
+
+    return jsonify(counts)
+
+@app.route('/api/deactivation_recommendation_count/<champion_name>')
+def get_deactivation_recommendation_count(champion_name):
+    """특정 챔피언을 제외했을 때 추천되는 팀의 수를 계산합니다."""
+    try:
+        mode = request.args.get('mode', 'ai')
+        selected_champions = get_selected_champions()
+
+        # 시뮬레이션을 위해 현재 선택에서 챔피언을 제외
+        potential_selection = selected_champions.copy()
+        potential_selection.discard(champion_name)
+
+        # 캐시 키로 사용하기 위해 튜플로 변환
+        potential_selection_tuple = tuple(sorted(list(potential_selection)))
+
+        if not potential_selection_tuple:
+            return jsonify({'count': 0})
+
+        recommended_teams = []
+        if mode == 'ai_any':
+            recommended_teams = get_overlap_based_teams_size_8(potential_selection_tuple)
+        else: # 'ai'
+            recommended_teams = get_ai_teams_all_inclusive_all_sizes(potential_selection_tuple)
+
+        return jsonify({'count': len(recommended_teams)})
+
+    except Exception as e:
+        print(f"비활성화 추천 수 계산 오류: {e}")
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/item_icons')
+def get_item_icons():
+    """tft_item_icons 폴더에 있는 아이콘 파일 목록을 반환합니다."""
+    icon_folder = 'static/tft_item_icons'
+    try:
+        if os.path.isdir(icon_folder):
+            icons = [f for f in os.listdir(icon_folder) if f.endswith(('.png', '.jpg', '.jpeg', '.gif', '.svg'))]
+            return jsonify(icons)
+        return jsonify([])
+    except Exception as e:
+        print(f"아이콘 목록 로드 오류: {e}")
+        return jsonify({'error': str(e)}), 500
+
+if __name__ == '__main__':
+    app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
+    app.config['TEMPLATES_AUTO_RELOAD'] = True
+    
+    print("TFT 팀 빌더 서버 시작...")
+    print(f"로드된 6-조합 팀 수: {len(parse_teams_from_file_size_6())}")
+    print(f"로드된 8-조합 팀 수: {len(parse_teams_from_file_size_8())}")
+    print(f"로드된 챔피언 수: {len(champion_data)}")
+    
+    app.run(debug=False, host='0.0.0.0', port=5000, threaded=True)

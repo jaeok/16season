@@ -1,0 +1,3213 @@
+{
+  "season": "set15",
+  "synergies": [
+    {
+      "synergy_name": "#",
+      "average_rank": "시너지",
+      "top4_rate": "평균 등수",
+      "win_rate": "TOP4",
+      "pick_rate": "승률",
+      "games_played": "픽률",
+      "top_champions": "게임 수"
+    },
+    {
+      "synergy_name": "1",
+      "average_rank": "10 별 수호자",
+      "top4_rate": "#1.31",
+      "win_rate": 98.63,
+      "pick_rate": 80.2,
+      "games_played": "0.04%",
+      "top_champions": "293"
+    },
+    {
+      "synergy_name": "2",
+      "average_rank": "10 수정 갬빗",
+      "top4_rate": "#1.33",
+      "win_rate": 100.0,
+      "pick_rate": 66.67,
+      "games_played": "0.00%",
+      "top_champions": "6"
+    },
+    {
+      "synergy_name": "3",
+      "average_rank": "9 별 수호자",
+      "top4_rate": "#2.85",
+      "win_rate": 81.24,
+      "pick_rate": 28.02,
+      "games_played": "0.40%",
+      "top_champions": "3,001"
+    },
+    {
+      "synergy_name": "4",
+      "average_rank": "5 책략가",
+      "top4_rate": "#3.48",
+      "win_rate": 67.47,
+      "pick_rate": 25.15,
+      "games_played": "0.20%",
+      "top_champions": "1,491"
+    },
+    {
+      "synergy_name": "5",
+      "average_rank": "5 신동",
+      "top4_rate": "#3.66",
+      "win_rate": 67.24,
+      "pick_rate": 14.58,
+      "games_played": "0.48%",
+      "top_champions": "3,593"
+    },
+    {
+      "synergy_name": "6",
+      "average_rank": "1 해적선장",
+      "top4_rate": "#3.69",
+      "win_rate": 64.18,
+      "pick_rate": 24.67,
+      "games_played": "1.31%",
+      "top_champions": "9,786"
+    },
+    {
+      "synergy_name": "7",
+      "average_rank": "4 처형자",
+      "top4_rate": "#3.72",
+      "win_rate": 64.01,
+      "pick_rate": 21.15,
+      "games_played": "0.17%",
+      "top_champions": "1,267"
+    },
+    {
+      "synergy_name": "8",
+      "average_rank": "4 책략가",
+      "top4_rate": "#3.72",
+      "win_rate": 64.35,
+      "pick_rate": 21.57,
+      "games_played": "0.58%",
+      "top_champions": "4,348"
+    },
+    {
+      "synergy_name": "9",
+      "average_rank": "3 처형자",
+      "top4_rate": "#3.73",
+      "win_rate": 63.97,
+      "pick_rate": 19.7,
+      "games_played": "0.61%",
+      "top_champions": "4,579"
+    },
+    {
+      "synergy_name": "10",
+      "average_rank": "8 소울 파이터",
+      "top4_rate": "#3.73",
+      "win_rate": 65.1,
+      "pick_rate": 16.94,
+      "games_played": "2.03%",
+      "top_champions": "15,173"
+    },
+    {
+      "synergy_name": "11",
+      "average_rank": "1 레슬링 챔피언",
+      "top4_rate": "#3.84",
+      "win_rate": 62.35,
+      "pick_rate": 19.74,
+      "games_played": "4.45%",
+      "top_champions": "33,251"
+    },
+    {
+      "synergy_name": "12",
+      "average_rank": "1 태세의 대가",
+      "top4_rate": "#3.88",
+      "win_rate": 61.31,
+      "pick_rate": 19.11,
+      "games_played": "3.57%",
+      "top_champions": "26,645"
+    },
+    {
+      "synergy_name": "13",
+      "average_rank": "2 이단아",
+      "top4_rate": "#3.93",
+      "win_rate": 60.8,
+      "pick_rate": 17.86,
+      "games_played": "5.09%",
+      "top_champions": "38,050"
+    },
+    {
+      "synergy_name": "14",
+      "average_rank": "2 프로레슬러",
+      "top4_rate": "#3.95",
+      "win_rate": 59.81,
+      "pick_rate": 20.03,
+      "games_played": "2.59%",
+      "top_champions": "19,329"
+    },
+    {
+      "synergy_name": "15",
+      "average_rank": "1 장미 어머니",
+      "top4_rate": "#3.97",
+      "win_rate": 59.74,
+      "pick_rate": 20.39,
+      "games_played": "2.52%",
+      "top_champions": "18,802"
+    },
+    {
+      "synergy_name": "16",
+      "average_rank": "2 신동",
+      "top4_rate": "#4.00",
+      "win_rate": 59.5,
+      "pick_rate": 15.86,
+      "games_played": "2.77%",
+      "top_champions": "20,698"
+    },
+    {
+      "synergy_name": "17",
+      "average_rank": "4 멘토",
+      "top4_rate": "#4.05",
+      "win_rate": 58.69,
+      "pick_rate": 15.36,
+      "games_played": "2.23%",
+      "top_champions": "16,695"
+    },
+    {
+      "synergy_name": "18",
+      "average_rank": "2 처형자",
+      "top4_rate": "#4.06",
+      "win_rate": 58.29,
+      "pick_rate": 16.92,
+      "games_played": "3.19%",
+      "top_champions": "23,795"
+    },
+    {
+      "synergy_name": "19",
+      "average_rank": "5 저격수",
+      "top4_rate": "#4.10",
+      "win_rate": 58.15,
+      "pick_rate": 13.35,
+      "games_played": "0.27%",
+      "top_champions": "1,993"
+    },
+    {
+      "synergy_name": "20",
+      "average_rank": "7 거대 메크",
+      "top4_rate": "#4.14",
+      "win_rate": 57.49,
+      "pick_rate": 12.27,
+      "games_played": "0.44%",
+      "top_champions": "3,277"
+    },
+    {
+      "synergy_name": "21",
+      "average_rank": "5 거대 메크",
+      "top4_rate": "#4.15",
+      "win_rate": 57.07,
+      "pick_rate": 15.88,
+      "games_played": "0.87%",
+      "top_champions": "6,487"
+    },
+    {
+      "synergy_name": "22",
+      "average_rank": "2 요새",
+      "top4_rate": "#4.17",
+      "win_rate": 56.02,
+      "pick_rate": 16.39,
+      "games_played": "6.61%",
+      "top_champions": "49,402"
+    },
+    {
+      "synergy_name": "23",
+      "average_rank": "7 전투사관학교",
+      "top4_rate": "#4.17",
+      "win_rate": 55.61,
+      "pick_rate": 15.27,
+      "games_played": "1.56%",
+      "top_champions": "11,619"
+    },
+    {
+      "synergy_name": "24",
+      "average_rank": "8 별 수호자",
+      "top4_rate": "#4.17",
+      "win_rate": 57.17,
+      "pick_rate": 9.68,
+      "games_played": "1.37%",
+      "top_champions": "10,248"
+    },
+    {
+      "synergy_name": "25",
+      "average_rank": "5 처형자",
+      "top4_rate": "#4.21",
+      "win_rate": 54.79,
+      "pick_rate": 15.68,
+      "games_played": "0.13%",
+      "top_champions": "982"
+    },
+    {
+      "synergy_name": "26",
+      "average_rank": "2 마법사",
+      "top4_rate": "#4.22",
+      "win_rate": 55.31,
+      "pick_rate": 14.94,
+      "games_played": "5.17%",
+      "top_champions": "38,598"
+    },
+    {
+      "synergy_name": "27",
+      "average_rank": "2 헤비급",
+      "top4_rate": "#4.22",
+      "win_rate": 55.23,
+      "pick_rate": 14.8,
+      "games_played": "3.80%",
+      "top_champions": "28,424"
+    },
+    {
+      "synergy_name": "28",
+      "average_rank": "2 책략가",
+      "top4_rate": "#4.22",
+      "win_rate": 55.09,
+      "pick_rate": 16.59,
+      "games_played": "3.39%",
+      "top_champions": "25,305"
+    },
+    {
+      "synergy_name": "29",
+      "average_rank": "3 거대 메크",
+      "top4_rate": "#4.25",
+      "win_rate": 53.85,
+      "pick_rate": 16.46,
+      "games_played": "2.37%",
+      "top_champions": "17,677"
+    },
+    {
+      "synergy_name": "30",
+      "average_rank": "2 저격수",
+      "top4_rate": "#4.27",
+      "win_rate": 53.75,
+      "pick_rate": 14.93,
+      "games_played": "1.29%",
+      "top_champions": "9,613"
+    },
+    {
+      "synergy_name": "31",
+      "average_rank": "6 결투가",
+      "top4_rate": "#4.28",
+      "win_rate": 53.57,
+      "pick_rate": 14.11,
+      "games_played": "0.64%",
+      "top_champions": "4,812"
+    },
+    {
+      "synergy_name": "32",
+      "average_rank": "4 크루",
+      "top4_rate": "#4.29",
+      "win_rate": 53.45,
+      "pick_rate": 18.01,
+      "games_played": "0.95%",
+      "top_champions": "7,092"
+    },
+    {
+      "synergy_name": "33",
+      "average_rank": "2 전쟁기계",
+      "top4_rate": "#4.30",
+      "win_rate": 53.96,
+      "pick_rate": 14.06,
+      "games_played": "5.76%",
+      "top_champions": "42,999"
+    },
+    {
+      "synergy_name": "34",
+      "average_rank": "4 프로레슬러",
+      "top4_rate": "#4.34",
+      "win_rate": 53.41,
+      "pick_rate": 11.15,
+      "games_played": "0.24%",
+      "top_champions": "1,803"
+    },
+    {
+      "synergy_name": "35",
+      "average_rank": "6 전쟁기계",
+      "top4_rate": "#4.35",
+      "win_rate": 52.05,
+      "pick_rate": 14.03,
+      "games_played": "0.81%",
+      "top_champions": "6,087"
+    },
+    {
+      "synergy_name": "36",
+      "average_rank": "2 악령",
+      "top4_rate": "#4.38",
+      "win_rate": 52.35,
+      "pick_rate": 12.74,
+      "games_played": "1.43%",
+      "top_champions": "10,713"
+    },
+    {
+      "synergy_name": "37",
+      "average_rank": "6 봉쇄자",
+      "top4_rate": "#4.38",
+      "win_rate": 52.92,
+      "pick_rate": 11.38,
+      "games_played": "0.34%",
+      "top_champions": "2,530"
+    },
+    {
+      "synergy_name": "38",
+      "average_rank": "1 멘토",
+      "top4_rate": "#4.41",
+      "win_rate": 51.19,
+      "pick_rate": 14.78,
+      "games_played": "7.33%",
+      "top_champions": "54,752"
+    },
+    {
+      "synergy_name": "39",
+      "average_rank": "2 봉쇄자",
+      "top4_rate": "#4.42",
+      "win_rate": 51.39,
+      "pick_rate": 14.73,
+      "games_played": "2.96%",
+      "top_champions": "22,085"
+    },
+    {
+      "synergy_name": "40",
+      "average_rank": "6 악령",
+      "top4_rate": "#4.43",
+      "win_rate": 50.4,
+      "pick_rate": 13.86,
+      "games_played": "0.42%",
+      "top_champions": "3,123"
+    },
+    {
+      "synergy_name": "41",
+      "average_rank": "2 소울 파이터",
+      "top4_rate": "#4.45",
+      "win_rate": 50.19,
+      "pick_rate": 14.75,
+      "games_played": "2.76%",
+      "top_champions": "20,610"
+    },
+    {
+      "synergy_name": "42",
+      "average_rank": "4 슈프림 셀",
+      "top4_rate": "#4.46",
+      "win_rate": 51.79,
+      "pick_rate": 9.98,
+      "games_played": "0.79%",
+      "top_champions": "5,903"
+    },
+    {
+      "synergy_name": "43",
+      "average_rank": "3 책략가",
+      "top4_rate": "#4.48",
+      "win_rate": 50.05,
+      "pick_rate": 14.51,
+      "games_played": "0.81%",
+      "top_champions": "6,044"
+    },
+    {
+      "synergy_name": "44",
+      "average_rank": "6 요새",
+      "top4_rate": "#4.50",
+      "win_rate": 49.78,
+      "pick_rate": 9.94,
+      "games_played": "0.18%",
+      "top_champions": "1,378"
+    },
+    {
+      "synergy_name": "45",
+      "average_rank": "2 결투가",
+      "top4_rate": "#4.53",
+      "win_rate": 49.69,
+      "pick_rate": 13.35,
+      "games_played": "3.19%",
+      "top_champions": "23,829"
+    },
+    {
+      "synergy_name": "46",
+      "average_rank": "4 요새",
+      "top4_rate": "#4.53",
+      "win_rate": 49.47,
+      "pick_rate": 10.3,
+      "games_played": "0.57%",
+      "top_champions": "4,283"
+    },
+    {
+      "synergy_name": "47",
+      "average_rank": "3 별 수호자",
+      "top4_rate": "#4.56",
+      "win_rate": 49.86,
+      "pick_rate": 9.56,
+      "games_played": "0.47%",
+      "top_champions": "3,484"
+    },
+    {
+      "synergy_name": "48",
+      "average_rank": "3 전투사관학교",
+      "top4_rate": "#4.63",
+      "win_rate": 47.57,
+      "pick_rate": 9.31,
+      "games_played": "0.66%",
+      "top_champions": "4,951"
+    },
+    {
+      "synergy_name": "49",
+      "average_rank": "3 신동",
+      "top4_rate": "#4.63",
+      "win_rate": 47.41,
+      "pick_rate": 10.3,
+      "games_played": "0.56%",
+      "top_champions": "4,204"
+    },
+    {
+      "synergy_name": "50",
+      "average_rank": "2 슈프림 셀",
+      "top4_rate": "#4.66",
+      "win_rate": 47.4,
+      "pick_rate": 10.58,
+      "games_played": "0.42%",
+      "top_champions": "3,118"
+    },
+    {
+      "synergy_name": "51",
+      "average_rank": "2 크루",
+      "top4_rate": "#4.69",
+      "win_rate": 46.96,
+      "pick_rate": 11.26,
+      "games_played": "0.30%",
+      "top_champions": "2,221"
+    },
+    {
+      "synergy_name": "52",
+      "average_rank": "3 저격수",
+      "top4_rate": "#4.70",
+      "win_rate": 46.89,
+      "pick_rate": 9.57,
+      "games_played": "0.22%",
+      "top_champions": "1,610"
+    },
+    {
+      "synergy_name": "53",
+      "average_rank": "6 헤비급",
+      "top4_rate": "#4.70",
+      "win_rate": 46.82,
+      "pick_rate": 8.23,
+      "games_played": "0.39%",
+      "top_champions": "2,879"
+    },
+    {
+      "synergy_name": "54",
+      "average_rank": "3 수정 갬빗",
+      "top4_rate": "#4.72",
+      "win_rate": 46.16,
+      "pick_rate": 13.4,
+      "games_played": "0.78%",
+      "top_champions": "5,808"
+    },
+    {
+      "synergy_name": "55",
+      "average_rank": "4 이단아",
+      "top4_rate": "#4.72",
+      "win_rate": 46.5,
+      "pick_rate": 9.57,
+      "games_played": "0.29%",
+      "top_champions": "2,185"
+    },
+    {
+      "synergy_name": "56",
+      "average_rank": "2 별 수호자",
+      "top4_rate": "#4.75",
+      "win_rate": 46.02,
+      "pick_rate": 8.51,
+      "games_played": "1.30%",
+      "top_champions": "9,679"
+    },
+    {
+      "synergy_name": "57",
+      "average_rank": "1 괴물 트레이너",
+      "top4_rate": "#4.77",
+      "win_rate": 44.87,
+      "pick_rate": 11.76,
+      "games_played": "0.73%",
+      "top_champions": "5,433"
+    },
+    {
+      "synergy_name": "58",
+      "average_rank": "6 마법사",
+      "top4_rate": "#4.79",
+      "win_rate": 43.81,
+      "pick_rate": 7.7,
+      "games_played": "0.17%",
+      "top_champions": "1,260"
+    },
+    {
+      "synergy_name": "59",
+      "average_rank": "4 전쟁기계",
+      "top4_rate": "#4.82",
+      "win_rate": 44.66,
+      "pick_rate": 11.37,
+      "games_played": "0.50%",
+      "top_champions": "3,728"
+    },
+    {
+      "synergy_name": "60",
+      "average_rank": "6 이단아",
+      "top4_rate": "#4.83",
+      "win_rate": 43.89,
+      "pick_rate": 7.36,
+      "games_played": "0.18%",
+      "top_champions": "1,358"
+    },
+    {
+      "synergy_name": "61",
+      "average_rank": "4 봉쇄자",
+      "top4_rate": "#4.84",
+      "win_rate": 43.15,
+      "pick_rate": 10.5,
+      "games_played": "0.27%",
+      "top_champions": "2,000"
+    },
+    {
+      "synergy_name": "62",
+      "average_rank": "4 소울 파이터",
+      "top4_rate": "#4.88",
+      "win_rate": 44.72,
+      "pick_rate": 8.33,
+      "games_played": "0.17%",
+      "top_champions": "1,297"
+    },
+    {
+      "synergy_name": "63",
+      "average_rank": "4 별 수호자",
+      "top4_rate": "#4.89",
+      "win_rate": 43.52,
+      "pick_rate": 8.9,
+      "games_played": "0.12%",
+      "top_champions": "933"
+    },
+    {
+      "synergy_name": "64",
+      "average_rank": "4 신동",
+      "top4_rate": "#4.90",
+      "win_rate": 42.79,
+      "pick_rate": 5.6,
+      "games_played": "0.38%",
+      "top_champions": "2,837"
+    },
+    {
+      "synergy_name": "65",
+      "average_rank": "5 전투사관학교",
+      "top4_rate": "#4.91",
+      "win_rate": 43.5,
+      "pick_rate": 7.92,
+      "games_played": "0.41%",
+      "top_champions": "3,044"
+    },
+    {
+      "synergy_name": "66",
+      "average_rank": "4 마법사",
+      "top4_rate": "#4.95",
+      "win_rate": 42.38,
+      "pick_rate": 9.16,
+      "games_played": "0.12%",
+      "top_champions": "906"
+    },
+    {
+      "synergy_name": "67",
+      "average_rank": "4 헤비급",
+      "top4_rate": "#4.99",
+      "win_rate": 41.49,
+      "pick_rate": 7.75,
+      "games_played": "0.29%",
+      "top_champions": "2,169"
+    },
+    {
+      "synergy_name": "68",
+      "average_rank": "4 결투가",
+      "top4_rate": "#5.09",
+      "win_rate": 38.29,
+      "pick_rate": 9.31,
+      "games_played": "0.22%",
+      "top_champions": "1,622"
+    },
+    {
+      "synergy_name": "69",
+      "average_rank": "4 악령",
+      "top4_rate": "#5.19",
+      "win_rate": 35.18,
+      "pick_rate": 8.73,
+      "games_played": "0.32%",
+      "top_champions": "2,359"
+    },
+    {
+      "synergy_name": "70",
+      "average_rank": "4 저격수",
+      "top4_rate": "#5.19",
+      "win_rate": 35.15,
+      "pick_rate": 5.91,
+      "games_played": "0.17%",
+      "top_champions": "1,286"
+    },
+    {
+      "synergy_name": "71",
+      "average_rank": "3 크루",
+      "top4_rate": "#5.22",
+      "win_rate": 36.59,
+      "pick_rate": 12.6,
+      "games_played": "0.03%",
+      "top_champions": "246"
+    },
+    {
+      "synergy_name": "72",
+      "average_rank": "7 별 수호자",
+      "top4_rate": "#5.54",
+      "win_rate": 27.83,
+      "pick_rate": 2.1,
+      "games_played": "0.48%",
+      "top_champions": "3,615"
+    },
+    {
+      "synergy_name": "73",
+      "average_rank": "6 소울 파이터",
+      "top4_rate": "#5.56",
+      "win_rate": 28.1,
+      "pick_rate": 3.7,
+      "games_played": "0.48%",
+      "top_champions": "3,623"
+    },
+    {
+      "synergy_name": "74",
+      "average_rank": "7 수정 갬빗",
+      "top4_rate": "#5.57",
+      "win_rate": 31.58,
+      "pick_rate": 8.84,
+      "games_played": "0.20%",
+      "top_champions": "1,482"
+    },
+    {
+      "synergy_name": "75",
+      "average_rank": "3 슈프림 셀",
+      "top4_rate": "#5.66",
+      "win_rate": 27.46,
+      "pick_rate": 3.97,
+      "games_played": "0.21%",
+      "top_champions": "1,588"
+    },
+    {
+      "synergy_name": "76",
+      "average_rank": "5 별 수호자",
+      "top4_rate": "#5.73",
+      "win_rate": 26.73,
+      "pick_rate": 3.27,
+      "games_played": "0.07%",
+      "top_champions": "550"
+    },
+    {
+      "synergy_name": "77",
+      "average_rank": "6 별 수호자",
+      "top4_rate": "#5.90",
+      "win_rate": 22.12,
+      "pick_rate": 2.18,
+      "games_played": "0.17%",
+      "top_champions": "1,284"
+    },
+    {
+      "synergy_name": "78",
+      "average_rank": "5 수정 갬빗",
+      "top4_rate": "#6.98",
+      "win_rate": 8.75,
+      "pick_rate": 2.17,
+      "games_played": "0.25%",
+      "top_champions": "1,840"
+    }
+  ],
+  "items": [
+    {
+      "item_name": "B.F. 대검",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_BFSword.png",
+      "item_effect": "공격력 +10%",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "곡궁",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_RecurveBow.png",
+      "item_effect": "공격 속도 +10%",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "쇠사슬 조끼",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_ChainVest.png",
+      "item_effect": "방어력 +20",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "음전자 망토",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NegatronCloak.png",
+      "item_effect": "마법 저항력 +20",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "쓸데없이 큰 지팡이",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NeedlesslyLargeRod.png",
+      "item_effect": "주문력 +10",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "여신의 눈물",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_TearOfTheGoddess.png",
+      "item_effect": "마나 재생 +1",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "거인의 허리띠",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_GiantsBelt.png",
+      "item_effect": "체력 +150",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "연습용 장갑",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_SparringGloves.png",
+      "item_effect": "치명타 확률 +20%",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "뒤집개",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Spatula.png",
+      "item_effect": "무슨 쓸모가 있을 텐데...",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "프라이팬",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_FryingPan.png",
+      "item_effect": "... 이게 여기에 있는 이유가 달리 있을까요?",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "죽음의 검",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Deathblade.png",
+      "item_effect": "이 검의 주인은 더없는 평화와 안정을 찾게 됩니다. 주인의 적들도 마찬가지고요.",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_BFSword.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_BFSword.png"
+      ]
+    },
+    {
+      "item_name": "거인 학살자",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_MadredsBloodrazor.png",
+      "item_effect": "적 탱커를 상대로 피해 증폭을 15% 획득",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_BFSword.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_RecurveBow.png"
+      ]
+    },
+    {
+      "item_name": "밤의 끝자락",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_GuardianAngel.png",
+      "item_effect": "생명선: 체력이 60%일 때 잠시 대상으로 지정할 수 없게 되며 해로운 효과 제거.",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_BFSword.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_ChainVest.png"
+      ]
+    },
+    {
+      "item_name": "피바라기",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Bloodthirster.png",
+      "item_effect": "전투당 한 번, 체력이 40%일 때 최대 체력의 25%에 해당하는 보호막 획득 후 최대 5초까지 유지",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_BFSword.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NegatronCloak.png"
+      ]
+    },
+    {
+      "item_name": "마법공학 총검",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_HextechGunblade.png",
+      "item_effect": "입힌 피해량의 20%만큼 체력 비율이 가장 낮은 아군의 체력 회복",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_BFSword.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NeedlesslyLargeRod.png"
+      ]
+    },
+    {
+      "item_name": "쇼진의 창",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_SpearOfShojin.png",
+      "item_effect": "기본 공격 시 추가 마나 5 획득",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_BFSword.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_TearOfTheGoddess.png"
+      ]
+    },
+    {
+      "item_name": "스테락의 도전",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_SteraksGage.png",
+      "item_effect": "생명선: 체력이 60%일 때, 장착 유닛 최대 체력의 50%에 해당하는 보호막 획득. 보호막은 5초에 걸쳐 빠르게 사라짐",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_BFSword.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_GiantsBelt.png"
+      ]
+    },
+    {
+      "item_name": "무한의 대검",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_InfinityEdge.png",
+      "item_effect": "스킬에 치명타 적용 가능\n기본 스킬에 치명타 적용이 가능한 경우, 대신에 치명타 피해량이 10% 증가",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_BFSword.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_SparringGloves.png"
+      ]
+    },
+    {
+      "item_name": "붉은 덩굴정령",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_RapidFireCannon.png",
+      "item_effect": "기본 공격과 스킬이 5초 동안 적에게 불태우기를 1%, 상처를 33% 적용\n불태우기: 매초 대상 최대 체력의 일정 비율만큼 고정 피해\n상처: 체력 회복량 감소",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_RecurveBow.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_RecurveBow.png"
+      ]
+    },
+    {
+      "item_name": "거인의 결의",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_TitansResolve.png",
+      "item_effect": "공격하거나 피해를 받으면 공격력 2%, 주문력 2 증가 (최대 25회 중첩)\n최대 중첩 시 방어력 15 및 마법 저항력 15 획득, 군중 제어 효과에 면역",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_RecurveBow.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_ChainVest.png"
+      ]
+    },
+    {
+      "item_name": "크라켄의 분노",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/15.13.1/img/tft-item/TFT_Item_RunaansHurricane.png",
+      "item_effect": "기본 공격 시 공격력 3% 획득 (중첩 가능)",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_RecurveBow.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NegatronCloak.png"
+      ]
+    },
+    {
+      "item_name": "구인수의 격노검",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_GuinsoosRageblade.png",
+      "item_effect": "매초 공격 속도 7% 획득 (중첩 가능)",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_RecurveBow.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NeedlesslyLargeRod.png"
+      ]
+    },
+    {
+      "item_name": "공허의 지팡이",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/15.13.1/img/tft-item/TFT_Item_StatikkShiv.png",
+      "item_effect": "기본 공격 및 스킬로 피해를 입힐 경우 5초 동안 대상에게 파쇄를 30% 적용 (중첩 불가)\n파쇄: 마법 저항력 감소",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_RecurveBow.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_TearOfTheGoddess.png"
+      ]
+    },
+    {
+      "item_name": "내셔의 이빨",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Leviathan.png",
+      "item_effect": "스킬 사용 후 5초 동안 공격 속도 30% 증가",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_RecurveBow.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_GiantsBelt.png"
+      ]
+    },
+    {
+      "item_name": "최후의 속삭임",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_LastWhisper.png",
+      "item_effect": "물리 피해를 입힐 경우 3초 동안 30% 파열 (중첩 불가)\n파열: 방어력 감소",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_RecurveBow.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_SparringGloves.png"
+      ]
+    },
+    {
+      "item_name": "덤불 조끼",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_BrambleVest.png",
+      "item_effect": "7%의 최대 체력 획득\n기본 공격으로 받는 피해 8% 감소. 기본 공격에 맞을 경우 인접한 모든 적에게 100의 마법 피해\n재사용 대기시간: 2초",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_ChainVest.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_ChainVest.png"
+      ]
+    },
+    {
+      "item_name": "가고일 돌갑옷",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_GargoyleStoneplate.png",
+      "item_effect": "적의 공격 대상이 되면 방어력이 10, 마법 저항력이 10 증가. 공격하는 적이 늘어나면 중첩되어 적용.",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_ChainVest.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NegatronCloak.png"
+      ]
+    },
+    {
+      "item_name": "크라운가드",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Crownguard.png",
+      "item_effect": "전투 시작: 8초 동안 최대 체력의 25%에 해당하는 보호막 획득\n보호막이 사라지면 주문력 25 증가",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_ChainVest.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NeedlesslyLargeRod.png"
+      ]
+    },
+    {
+      "item_name": "수호자의 맹세",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_FrozenHeart.png",
+      "item_effect": "전투 시작: 마나를 20 획득\n생명선: 체력이 40%일 때 마나 15 및 최대 체력의 20%에 해당하는 보호막 획득",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_ChainVest.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_TearOfTheGoddess.png"
+      ]
+    },
+    {
+      "item_name": "태양불꽃 망토",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_RedBuff.png",
+      "item_effect": "2초마다 2칸 내에 있는 적 하나에게 10초 동안 불태우기를 1%, 상처를 33% 적용\n불태우기: 매초 대상 최대 체력의 일정 비율만큼 고정 피해\n상처: 체력 회복량 감소",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_ChainVest.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_GiantsBelt.png"
+      ]
+    },
+    {
+      "item_name": "굳건한 심장",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NightHarvester.png",
+      "item_effect": "내구력 10% 획득. 체력이 50%를 넘으면 대신 내구력 18% 획득",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_ChainVest.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_SparringGloves.png"
+      ]
+    },
+    {
+      "item_name": "용의 발톱",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_DragonsClaw.png",
+      "item_effect": "9%의 최대 체력 획득\n2초마다 최대 체력의 2.5% 회복",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NegatronCloak.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NegatronCloak.png"
+      ]
+    },
+    {
+      "item_name": "이온 충격기",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_IonicSpark.png",
+      "item_effect": "2칸 내 모든 적에게 파쇄 30% 적용. 해당 적이 스킬 사용 시 사용한 마나의 160%에 해당하는 마법 피해를 입음\n파쇄: 마법 저항력 감소",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NegatronCloak.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NeedlesslyLargeRod.png"
+      ]
+    },
+    {
+      "item_name": "적응형 투구",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_AdaptiveHelm.png",
+      "item_effect": "모든 요소로부터 마나 15% 증가. 장착 시 역할군에 따라 추가 효과 획득\n탱커 및 전사: 방어력 및 마법 저항력 35 획득\n기타 역할군: 공격력 및 주문력 15 획득",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NegatronCloak.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_TearOfTheGoddess.png"
+      ]
+    },
+    {
+      "item_name": "저녁갑주",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_SpectralGauntlet.png",
+      "item_effect": "2칸 내에 있는 적 30% 파열 전투 시작 후 15초 동안 방어력과 마법 저항력 25 증가\n파열: 방어력 감소",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NegatronCloak.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_GiantsBelt.png"
+      ]
+    },
+    {
+      "item_name": "수은",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Quicksilver.png",
+      "item_effect": "[고유] 전투 시작: 18초 동안 군중 제어 효과에 면역. 이 시간 동안 2초마다 3%의 공격 속도 획득",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NegatronCloak.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_SparringGloves.png"
+      ]
+    },
+    {
+      "item_name": "라바돈의 죽음모자",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_RabadonsDeathcap.png",
+      "item_effect": "평범해 보이지만 우주를 창조하거나 파괴할 수 있는 모자입니다.",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NeedlesslyLargeRod.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NeedlesslyLargeRod.png"
+      ]
+    },
+    {
+      "item_name": "대천사의 지팡이",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_ArchangelsStaff.png",
+      "item_effect": "전투 시작: 전투 중 5초마다 주문력 30 증가",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NeedlesslyLargeRod.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_TearOfTheGoddess.png"
+      ]
+    },
+    {
+      "item_name": "모렐로노미콘",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Morellonomicon.png",
+      "item_effect": "기본 공격 및 스킬이 10초 동안 적에게 불태우기를 1%, 상처를 33% 적용\n불태우기: 매초 대상 최대 체력의 일정 비율만큼 고정 피해\n상처: 체력 회복량 감소",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NeedlesslyLargeRod.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_GiantsBelt.png"
+      ]
+    },
+    {
+      "item_name": "보석 건틀릿",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_JeweledGauntlet.png",
+      "item_effect": "스킬에 치명타 적용 가능\n기본 스킬에 치명타 적용이 가능한 경우, 대신에 치명타 피해량이 10% 증가",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NeedlesslyLargeRod.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_SparringGloves.png"
+      ]
+    },
+    {
+      "item_name": "푸른 파수꾼",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_BlueBuff.png",
+      "item_effect": "골렘의 정수로, 비전의 잠재력이 넘쳐흐릅니다.",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_TearOfTheGoddess.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_TearOfTheGoddess.png"
+      ]
+    },
+    {
+      "item_name": "정령의 형상",
+      "item_image_url": "//raw.communitydragon.org/pbe/game/assets/maps/tft/icons/items/hexcore/tft_item_spiritvisagerr.tft_tft14_5.png",
+      "item_effect": "매초 잃은 체력의 2.5% 회복",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_TearOfTheGoddess.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_GiantsBelt.png"
+      ]
+    },
+    {
+      "item_name": "정의의 손길",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_UnstableConcoction.png",
+      "item_effect": "2가지 효과 획득:\n- 공격력 15%, 주문력 15\n- 모든 피해 흡혈 12%\n체력이 50%를 넘을 때 공격력 및 주문력이 두 배로 증가하고, 체력이 50% 아래일 때 모든 피해 흡혈이 두 배로 증가합니다.",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_TearOfTheGoddess.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_SparringGloves.png"
+      ]
+    },
+    {
+      "item_name": "워모그의 갑옷",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_WarmogsArmor.png",
+      "item_effect": "12%의 최대 체력 획득",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_GiantsBelt.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_GiantsBelt.png"
+      ]
+    },
+    {
+      "item_name": "타격대의 철퇴",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_PowerGauntlet.png",
+      "item_effect": "치명타 적중 시 5초 동안 피해 증폭 5% 획득 (최대 4회 중첩)",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_GiantsBelt.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_SparringGloves.png"
+      ]
+    },
+    {
+      "item_name": "도적의 장갑",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_ThiefsGloves.png",
+      "item_effect": "매 라운드: 무작위 아이템 2개 장착\n[아이템 슬롯 3개 소모]",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_SparringGloves.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_SparringGloves.png"
+      ]
+    },
+    {
+      "item_name": "전략가의 왕관",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_ForceOfNature.png",
+      "item_effect": "아군의 최대 팀 규모 +1 증가.\n전투 승리 시 1골드를 획득할 확률 10%\n\"...영웅의 심장...\"",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Spatula.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Spatula.png"
+      ]
+    },
+    {
+      "item_name": "전략가의 망토",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_TacticiansRing.png",
+      "item_effect": "아군의 최대 팀 규모 +1 증가.\n전투 시작 10초 후 시 1골드를 획득할 확률 10%\n\"...그리고 약간의 행운.\"",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Spatula.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_FryingPan.png"
+      ]
+    },
+    {
+      "item_name": "전략가의 방패",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_TacticiansScepter.png",
+      "item_effect": "아군의 최대 팀 규모 +1 증가.\n장착 유닛 사망 시 1골드를 획득할 확률 10%\n\"철학자의 지혜가 깃들어 있습니다.\"",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_FryingPan.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_FryingPan.png"
+      ]
+    },
+    {
+      "item_name": "거대한 히드라",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/TitanicHydra_1748484828-거대한히드라.jpg",
+      "item_effect": "기본 공격 시 대상 및 인접한 적에게 장착 유닛 최대 체력의 3%+공격력의 8%만큼 추가 물리 피해를 입힘",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "거물의 갑옷",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT7_Item_ShimmerscaleMogulsMail.png",
+      "item_effect": "[고유] 피해를 입으면 방어력 1, 마법 저항력 1, 체력 10 획득. (최대 35회 중첩)\n최대 중첩 시 1골드 획득. 이후 8초마다 1골드 획득",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "고속 연사포",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Artifact_RapidFirecannon.png",
+      "item_effect": "공격 사거리가 +1 증가하며 적을 처치할 때마다 1씩 증가합니다.",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "끝없는 절망",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Artifact_UnendingDespair.png",
+      "item_effect": "장착 유닛에게 적용된 보호막이 깨질 때마다 해당 보호막 최초 피해 흡수량의 150%에 해당하는 마법 피해를 가장 가까운 적에게 입힙니다.",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "도박꾼의 칼날",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT7_Item_ShimmerscaleGamblersBlade.png",
+      "item_effect": "[고유] 보유한 골드당 추가 공격 속도 1% 획득 (최대 30골드)\n공격할 때마다 5% 확률로 1골드 획득",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "라이트실드 문장",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Artifact_LightshieldCrest.png",
+      "item_effect": "3초마다 체력 비율이 가장 낮은 아군에게 방어력과 마법 저항력을 합한 수치의 55%만큼 피해를 흡수하는 보호막을 5초 동안 씌웁니다.\n사망 시 모든 아군에게 이 보호막을 부여합니다.",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "루덴의 폭풍",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Artifact_LudensTempest.png",
+      "item_effect": "대상 처치 후 남는 피해량의 100%+100에 해당하는 마법 피해를 대상과 가장 가까운 적 세 명에게 입힙니다.",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "리치베인",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Artifact_LichBane.png",
+      "item_effect": "스킬을 사용한 후 첫 번째 기본 공격 시 240~540의 추가 마법 피해를 입힘\n스테이지에 비례해 피해량 증가",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "마나자네",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT4_Item_OrnnMuramana.png",
+      "item_effect": "전투 중 처음으로 스킬을 사용하면 5초 동안 마나 120 획득",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "마법사의 최후",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Artifact_WitsEnd.png",
+      "item_effect": "기본 공격 시 42~100의 추가 마법 피해를 입힘\n입히는 모든 마법 피해량의 35%만큼 장착 유닛이 체력 회복\n스테이지에 비례해 피해량 증가",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "망령 해적검",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Artifact_SpectralCutlass.png",
+      "item_effect": "전투 시작: 장착 유닛이 적 전장의 정반대 칸으로 순간이동. 8초 후 원래 위치로 복귀",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "명멸검",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/Flickerblade_1748484851-명멸검.jpg",
+      "item_effect": "기본 공격 시 중첩되는 공격 속도 7% 획득. 또한 기본 공격 5회마다 공격력 4%, 주문력 5 획득",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "무한한 삼위일체",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT4_Item_OrnnInfinityForce.png",
+      "item_effect": "체력 +250, 공격력 +25%, 주문력 +25, 방어력 +25, 마법 저항력 +25, 공격 속도 +25%",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "방한 장갑",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Artifact_Mittens.png",
+      "item_effect": "몸집이 줄며 이동 속도가 증가하고 동상 효과에 면역이 됩니다.\n동상: 공격 속도 감소",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "불굴",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/IndomitableGauntlet_1748484841-불굴.jpg",
+      "item_effect": "장착 시 이동 속도 대폭 감소. 최대 체력 10%와 기절 면역을 획득하고 현재 대상을 근접 공격 사거리로 끌어당김",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "새벽심장",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/PBEDawncore_1752038401-Dawncore.png",
+      "item_effect": "장착 시 최대 마나가 10 감소. 이후 스킬 사용 시 최대 마나가 10% 감소 (최소 15)",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "생선대가리",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Artifact_Fishbones.png",
+      "item_effect": "공격 사거리가 두 배로 증가하고 공격할 때마다 무작위 적을 대상으로 지정합니다.",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "선체분쇄자",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT9_Item_OrnnHullbreaker.png",
+      "item_effect": "전투 시작: 인접한 아군이 없다면 체력 600, 공격력 20%, 주문력 20 획득",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "속임수 거울",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT9_Item_OrnnTrickstersGlass.png",
+      "item_effect": "[고유] 장착한 유닛의 분신을 소환. 분신은 70%의 최대 체력. 10%의 최대 마나를 가지며 아이템 장착 불가\n분신에게도 특성 효과 적용",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "수상한 외투",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Artifact_SuspiciousTrenchCoat.png",
+      "item_effect": "전투당 1회 체력이 60%일 때 각각 최대 체력의 33%를 보유한 3명으로 나뉨\n[고유 - 중복 적용 불가]",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "스태틱의 단검",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/StatikkShiv_1748484859-스태틱.jpg",
+      "item_effect": "기본 공격 3회마다 4명의 적에게 40 + 장착 유닛 주문력의 40%만큼 추가 마법 피해를 입힘",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "승천의 부적",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Artifact_TalismanOfAscension.png",
+      "item_effect": "22초 후 전투가 끝날 때까지 최대 체력의 100%와 피해 증폭 120% 획득",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "역병의 보석",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Artifact_BlightingJewel.png",
+      "item_effect": "마법 피해를 입히면 대상의 마법 저항력이 4 감소. 대상의 마법 저항력이 0이면 대신 장착 유닛이 마나 5 획득",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "은빛 여명",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Artifact_SilvermereDawn.png",
+      "item_effect": "기절에 면역이 되며 기본 공격 시 대상을 0.8초 동안 기절시킴. 받은 피해량의 2%를 마나로 전환\n장착 유닛의 공격 속도는 0.5에서 고정",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "자객의 발톱",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Artifact_ProwlersClaw.png",
+      "item_effect": "대상 처치 후 해로운 효과를 제거하고 4칸 내 가장 멀리 있는 대상에게 돌진. 다음 치명타 공격 2회가 60%의 추가 치명타 피해를 입힘",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "저격수의 집중",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT9_Item_OrnnHorizonFocus.png",
+      "item_effect": "공격 사거리 +2칸 증가. 장착 유닛과 대상 사이에 놓인 칸 하나당 피해 증폭 9% 획득",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "존야의 역설",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT4_Item_OrnnZhonyasParadox.png",
+      "item_effect": "[고유] 전투당 한 번: 체력이 40%일 때 3초 동안 대상으로 지정할 수 없는 무적 상태가 됩니다.",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "죽음불꽃 손아귀",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT9_Item_OrnnDeathfireGrasp.png",
+      "item_effect": "[고유] 전투 시작: 현재 대상에게 대상 최대 체력의 40%에 해당하는 마법 피해를 입힙니다. 이 효과를 13초마다 반복합니다.\n다음 10초 동안 피해 증폭 25% 획득. 이 아이템에 피해를 입은 대상에게 입히는 피해는 35%로 증가",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "죽음의 저항",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT4_Item_OrnnDeathsDefiance.png",
+      "item_effect": "[고유] 받는 피해량의 50%를 4초 동안 치명적이지 않은 피해로 받음",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "지평선의 초점",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Artifact_HorizonFocus.png",
+      "item_effect": "적을 기절시키면 벼락을 떨어뜨려 대상 최대 체력의 30%에 해당하는 마법 피해를 입힙니다.",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "추적자의 팔목 보호대",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Artifact_SeekersArmguard.png",
+      "item_effect": "처치 관여 시 방어력, 마법 저항력, 주문력이 15씩 증가합니다. 처치 달성 시 20씩 증가합니다.",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "활력증진의 펜던트",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Artifact_InnervatingLocket.png",
+      "item_effect": "공격을 당할 때마다 총 마나의 2%씩 획득합니다.\n스킬을 사용할 때마다 3초 동안 최대 체력의 20%씩 회복합니다.",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "황금 징수의 총",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT4_Item_OrnnTheCollector.png",
+      "item_effect": "[고유] 기본 공격 및 스킬로 최대 체력의 12%보다 낮은 적을 처형합니다. 처형 시 33% 확률로 1골드가 떨어집니다.",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 가고일 돌갑옷",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_GargoyleStoneplateRadiant.png",
+      "item_effect": "매초 최대 체력의 1.5%만큼 체력 회복\n적의 공격 대상이 되면 방어력이 15, 마법 저항력이 15 증가. 공격하는 적이 늘어나면 중첩되어 적용",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 거인 학살자",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_GiantSlayerRadiant.png",
+      "item_effect": "적 탱커를 상대로 피해 증폭을 25% 획득",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 거인의 결의",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_TitansResolveRadiant.png",
+      "item_effect": "공격하거나 피해를 받으면 공격력 3% 및 주문력 3 획득 (최대 25회 중첩)\n최대 중첩 시 방어력 및 마법 저항력 40 획득, 군중 제어 효과에 면역",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 공허의 지팡이",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/RadientStatikkShiv_1748484780-공허의지팡이.jpg",
+      "item_effect": "기본 공격 및 스킬로 피해를 입힐 경우 전투가 끝날 때까지 대상에게 파쇄를 30% 적용 (중첩 불가)",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 구인수의 격노검",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_GuinsoosRagebladeRadiant.png",
+      "item_effect": "매초 공격 속도 14% 획득 (중첩 가능)",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 굳건한 심장",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_NightHarvesterRadiant.png",
+      "item_effect": "내구력 16% 획득. 체력이 40%를 넘으면 대신 내구력 30% 획득",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 내셔의 이빨",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_LeviathanRadiant.png",
+      "item_effect": "스킬 사용 후 8초 동안 공격 속도 60% 증가",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 대천사의 지팡이",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_ArchangelsStaffRadiant.png",
+      "item_effect": "전투 시작: 전투 중 4초마다 주문력 40 획득",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 덤불 조끼",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_BrambleVestRadiant.png",
+      "item_effect": "15%의 최대 체력 획득\n기본 공격으로 받는 피해량 25% 감소. 기본 공격에 맞을 경우 인접한 모든 적에게 175의 마법 피해\n재사용 대기시간: 2초",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 도적의 장갑",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_ThiefsGlovesRadiant.png",
+      "item_effect": "매 라운드: 무작위 찬란한 아이템 2개 장착\n[아이템 슬롯 3개 차지]",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 라바돈의 죽음모자",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_RabadonsDeathcapRadiant.png",
+      "item_effect": "기적과 재앙의 현장에 있기도 했고 직접 일으키기도 했습니다.",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 마법공학 총검",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_HextechGunbladeRadiant.png",
+      "item_effect": "입힌 피해량의 40% 만큼 체력 비율이 가장 낮은 아군의 체력 회복",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 모렐로노미콘",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_MorellonomiconRadiant.png",
+      "item_effect": "기본 공격 및 스킬이 8초 동안 적에게 불태우기를 2%, 상처를 33% 적용\n불태우기: 매초 대상 최대 체력의 일정 비율만큼 고정 피해\n상처: 체력 회복량 감소",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 무한의 대검",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_InfinityEdgeRadiant.png",
+      "item_effect": "스킬에 치명타 적용 가능\n이미 스킬에 치명타 적용이 가능한 상태라면 10%의 추가 피해량을 얻습니다.",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 밤의 끝자락",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_GuardianAngelRadiant.png",
+      "item_effect": "생명선: 체력이 60%일 때 잠시 대상으로 지정할 수 없게 되며 해로운 효과 제거. 이후 잃은 체력의 100% 회복",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 보석 건틀릿",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_JeweledGauntletRadiant.png",
+      "item_effect": "스킬에 치명타 적용 가능\n기본 스킬에 치명타 적용이 가능한 경우, 대신에 치명타 피해량이 10% 증가",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 붉은 덩굴정령",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_RapidFirecannonRadiant.png",
+      "item_effect": "기본 공격과 스킬이 5초 동안 적에게 불태우기를 2%, 상처를 33% 적용\n불태우기: 매초 대상 최대 체력의 일정 비율만큼 고정 피해\n상처: 체력 회복량 감소",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 쇼진의 창",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_SpearOfShojinRadiant.png",
+      "item_effect": "기본 공격 시 추가 마나 10 획득",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 수은",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_QuicksilverRadiant.png",
+      "item_effect": "[고유] 전투 시작: 45초 동안 군중 제어 효과에 면역. 18초 동안 2초마다 7%의 공격 속도 획득",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 수호자의 맹세",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_FrozenHeartRadiant.png",
+      "item_effect": "전투 시작: 마나 30 획득\n생명선: 체력이 40%일 때 마나 20 및 최대 체력의 45%에 해당하는 보호막 획득",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 스테락의 도전",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_SteraksGageRadiant.png",
+      "item_effect": "생명선: 체력이 60%일 때, 장착 유닛 최대 체력의 100%에 해당하는 보호막 획득. 보호막은 6초에 걸쳐 빠르게 사라짐",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 용의 발톱",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_DragonsClawRadiant.png",
+      "item_effect": "15%의 추가 체력 획득\n2초마다 최대 체력의 10% 회복",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 워모그의 갑옷",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_WarmogsArmorRadiant.png",
+      "item_effect": "최대 체력 20% 획득\n초당 최대 체력 1.5% 회복",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 이온 충격기",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_IonicSparkRadiant.png",
+      "item_effect": "3칸 내 모든 적에게 파쇄 30% 적용. 해당 적이 스킬 사용 시 사용한 마나의 200%에 해당하는 마법 피해를 입음\n또한, 초당 최대 체력의 1.5%만큼 체력 회복\n[직접 피해 아이템]\n파쇄: 마법 저항력 감소",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 저녁갑주",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_SpectralGauntletRadiant.png",
+      "item_effect": "3칸 내에 있는 적 30% 파열. 전투 시작 후 20초 동안 70의 방어력과 마법 저항력 증가\n파열: 방어력 감소",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 적응형 투구",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_AdaptiveHelmRadiant.png",
+      "item_effect": "모든 요소로부터 마나 40% 증가. 장착 시 역할군에 따라 추가 효과 획득\n탱커 및 전사: 방어력과 마법 저항력 60 획득\n원거리 딜러/마법사: 공격력 및 주문력 30 획득",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 정령의 형상",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/RadientRedemption_1748484766-정령의 형상.jpg",
+      "item_effect": "매초 잃은 체력의 5% 회복",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 정의의 손길",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_HandOfJusticeRadiant.png",
+      "item_effect": "2가지 효과 획득:\n- 공격력 50%, 주문력 50\n- 모든 피해 흡혈 30%\n체력이 50%를 넘을 때 공격력 및 주문력이 두 배로 증가하고, 체력이 50% 아래일 때 모든 피해 흡혈이 두 배로 증가합니다.",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 죽음의 검",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_DeathbladeRadiant.png",
+      "item_effect": "주변에 적이 있으면 빛납니다. 사실 적이든 아군이든 생명체만 있으면 빛나죠.",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 최후의 속삭임",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_LastWhisperRadiant.png",
+      "item_effect": "물리 피해를 입힐 경우 전투가 끝날 때까지 대상 30% 파열 (중첩 불가)\n파열: 방어력 감소",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 크라운가드",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_CrownguardRadiant.png",
+      "item_effect": "전투 시작: 8초 동안 최대 체력의 50%에 해당하는 보호막 획득\n보호막이 사라지면 주문력 50 증가",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 크라켄의 분노",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/15.13.1/img/tft-item/TFT5_Item_RunaansHurricaneRadiant.png",
+      "item_effect": "기본 공격 시 공격력 6% 획득 (중첩 가능)",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 타격대의 철퇴",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_TrapClawRadiant.png",
+      "item_effect": "치명타 적중 시 8초 동안 피해 증폭 10% 획득 (최대 4회 중첩)",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 태양불꽃 망토",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_SunfireCapeRadiant.png",
+      "item_effect": "최대 체력 12% 획득.\n1.5초마다 3칸 내에 있는 적 하나에게 8초 동안 불태우기를 2%, 상처를 33% 적용\n불태우기: 매초 대상 최대 체력의 일정 비율만큼 고정 피해\n상처: 체력 회복량 감소",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 푸른 파수꾼",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_BlueBuffRadiant.png",
+      "item_effect": "흘러넘치는 비전 에너지를 부여하는 골렘 영혼의 축복입니다.",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "찬란한 피바라기",
+      "item_image_url": "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT5_Item_BloodthirsterRadiant.png",
+      "item_effect": "전투당 1회: 체력이 40%일 때 최대 체력의 40%에 해당하는 보호막 획득 후 최대 5초까지 유지",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "결투가 상징",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/PBEDuelistEmblem_1752646652-tft15_emblem_duelist.tft_set15.png",
+      "item_effect": "장착 시 결투가 특성 획득\n기본 공격 시 12의 추가 고정 피해를 입히고, 대상이 이 효과로 피해를 입을 때마다 6의 추가 고정 피해를 입힘",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_RecurveBow.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_FryingPan.png"
+      ]
+    },
+    {
+      "item_name": "마법사 상징",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/PBESorcererEmblem_1752646659-tft15_emblem_sorceror.tft_set15.png",
+      "item_effect": "장착 시 마법사 특성 획득\n장착 유닛이 모든 요소로부터 얻는 주문력 15% 증가",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_FryingPan.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NeedlesslyLargeRod.png"
+      ]
+    },
+    {
+      "item_name": "별 수호자 상징",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/PBEStarGuardianEmblem_1752646670-tft15_emblem_starguardian.tft_set15.png",
+      "item_effect": "장착 시 별 수호자 특성 획득\n팀워크: 상징이 아닌 별 수호자의 추가 효과가 12% 증가합니다. 이 효과는 중첩됩니다.\n[고유 - 중복 적용 불가]",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NeedlesslyLargeRod.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Spatula.png"
+      ]
+    },
+    {
+      "item_name": "봉쇄자 상징",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/PBEProtectorEmblemItem_1752647001-tft15_emblem_protector.tft_set15.png",
+      "item_effect": "장착 시 봉쇄자 특성 획득\n장착 유닛의 보호막 파괴 시 가장 가까운 아군에게 보호막 수치의 150%에 해당하는 보호막 부여",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "소울 파이터 상징",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/PBESoulFighterEmblem_1752646679-tft15_emblem_soulfighter.tft_set15.png",
+      "item_effect": "장착 시 소울 파이터 특성 획득",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_BFSword.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Spatula.png"
+      ]
+    },
+    {
+      "item_name": "수정 갬빗 상징",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/PBECrystalGambitEmblem_1752646688-tft15_emblem_crystalgambit.tft_set15.png",
+      "item_effect": "장착 시 수정 갬빗 특성 획득",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_GiantsBelt.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Spatula.png"
+      ]
+    },
+    {
+      "item_name": "슈프림 셀 상징",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/PBESupremeCellsEmblem_1752646694-tft15_emblem_supremecells.tft_set15.png",
+      "item_effect": "[고유] 장착 시 슈프림 셀 특성 획득",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_RecurveBow.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Spatula.png"
+      ]
+    },
+    {
+      "item_name": "신동 상징",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/PBEProdigyEmblem_1752646703-tft15_emblem_prodigy.tft_set15.png",
+      "item_effect": "장착 시 신동 특성 획득\n스킬 사용 시 체력 비율이 가장 낮은 아군에게 사용한 마나의 250%에 해당하는 보호막 부여",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_FryingPan.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_TearOfTheGoddess.png"
+      ]
+    },
+    {
+      "item_name": "악령 상징",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/PBEWraithEmblem_1752646711-tft15_emblem_empyrean.tft_set15.png",
+      "item_effect": "장착 시 악령 특성 획득",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_ChainVest.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Spatula.png"
+      ]
+    },
+    {
+      "item_name": "요새 상징",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/PBEBastionEmblem_1752647516-tft15_emblem_bastion.tft_set15.png",
+      "item_effect": "장착 시 요새 특성 획득\n방어력의 15%만큼 공격력 획득\n마법 저항력의 15%만큼 주문력 획득",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_ChainVest.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_FryingPan.png"
+      ]
+    },
+    {
+      "item_name": "이단아 상징",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/PBEEdgelordEmblem_1752646717-tft15_emblem_edgelord.tft_set15.png",
+      "item_effect": "장착 시 이단아 특성 획득\n적에게 물리 피해를 입힐 경우 대상 방어력 2 감소",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_BFSword.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_FryingPan.png"
+      ]
+    },
+    {
+      "item_name": "저격수 상징",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/PBESniperEmblemItem_1752647096-tft15_emblem_sniper.tft_set15.png",
+      "item_effect": "장착 시 저격수 특성 및 사거리 2 획득",
+      "ingredients_image_urls": []
+    },
+    {
+      "item_name": "전쟁기계 상징",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/PBEJuggernautEmblem_1752646728-tft15_emblem_juggernaut.tft_set15.png",
+      "item_effect": "장착 시 전쟁기계 특성 획득\n체력이 50% 이상일 경우 공격 속도 30% 획득",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_FryingPan.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NegatronCloak.png"
+      ]
+    },
+    {
+      "item_name": "전투사관학교 상징",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/PBEBattleAcademiaEmblem_1752646740-tft15_emblem_battleacademia.tft_set15.png",
+      "item_effect": "장착 시 전투사관학교 특성 및 잠재력당 피해 증폭 10% 획득",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Spatula.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_TearOfTheGoddess.png"
+      ]
+    },
+    {
+      "item_name": "책략가 상징",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/PBEStrategistEmblem_1752646750-tft15_emblem_strategist.tft_set15.png",
+      "item_effect": "장착 시 책략가 특성 획득\n전투 시작: 장착 유닛 및 같은 가로 열의 1칸 내에 있는 아군이 추가 효과 획득\n전방 가로 2열: 방어력 및 마법 저항력 30\n후방 가로 2열: 공격 속도 20%",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NegatronCloak.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Spatula.png"
+      ]
+    },
+    {
+      "item_name": "처형자 상징",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/PBEExecutionerEmblem_1752646811-tft15_emblem_executioner.tft_set15.png",
+      "item_effect": "장착 시 처형자 특성 획득\n기본 공격 및 스킬에 치명타가 적용되면 3초에 걸쳐 20%의 추가 고정 피해를 입힘",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_FryingPan.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_SparringGloves.png"
+      ]
+    },
+    {
+      "item_name": "프로레슬러 상징",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/PBELuchadorEmblem_1752646889-tft15_emblem_luchador.tft_set15.png",
+      "item_effect": "장착 시 프로레슬러 특성 획득",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_SparringGloves.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Spatula.png"
+      ]
+    },
+    {
+      "item_name": "헤비급 상징",
+      "item_image_url": "//cdn.lolchess.gg/upload/images/items/PBEHeavyweightEmblem_1752646899-tft15_emblem_heavyweight.tft_set15.png",
+      "item_effect": "장착 시 헤비급 특성 획득. 또한 처치 관여 시 최대 체력 150 획득",
+      "ingredients_image_urls": [
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_FryingPan.png",
+        "//ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_GiantsBelt.png"
+      ]
+    }
+  ],
+  "total_synergies": 79,
+  "total_items": 136,
+  "augments": [
+    {
+      "name": "9,000볼트",
+      "effect": "케넨을 획득합니다. 가장 강한 아군 케넨이 원거리 딜러로 변하고 관통하는 표창을 던져 적을 기절시키며 고정 피해를 입힙니다."
+    },
+    {
+      "name": "가지 뻗기",
+      "effect": "무작위 상징 1개를 획득합니다."
+    },
+    {
+      "name": "가지 뻗기+",
+      "effect": "무작위 상징과 재조합기를 획득합니다.재조합기로 어떤 아이템이든 다시 만들 수 있습니다."
+    },
+    {
+      "name": "거대한 거인",
+      "effect": "현재 및 최대 플레이어 체력이 25 증가합니다. 공동 선택 라운드 시 일찍 움직일 수 있지만 이동 속도가 큰 폭으로 감소합니다."
+    },
+    {
+      "name": "결과 예측",
+      "effect": "연승을 4연승으로 설정합니다. 4골드를 획득합니다."
+    },
+    {
+      "name": "과적",
+      "effect": "다음 스테이지를 진행하는 동안 대기석이 2개가 됩니다. 이후 조합 아이템 2개를 획득합니다."
+    },
+    {
+      "name": "국왕시해자",
+      "effect": "플레이어 대상 전투 승리 후 1골드를 획득합니다. 상대 플레이어의 체력이 더 높았다면, 대신 6골드를 획득합니다. 1골드를 획득합니다."
+    },
+    {
+      "name": "급매",
+      "effect": "라운드마다 상점에서 3단계 이하의 무작위 챔피언을 1명 훔칩니다. 1골드를 획득합니다."
+    },
+    {
+      "name": "끈끈한 우정",
+      "effect": "하급 챔피언 복제기를 획득합니다. 플레이어 대상 전투를 5회 치른 후 다시 획득합니다.3단계 이하의 챔피언을 복제할 수 있습니다."
+    },
+    {
+      "name": "눈에는 눈",
+      "effect": "아군 챔피언이 15명 사망할 때마다 무작위 조합 아이템 1개를 획득합니다. (최대 3개)"
+    },
+    {
+      "name": "눈에는 눈+",
+      "effect": "무작위 조합 아이템 1개를 획득합니다. 아군 챔피언이 16명 사망할 때마다 조합 아이템을 추가로 1개 획득합니다. (최대 2개)"
+    },
+    {
+      "name": "다 쓸 데가 있다니까 I",
+      "effect": "아이템을 장착하지 않은 챔피언이 사망하면 50% 확률로 1골드를 떨어뜨립니다."
+    },
+    {
+      "name": "단결된 의지 I",
+      "effect": "아군 유닛이 고유 특성이 아닌 전체적으로 활성화된 특성 하나당 1.5%의 공격력과 1.5의 주문력을 획득합니다."
+    },
+    {
+      "name": "단짝 I",
+      "effect": "둘이서 고립된 유닛은 전투 시작 시 공격 속도가 12%, 방어력이 12 증가합니다."
+    },
+    {
+      "name": "대격변 생성기",
+      "effect": "전장의 챔피언들이 1단계 더 높은 무작위 챔피언으로 영구히 바뀝니다. (최대 5단계) 자석 제거기 2개를 획득합니다."
+    },
+    {
+      "name": "도둑 무리 I",
+      "effect": "도적의 장갑 1개를 획득합니다."
+    },
+    {
+      "name": "도화선 점화",
+      "effect": "후방 가로 2열에서 전투를 시작한 유닛이 전투 시작 6초 후 총 60의 마나를 나누어 얻습니다."
+    },
+    {
+      "name": "보물 사냥",
+      "effect": "지금부터 스테이지 6까지 스테이지마다 잠긴 상자를 획득합니다. 상점 새로고침에 20골드를 소모하면 각 상자를 열 수 있습니다. 상자는 개봉할 때까지 유지됩니다."
+    },
+    {
+      "name": "부스러기",
+      "effect": "다음 공동 선택 2회에서 선택되지 않은 유닛 1명과 해당 유닛이 보유한 아이템을 획득합니다. 1골드를 획득합니다."
+    },
+    {
+      "name": "부식",
+      "effect": "전방 가로 2열에 있는 적 챔피언들의 방어력 및 마법 저항력이 2초마다 3 감소합니다."
+    },
+    {
+      "name": "사이버네틱 이식술 I",
+      "effect": "아이템을 장착한 아군 챔피언이 80의 체력과 10%의 공격력을 얻습니다."
+    },
+    {
+      "name": "새로고침 이월",
+      "effect": "사용하지 않은 증강 새로고침 1회마다 무료 상점 새로고침을 3회 얻습니다. 3골드를 획득합니다.이 증강을 선택한 라운드는 포함되지 않습니다."
+    },
+    {
+      "name": "새로고침의 날 I",
+      "effect": "무료 상점 새로고침을 11회 얻습니다."
+    },
+    {
+      "name": "생존자",
+      "effect": "플레이어 3명이 탈락하면 92골드를 획득합니다."
+    },
+    {
+      "name": "서열 상승 I",
+      "effect": "아군이 사망할 때마다 특성을 한 개 이상 공유하는 아군이 주문력을 3, 공격력을 3%, 방어력을 3, 마법 저항력을 3 얻습니다."
+    },
+    {
+      "name": "수호자 I",
+      "effect": "전투 시작: 주변에 아군이 있는 유닛이 8초 동안 145의 보호막을 얻습니다. 이 보호막은 중첩됩니다."
+    },
+    {
+      "name": "수호자의 친구",
+      "effect": "즉시 무작위 2단계 챔피언을 1명 획득합니다. 레벨 업할 때마다 동일한 챔피언을 1명 획득합니다."
+    },
+    {
+      "name": "신중한 제작",
+      "effect": "플레이어 대상 전투를 8번 치른 후 유물 모루를 획득합니다.모루가 4가지 선택지를 제시합니다. 유물은 고유한 효과를 지닌 강력한 아이템입니다."
+    },
+    {
+      "name": "아이템 꾸러미 I",
+      "effect": "무작위 완성 아이템 1개를 획득합니다."
+    },
+    {
+      "name": "아이템 수집가 I",
+      "effect": "장착한 아이템 한 종류당 아군이 공격력을 1, 주문력을 1 얻습니다."
+    },
+    {
+      "name": "아이템 숙성",
+      "effect": "완성 아이템을 4라운드 동안 대기석에 두면 지원 아이템 모루로 변합니다."
+    },
+    {
+      "name": "연결 불가",
+      "effect": "1단계 챔피언의 복사본을 1명씩 획득합니다."
+    },
+    {
+      "name": "완전체",
+      "effect": "자크를 획득합니다. 가장 강한 아군 자크가 전문가로 변하고 전장을 튕겨 다니며 반경 1칸에 피해를 입힙니다."
+    },
+    {
+      "name": "운동장의 정의",
+      "effect": "가렌을 획득합니다. 가장 강한 아군 가렌이 전사로 변하고 더 이상 체력을 회복하지 않지만, 피해량이 증가하며 약한 적을 처형합니다."
+    },
+    {
+      "name": "위약 효과",
+      "effect": "아군이 공격 속도를 1% 얻습니다. 8골드를 획득합니다."
+    },
+    {
+      "name": "위약 효과+",
+      "effect": "아군이 공격 속도를 1% 얻습니다. 15골드를 획득합니다."
+    },
+    {
+      "name": "위험한 행보",
+      "effect": "아군 전략가가 체력을 20 잃지만, 플레이어 대상 전투를 7번 치른 후 30골드를 획득합니다."
+    },
+    {
+      "name": "유리 대포 I",
+      "effect": "후방 가로 1열에서 전투를 시작한 유닛이 전투 시작 시 체력이 90%로 조정되지만 피해 증폭을 13% 얻습니다."
+    },
+    {
+      "name": "유용한 금속",
+      "effect": "조합 아이템 모루 1개와 4골드를 획득합니다."
+    },
+    {
+      "name": "은빛 운명",
+      "effect": "무작위 실버 증강을 얻고 2골드를 획득합니다."
+    },
+    {
+      "name": "은빛 운명+",
+      "effect": "무작위 실버 증강을 얻고 4골드를 획득합니다."
+    },
+    {
+      "name": "은빛 운명++",
+      "effect": "무작위 실버 증강을 얻고 8골드를 획득합니다."
+    },
+    {
+      "name": "은수저",
+      "effect": "10의 경험치를 획득합니다."
+    },
+    {
+      "name": "일상물",
+      "effect": "스테이지당 두 번 무작위 챔피언 1명을 획득합니다. 스테이지마다 무작위 챔피언의 단계가 증가합니다. 이 효과는 5단계 챔피언 2명을 획득한 후 종료됩니다."
+    },
+    {
+      "name": "임무 재시작",
+      "effect": "전장과 대기석의 모든 아군 챔피언을 제거합니다. 무작위 3단계 2성 챔피언 2명, 2단계 2성 챔피언 3명, 1단계 2성 챔피언 1명을 획득합니다."
+    },
+    {
+      "name": "입맛대로 고르는 부품",
+      "effect": "조합 아이템을 얻을 때마다 조합 아이템 모루를 대신 획득합니다. 무작위 조합 아이템을 획득합니다.모루가 4가지 선택지를 제시합니다."
+    },
+    {
+      "name": "자리 비움",
+      "effect": "다음 3라운드 동안 아무 행동을 취할 수 없습니다. 이후 20골드를 얻습니다."
+    },
+    {
+      "name": "재생의 바람 I",
+      "effect": "전투 시작 10초 후 아군 유닛이 잃은 체력의 40%를 회복합니다."
+    },
+    {
+      "name": "전리품 I",
+      "effect": "적 처치 시 25% 확률로 전리품을 획득합니다."
+    },
+    {
+      "name": "젊음, 광란, 자유",
+      "effect": "공동 선택 라운드에서 언제나 자유롭게 움직일 수 있습니다. 5골드를 획득합니다."
+    },
+    {
+      "name": "점심값",
+      "effect": "적 전략가에게 8의 피해를 입힐 때마다 2골드를 획득합니다."
+    },
+    {
+      "name": "정교한 공예",
+      "effect": "완성 아이템을 만들 때마다 새로고침을 2회 얻습니다."
+    },
+    {
+      "name": "정렬",
+      "effect": "아군이 전방 2열에서 전투를 시작하는 유닛 하나당 방어력 및 마법 저항력을 2 얻습니다."
+    },
+    {
+      "name": "조작된 상점+",
+      "effect": "다음 상점 및 각 4번째 상점이 모두 3단계 챔피언으로 채워집니다. 새로고침을 5회 얻습니다."
+    },
+    {
+      "name": "종목 분산 투자",
+      "effect": "1골드를 획득합니다. 라운드마다 활성화된 고유 특성이 아닌 특성 3개당 1골드를 획득합니다."
+    },
+    {
+      "name": "종목 분산 투자+",
+      "effect": "4골드를 획득합니다. 라운드마다 활성화된 고유 특성이 아닌 특성 3개당 1골드를 획득합니다."
+    },
+    {
+      "name": "준비 I",
+      "effect": "대기석의 챔피언은 라운드마다 영구적으로 30의 체력과 2%의 공격력, 2의 주문력을 얻습니다. 이 효과는 1번으로 시작해 최대 4번까지 중첩됩니다."
+    },
+    {
+      "name": "준비 운동 I",
+      "effect": "아군의 공격 속도가 즉시 6% 증가합니다. 매 라운드 종료 후에 효과가 0.5% 추가로 증가합니다."
+    },
+    {
+      "name": "중심 잡기",
+      "effect": "전방 가로 1열 중앙에서 전투를 시작하는 아군 챔피언이 피해 증폭을 15%, 최대 체력을 15% 얻습니다."
+    },
+    {
+      "name": "증강된 힘",
+      "effect": "다음 증강이 한 단계 높아집니다."
+    },
+    {
+      "name": "지표면의 거인",
+      "effect": "말파이트를 획득합니다. 가장 강한 아군 말파이트가 전사로 변하고 공격 속도가 증가합니다. 또한 이제 주변 적에게 돌진해 공중에 띄우며 강력한 피해를 입힙니다."
+    },
+    {
+      "name": "참는 자에게 복을",
+      "effect": "라운드마다, 지난 라운드에서 챔피언을 구매하지 않았다면 무료 새로고침을 2회 얻습니다."
+    },
+    {
+      "name": "커다란 친구 I",
+      "effect": "체력이 1750 이상인 아군 옆에서 전투를 시작하는 아군 유닛이 내구력을 7% 얻습니다."
+    },
+    {
+      "name": "특별 맞춤 설정",
+      "effect": "행운의 아이템 상자, 5골드를 획득합니다.챔피언에게 행운의 아이템 상자를 사용하면 무기고에서 추천 아이템 중 하나를 선택할 수 있습니다!"
+    },
+    {
+      "name": "판도라의 대기석",
+      "effect": "라운드가 시작될 때마다 대기석 가장 오른쪽 3명의 챔피언이 동일한 단계의 무작위 챔피언으로 변신합니다. 2골드를 획득합니다."
+    },
+    {
+      "name": "판도라의 아이템",
+      "effect": "라운드 시작: 대기석의 아이템이 무작위로 변합니다.무작위 조합 아이템 1개를 획득합니다."
+    },
+    {
+      "name": "편식",
+      "effect": "다른 모든 증강 선택에서 증강 새로고침 횟수를 +3 얻습니다. 7골드를 획득합니다."
+    },
+    {
+      "name": "하나, 둘, 다섯!",
+      "effect": "무작위 조합 아이템 1개, 2골드, 무작위 5단계 챔피언 1명을 획득합니다."
+    },
+    {
+      "name": "하나, 둘, 셋",
+      "effect": "1단계 챔피언 2명, 2단계 챔피언 2명, 3단계 챔피언 1명을 획득합니다."
+    },
+    {
+      "name": "협력 I",
+      "effect": "무작위 조합 아이템 1개, 무작위 3단계 챔피언 2명을 획득합니다."
+    },
+    {
+      "name": "혼돈의 진화",
+      "effect": "챔피언의 별 레벨을 올리면 체력 100, 내구력 6%, 주문력 12, 공격력 12%, 공격 속도 10% 중 하나를 부여합니다. 추가 능력치는 중첩됩니다."
+    },
+    {
+      "name": "회복의 구 I",
+      "effect": "적이 사망하면 가장 가까운 아군이 체력을 200 회복합니다."
+    },
+    {
+      "name": "효율적인 소비자",
+      "effect": "다음 공동 선택 3회 동안 선택한 챔피언의 복사본을 하나 더 획득합니다."
+    },
+    {
+      "name": "후반 전문가",
+      "effect": "9레벨에 도달하면 33골드를 획득합니다."
+    },
+    {
+      "name": "후발 주자",
+      "effect": "전장 및 대기석에 있는 챔피언을 판매합니다. 무작위 1단계 2성 챔피언 4명을 획득합니다. 다음 3라운드 동안 상점이 비활성화됩니다."
+    },
+    {
+      "name": "훈련 봇 변환",
+      "effect": "전장 및 대기석에 있는 모든 챔피언을 잃습니다. 잃은 챔피언 체력 총합의 80%를 지닌 훈련 봇을 획득합니다. 훈련 봇은 스테이지마다 체력을 1000 얻습니다."
+    },
+    {
+      "name": "휴대용 대격변 생성기",
+      "effect": "1단계 또는 2단계 챔피언을 한 단계 더 높은 챔피언으로 변신시키는 소모품인 휴대용 대격변 생성기 1개를 획득합니다. 별 레벨은 유지됩니다. 또한 재조합기 1개를 획득합니다."
+    },
+    {
+      "name": "2만한 가치",
+      "effect": "지난 전투에 배치된 고유 2단계 챔피언 2명당 새로고침을 1회 얻습니다. 2단계 유닛을 2명 획득합니다."
+    },
+    {
+      "name": "2인조",
+      "effect": "무작위 5단계 챔피언 2명과 무작위 조합 아이템 1개의 복사본 2개를 획득합니다."
+    },
+    {
+      "name": "4단계 한 쌍",
+      "effect": "아군에 4단계 챔피언이 정확히 2명 있다면 각 4단계 챔피언이 체력을 374, 공격 속도를 24.4% 얻습니다. 무작위 4단계 챔피언 1명을 획득합니다."
+    },
+    {
+      "name": "4후지원",
+      "effect": "다음에 구매하는 4단계 챔피언이 즉시 2성으로 업그레이드됩니다. 12골드를 획득합니다."
+    },
+    {
+      "name": "7의 전설",
+      "effect": "전투에서 플레이어를 상대로 승리할 때마다 황금 구슬을 획득합니다. 7개를 모두 모으면 보상을 획득합니다. 이후 퀘스트가 다시 시작되고 더 강력한 보상이 제공됩니다.여정을 시작할 1단계 2성 챔피언을 획득합니다."
+    },
+    {
+      "name": "가늠할 수 없는 악",
+      "effect": "아군 챔피언의 피해량이 별 레벨당 5%만큼 고정 피해로 전환됩니다."
+    },
+    {
+      "name": "가시 박힌 갑옷",
+      "effect": "덤불 조끼 1개를 획득합니다. 아군의 덤불 조끼가 피해를 1~180%(스테이지에 따라) 더 입히고, 입힌 피해의 20%만큼 착용자의 체력을 회복시킵니다."
+    },
+    {
+      "name": "강한 자가 살아남는다",
+      "effect": "아군이 사망할 때마다 이번 라운드에 가장 많은 피해를 입힌 슈프림 셀에게 사망한 아군 최대 체력의 8%를 부여합니다. 카이사와 케넨을 획득합니다."
+    },
+    {
+      "name": "결투가 문장",
+      "effect": "결투가 상징을 획득합니다."
+    },
+    {
+      "name": "계산된 패배",
+      "effect": "전투에서 패배한 후 2골드와 무료 상점 새로고침 1회를 획득합니다."
+    },
+    {
+      "name": "고전압",
+      "effect": "이온 충격기 1개를 획득합니다. 이온 충격기의 효과 반경이 +3칸 증가하고 피해를 15% 더 입힙니다."
+    },
+    {
+      "name": "골렘화",
+      "effect": "전장 및 대기석에 있는 모든 챔피언을 잃습니다. 잃은 챔피언 체력 총합의 60%, 공격력 총합의 50%를 지닌 골렘을 획득합니다. 골렘은 스테이지마다 체력을 1000 얻습니다."
+    },
+    {
+      "name": "과다치유",
+      "effect": "세 번째 기본 공격마다 110%의 추가 피해를 입히고 피해량의 50%만큼 체력을 회복합니다. 초과 회복량은 최대 300의 피해를 흡수하는 보호막으로 전환됩니다."
+    },
+    {
+      "name": "관통하는 시각",
+      "effect": "적이 5%의 추가 고정 피해를 입습니다. 적이 피해를 입을 때마다 피해량이 1% 증가해 최대 25%까지 증가합니다."
+    },
+    {
+      "name": "교원 회의",
+      "effect": "멘토 추가 효과가 10% 증가하고 배치한 멘토 수와 상관없이 아군에게 부여됩니다. 우디르를 획득합니다."
+    },
+    {
+      "name": "교환의 장",
+      "effect": "라운드마다 무료 상점 새로고침을 획득합니다. 4골드를 획득합니다."
+    },
+    {
+      "name": "그랜드 슬램",
+      "effect": "프로레슬러가 활성화 되면, 전투 시작 시 프로레슬러가 전장에 뛰어들며, 착지 시 기본 공격력의 300%에 해당하는 피해를 입힙니다. 나르를 획득합니다."
+    },
+    {
+      "name": "금빛 운명",
+      "effect": "무작위 골드 증강을 얻고 4골드를 획득합니다."
+    },
+    {
+      "name": "금빛 운명+",
+      "effect": "무작위 골드 증강을 얻고 8골드를 획득합니다."
+    },
+    {
+      "name": "금속 너클",
+      "effect": "바이를 획득합니다. 가장 강한 아군 바이가 공격력 전사로 변합니다. 이제 이 바이가 강력한 단일 대상 피해를 입히고 아군이 장착한 조합 아이템에 따라 공격력을 얻습니다."
+    },
+    {
+      "name": "기다림의 미학",
+      "effect": "무작위 1단계 2성 챔피언을 1명 획득합니다. 2라운드 후, 게임이 끝날 때까지 해당 유닛의 복사본을 각 라운드 시작 시 획득합니다."
+    },
+    {
+      "name": "깊어지는 그림자",
+      "effect": "전투 시작 시 및 그림자 세계가 타격할 때마다 악령 챔피언이 공격력을 5%, 주문력을 5 얻습니다. 진과 자크를 획득합니다."
+    },
+    {
+      "name": "깨어나는 신의 눈",
+      "effect": "4초마다 신의 눈이 무작위 소울 파이터 1명에게 전투가 끝날 때까지 200의 보호막과 12%의 중첩되는 공격 속도를 부여합니다. 칼리스타와 나피리를 획득합니다."
+    },
+    {
+      "name": "끈질긴 연구",
+      "effect": "플레이어 대상 전투가 끝나고 승리 시 2의 경험치, 패배 시 3의 경험치를 획득합니다."
+    },
+    {
+      "name": "끝판왕",
+      "effect": "가장 강한 아군 요새 챔피언이 최대 체력을 20% 얻습니다. 다른 요새 유닛이 죽으면 해당 유닛이 지닌 방어력 및 마법 저항력의 20%를 이 요새 챔피언에게 전달합니다. 쉔과 렐을 획득합니다."
+    },
+    {
+      "name": "나 혼자 레벨업",
+      "effect": "이번 스테이지에서 아군 팀 규모가 1이 됩니다. 배치하는 챔피언의 능력치가 크게 증가하고 해당 챔피언이 적을 처치할 때마다 경험치를 얻습니다. 이후 조합 아이템 2개를 획득합니다."
+    },
+    {
+      "name": "나는 다리",
+      "effect": "거대 메크 로봇이 방어력 및 마법 저항력을 15, 체력을 100 얻습니다. 거대 메크 챔피언 3명을 획득합니다.거대 메크 7명을 배치하고, 10레벨에 도달했으며, 3개의 거대 메크 증강을 모두 확보했다면, 메카합체 프로토콜이 활성화됩니다."
+    },
+    {
+      "name": "나는 팔",
+      "effect": "거대 메크 로봇이 공격 속도를 60% 얻습니다. 세나와 갱플랭크를 획득합니다.거대 메크 7명을 배치하고, 10레벨에 도달했으며, 3개의 거대 메크 증강을 모두 확보했다면, 메카합체 프로토콜이 활성화됩니다."
+    },
+    {
+      "name": "내면의 어둠",
+      "effect": "전투마다 처음으로 사망하는 악령 챔피언 3명이 그림자 세계에서 괴수를 소환합니다. 진과 자크를 획득합니다."
+    },
+    {
+      "name": "눈부신 기교",
+      "effect": "마법사 스킬에 피해를 입은 적의 피해량이 6초 동안 25 감소합니다. 럭스와 루시안을 획득합니다."
+    },
+    {
+      "name": "다이아몬드 손",
+      "effect": "수정 갬빗의 보석을 50% 더 얻지만, 4-7에서 한 번만 이익을 실현할 수 있습니다. '묻고 두 배로 가'를 활성화하면 승리 시 이익을 실현하지 않고 전체 보석의 10%를 추가로 잃습니다."
+    },
+    {
+      "name": "단짝 II",
+      "effect": "둘이서 고립된 유닛은 전투 시작 시 공격 속도가 15%, 방어력이 20 증가합니다."
+    },
+    {
+      "name": "달빛",
+      "effect": "전투 시작: 무작위 1단계 챔피언 1명이 해당 라운드에만 3성으로 업그레이드되며 공격력을 45%, 주문력을 45 얻습니다."
+    },
+    {
+      "name": "더욱 치명적인 모자",
+      "effect": "라바돈의 죽음모자를 획득합니다. 라바돈의 죽음모자가 장착한 유닛의 처치 관여 3회당 주문력을 2 얻습니다."
+    },
+    {
+      "name": "도굴꾼 I",
+      "effect": "먼저 탈락하는 플레이어 3명에게서 각각 완성 아이템 하나를 선택해 획득합니다."
+    },
+    {
+      "name": "돈벼락",
+      "effect": "바로 8골드를 획득합니다. 이후 매 라운드 1골드를 획득합니다."
+    },
+    {
+      "name": "돈벼락+",
+      "effect": "바로 18골드를 획득합니다. 이후 매 라운드 1골드를 획득합니다."
+    },
+    {
+      "name": "두둑한 새로고침",
+      "effect": "이번 게임에서 새로고침한 횟수당 아군이 체력을 7 얻고 크기가 커집니다."
+    },
+    {
+      "name": "마법 주사위",
+      "effect": "주사위 3개를 굴립니다. 결과 총합에 따라 보상을 획득합니다."
+    },
+    {
+      "name": "마법사 문장",
+      "effect": "마법사 상징을 획득합니다."
+    },
+    {
+      "name": "마지막 세이브",
+      "effect": "각 아군의 체력이 처음으로 40% 아래로 떨어지면, 해당 아군이 최대 체력의 30%만큼 체력을 회복합니다."
+    },
+    {
+      "name": "맑은 정신",
+      "effect": "플레이어 대상 전투 종료 시 아군 대기석에 챔피언이 없다면 3의 경험치를 획득합니다."
+    },
+    {
+      "name": "멈추지 않는다",
+      "effect": "아군 전쟁기계가 사망할 때마다 다른 모든 전쟁기계가 5초 동안 최대 체력의 10%에 해당하는 보호막을 얻고 추가 내구력을 2% 얻습니다. 아트록스와 문도 박사를 획득합니다."
+    },
+    {
+      "name": "문제가 두 배",
+      "effect": "전장에 똑같은 챔피언이 정확히 둘 있다면 둘 다 공격력 30%, 주문력, 방어력, 마법 저항력이 30 상승합니다. 챔피언을 3성으로 업그레이드하면 동일한 2성 챔피언 하나를 획득합니다."
+    },
+    {
+      "name": "반짝이는 것들",
+      "effect": "골드를 생성하는 유물 아이템 중 1개를 선택하고 자석 제거기 1개를 획득합니다."
+    },
+    {
+      "name": "반짝이는 것들+",
+      "effect": "골드를 생성하는 유물 아이템 중 1개를 선택합니다. 자석 제거기 1개와 4골드를 획득합니다."
+    },
+    {
+      "name": "방랑하는 조련사 I",
+      "effect": "영구적인 상징 2개를 장착한 훈련 봇을 1개 획득합니다. 1골드를 획득합니다."
+    },
+    {
+      "name": "배부른 주문술사",
+      "effect": "스킬을 사용한 후 챔피언이 3초 동안 모든 피해 흡혈을 15% 얻습니다. 초과 회복량은 최대 500의 피해를 흡수하는 보호막으로 전환됩니다."
+    },
+    {
+      "name": "백댄서",
+      "effect": "전투 시작: 대기석 가장 오른쪽 3칸에 있는 챔피언이 6%+유닛당 3%의 공격 속도를 아군에게 부여합니다. 이 챔피언은 전투 중 판매하거나 이동할 수 없습니다."
+    },
+    {
+      "name": "별 수호자 문장",
+      "effect": "별 수호자 상징을 획득합니다."
+    },
+    {
+      "name": "별들의 탄생",
+      "effect": "처음 구매하는 1단계 및 2단계 챔피언이 즉시 2성으로 업그레이드됩니다. 7골드를 획득합니다."
+    },
+    {
+      "name": "복제",
+      "effect": "조합 아이템 3개 중 1개를 선택합니다. 다음 2라운드 동안, 해당 조합 아이템의 복사본을 1개씩 획득합니다."
+    },
+    {
+      "name": "복제 시설",
+      "effect": "세 번째 가로 열 중앙에 있는 칸을 강화합니다. 해당 칸에 있는 챔피언의 분신을 소환합니다. 분신은 80%의 기본 체력을 가지며 마나 소모량이 10% 증가합니다."
+    },
+    {
+      "name": "봉쇄자 문장",
+      "effect": "봉쇄자 상징을 획득합니다."
+    },
+    {
+      "name": "불장난",
+      "effect": "붉은 덩굴정령 1개를 획득합니다. 불태우기 피해량이 50% 증가합니다."
+    },
+    {
+      "name": "불타는 영혼 I",
+      "effect": "전투 시작: 가장 공격 속도가 높은 아군 챔피언이 주문력을 20, 공격 속도를 20% 얻습니다. 이 효과는 3초마다 다른 아군에게 반복해서 적용됩니다."
+    },
+    {
+      "name": "사이버네틱 신체 II",
+      "effect": "아이템을 장착한 아군 챔피언이 300의 체력을 얻습니다."
+    },
+    {
+      "name": "사이버네틱 이식술 II",
+      "effect": "아이템을 장착한 아군 챔피언이 체력을 120, 공격력을 20% 얻습니다."
+    },
+    {
+      "name": "사이버네틱 통신 II",
+      "effect": "아이템을 장착한 아군 챔피언이 120의 체력을 얻고 매초 2의 마나를 회복합니다."
+    },
+    {
+      "name": "사전 계획",
+      "effect": "배치된 책략가 1명 당 1칸씩 표식을 남깁니다. 표식 칸에 있는 아군이 체력을 200, 피해 증폭을 12% 얻습니다. 책략가는 100% 더 얻습니다. 잔나와 직스를 획득합니다."
+    },
+    {
+      "name": "삼인방 I",
+      "effect": "3단계 챔피언을 2명 획득합니다. 전투 시작: 3단계 무작위 챔피언 3명이 체력을 220, 공격 속도를 20% 얻습니다."
+    },
+    {
+      "name": "새로운 도전자",
+      "effect": "슈프림 셀 추가 효과를 50%만큼 모든 아군 챔피언에게 부여합니다. 이제 아군의 모든 챔피언이 슈프림 셀이 될 수 있습니다. 카이사와 케넨을 획득합니다."
+    },
+    {
+      "name": "새로운 시대",
+      "effect": "즉시 및 이후 매 스테이지 시작 시 경험치를 4 획득하고 무료 새로고침을 2회 얻습니다."
+    },
+    {
+      "name": "새로운 시대+",
+      "effect": "즉시 및 이후 매 스테이지 시작 시 경험치를 8 획득하고 무료 새로고침을 3회 얻습니다."
+    },
+    {
+      "name": "서열 상승 II",
+      "effect": "아군이 사망할 때마다 특성을 한 개 이상 공유하는 아군이 주문력을 5, 공격력을 5%, 방어력을 5, 마법 저항력을 5 얻습니다."
+    },
+    {
+      "name": "선물 꾸러미",
+      "effect": "즉시 및 스테이지당 두 번씩 체력, 골드 또는 전리품이 들어 있는 선물 꾸러미를 획득합니다."
+    },
+    {
+      "name": "선제적 보호",
+      "effect": "전투 시작: 봉쇄자가 자신 및 가장 가까운 아군에게 최대 체력의 14%만큼 피해를 흡수하는 보호막을 씌웁니다. 보호막은 중첩됩니다. 라칸을 획득합니다."
+    },
+    {
+      "name": "소규모 팀",
+      "effect": "별 수호자를 3명 이하 배치할 경우 별 수호자 추가 효과가 175% 증가합니다. 신드라와 렐을 획득합니다."
+    },
+    {
+      "name": "소울 파이터 문장",
+      "effect": "소울 파이터 상징을 획득합니다."
+    },
+    {
+      "name": "수련 I",
+      "effect": "아군이 치명타 확률을 5% 얻으며, 스킬에 치명타가 적용될 수 있습니다. 스킬에 치명타가 적용되면 4초에 걸쳐 마나의 10%를 회복합니다."
+    },
+    {
+      "name": "수완가",
+      "effect": "이자가 없는 대신 플레이어 대상 전투 라운드를 시작할 때마다 3골드를 획득합니다. 즉시 3골드를 획득합니다.이자는 저축한 10골드당 추가로 획득하는 골드입니다."
+    },
+    {
+      "name": "수정 갬빗 문장",
+      "effect": "수정 갬빗 상징을 획득합니다."
+    },
+    {
+      "name": "수호자 II",
+      "effect": "전투 시작: 주변에 아군이 있는 유닛이 8초 동안 230의 보호막을 얻습니다. 이 보호막은 중첩됩니다."
+    },
+    {
+      "name": "수호자의 호의",
+      "effect": "5, 6, 7, 8레벨에 도달하면 조합 아이템 모루를 획득합니다.모루가 4가지 선택지를 제시합니다."
+    },
+    {
+      "name": "숭고한 희생",
+      "effect": "전투마다 처음으로 아군이 사망하면 25+해당 아군의 방어력 및 마법 저항력의 10%가 모든 아군에게 부여됩니다."
+    },
+    {
+      "name": "슈프림 셀 문장",
+      "effect": "슈프림 셀 상징을 획득합니다."
+    },
+    {
+      "name": "슬쩍하기",
+      "effect": "라운드마다, 이전 전투에서 아군이 처음으로 처치한 챔피언의 1성 복사본 1명을 획득합니다."
+    },
+    {
+      "name": "시간 건너뛰기",
+      "effect": "다음 3라운드 동안 상점이 비활성화됩니다. 이후 경험치를 28 얻습니다."
+    },
+    {
+      "name": "신동 문장",
+      "effect": "신동 상징을 획득합니다."
+    },
+    {
+      "name": "실컷 울어봐라",
+      "effect": "여신의 눈물을 획득합니다. 아군이 마나 재생을 2 얻습니다. 전투 시작 15초 후에는 마나 재생을 2만큼 얻습니다."
+    },
+    {
+      "name": "쓰레기 청소부",
+      "effect": "전투마다 가장 먼저 사망하는 적 챔피언 5명이 각각 아군 챔피언에게 임시 완성 아이템 1개를 제공합니다."
+    },
+    {
+      "name": "아이템 수집가 II",
+      "effect": "아군이 체력을 20 얻습니다. 장착한 아이템 한 종류당 아군이 체력을 5, 공격력을 1, 주문력을 1 추가로 얻습니다."
+    },
+    {
+      "name": "악령 문장",
+      "effect": "악령 상징을 획득합니다."
+    },
+    {
+      "name": "악의적 수익 창출",
+      "effect": "2골드를 획득합니다. 다음 3라운드 동안 적 챔피언이 처치될 때 2골드를 떨어뜨립니다."
+    },
+    {
+      "name": "어수선한 마음",
+      "effect": "즉시 무작위 1단계 챔피언 4명을 획득합니다. 플레이어 대상 전투 라운드 종료 시 대기석에 챔피언이 가득 찼다면 3의 경험치를 획득합니다."
+    },
+    {
+      "name": "엄청나게 이로운 효과!",
+      "effect": "아군이 체력 44, 공격력 4%, 주문력 4, 방어력 4, 마법 저항력 4, 공격 속도 4%, 4의 마나를 획득합니다."
+    },
+    {
+      "name": "영웅 꾸러미",
+      "effect": "하급 챔피언 복제기 2개를 획득합니다. 7골드를 획득합니다.3단계 이하의 챔피언을 복제할 수 있습니다."
+    },
+    {
+      "name": "영웅 꾸러미+",
+      "effect": "하급 챔피언 복제기 2개를 획득합니다. 9골드를 획득합니다.3단계 이하의 챔피언을 복제할 수 있습니다."
+    },
+    {
+      "name": "영웅 꾸러미++",
+      "effect": "하급 챔피언 복제기 2개를 획득합니다. 13골드를 획득합니다.3단계 이하의 챔피언을 복제할 수 있습니다."
+    },
+    {
+      "name": "영웅 입문",
+      "effect": "처음으로 플레이어 대상 전투에서 4회 승리 시 모든 전투사관학교 챔피언이 체력을 100 얻고 최대 마나가 15% 감소합니다. 가렌과 이즈리얼을 획득합니다."
+    },
+    {
+      "name": "영원한 브론즈 I",
+      "effect": "아군이 브론즈 등급 특성당 피해 증폭을 3% 얻습니다."
+    },
+    {
+      "name": "오오라 축적",
+      "effect": "아이템 1개를 장착한 5단계 2성 챔피언을 획득합니다. 이 유닛은 4-5부터 배치할 수 있습니다."
+    },
+    {
+      "name": "완벽한 적응",
+      "effect": "적응형 투구를 획득합니다. 적응형 투구를 보유한 챔피언은 두 가지 효과를 모두 획득합니다."
+    },
+    {
+      "name": "왕관의 무게",
+      "effect": "장착 유닛에게 큰 추가 효과를 부여하는 데마시아의 왕관을 획득합니다. 장착 유닛이 사망할 경우 라운드에서 패배합니다."
+    },
+    {
+      "name": "왕관의 의지",
+      "effect": "쓸데없이 큰 지팡이 1개를 획득합니다. 아군 유닛이 주문력을 10, 방어력을 8 얻습니다."
+    },
+    {
+      "name": "요리용 냄비",
+      "effect": "각 라운드 시작 시, 프라이팬 또는 뒤집개를 장착한 모든 유닛이 가장 가까운 챔피언에게 영구적으로 체력을 40 부여합니다. 프라이팬 1개를 획득합니다."
+    },
+    {
+      "name": "요새 문장",
+      "effect": "요새 상징을 획득합니다."
+    },
+    {
+      "name": "우정의 힘",
+      "effect": "별 수호자가 1명 이상의 다른 별 수호자와 인접한 상태로 전투를 시작할 경우 마나 재생을 2, 방어력을 15, 마법 저항력을 15 얻습니다."
+    },
+    {
+      "name": "우주 캠프",
+      "effect": "크루 챔피언의 별 레벨을 올릴 때마다, 추가로 무작위 1단계 또는 2단계 크루 챔피언 1명을 획득합니다. 말파이트를 획득합니다."
+    },
+    {
+      "name": "울부짖는 돌풍",
+      "effect": "아군이 마나를 550 사용할 때마다 적을 공중에 띄우는 회오리바람을 소환합니다."
+    },
+    {
+      "name": "유리 대포 II",
+      "effect": "후방 가로 1열에서 전투를 시작한 유닛이 전투 시작 시 체력이 90%로 조정되지만 피해 증폭을 20% 얻습니다."
+    },
+    {
+      "name": "유리한 조건",
+      "effect": "공동 선택 보상을 선택할 수 없습니다. 공동 선택 라운드마다 추가로 플레이어 체력을 4 얻고 6골드를 획득합니다.공동 선택 보상을 선택하지 않으면 선택되지 않은 챔피언과 해당 챔피언의 아이템을 획득합니다."
+    },
+    {
+      "name": "유성",
+      "effect": "니코를 획득합니다. 가장 강한 아군 니코가 주문력 전사로 변하고 공격 속도가 증가합니다. 또한 스킬 체력 회복량과 피해량이 증가하고 스킬을 사용할 때마다 반경이 늘어납니다."
+    },
+    {
+      "name": "의자를 집어던지세요!",
+      "effect": "문도 박사를 획득합니다. 가장 강한 아군 문도 박사가 원거리 딜러로 변하고 의자를 던져 강력한 피해를 입히지만, 체력을 소모합니다."
+    },
+    {
+      "name": "이단아 문장",
+      "effect": "이단아 상징을 획득합니다."
+    },
+    {
+      "name": "이단적 우위",
+      "effect": "이단아가 이제 대상이 잃은 체력에 따라 추가 공격 속도를 최대 200%까지 얻습니다. 쉔과 자야를 획득합니다."
+    },
+    {
+      "name": "이중 기술",
+      "effect": "무작위 2단계 2성 챔피언 1명과 무작위 1단계 2성 챔피언 2명을 획득합니다."
+    },
+    {
+      "name": "작은 친구들",
+      "effect": "전장에 있는 1단계 및 2단계 챔피언 하나당 아군 4단계 및 5단계 챔피언이 55의 체력과 6%의 공격 속도를 얻습니다."
+    },
+    {
+      "name": "재빠른 무장",
+      "effect": "무작위 조합 아이템 1개를 획득합니다. 플레이어 대상 전투를 마친 후 대기석에 아이템(소모품 제외)이 없을 때마다 2의 경험치를 획득합니다."
+    },
+    {
+      "name": "재빠른 무장+",
+      "effect": "무작위 조합 아이템 1개와 10의 경험치를 즉시 획득합니다. 플레이어 대상 전투를 마친 후 대기석에 아이템(소모품 제외)이 없을 때마다 2의 경험치를 획득합니다."
+    },
+    {
+      "name": "재활용 쓰레기통",
+      "effect": "지금 무작위 완성 아이템 1개를 획득하고 플레이어 대상 전투 7회 후에 조합 아이템 1개를 획득합니다. 챔피언을 판매하면 완성 아이템이 조합 아이템으로 분해됩니다. (전략가의 아이템 및 상징 제외)"
+    },
+    {
+      "name": "재활용 쓰레기통+",
+      "effect": "지금 무작위 완성 아이템 1개를 획득하고 플레이어 대상 전투 4회 후에 조합 아이템 1개를 획득합니다. 챔피언을 판매하면 완성 아이템이 조합 아이템으로 분해됩니다. (전략가의 아이템 및 상징 제외)"
+    },
+    {
+      "name": "적을 알라",
+      "effect": "아군의 피해량이 10% 증가합니다.상대와 같은 특성을 활성화한 경우 피해량이 15% 증가합니다."
+    },
+    {
+      "name": "적응형 스타일",
+      "effect": "기본 공격 시 결투가가 공격력과 주문력을 2 얻습니다. 최대 15회 중첩됩니다. 결투가 탱커는 대신 방어력과 마법 저항력을 2 얻습니다. 카이사와 케일을 획득합니다."
+    },
+    {
+      "name": "전리품 II",
+      "effect": "적 처치 시 30% 확률로 전리품을 획득합니다."
+    },
+    {
+      "name": "전쟁기계 문장",
+      "effect": "전쟁기계 상징을 획득합니다."
+    },
+    {
+      "name": "전투사관학교 문장",
+      "effect": "전투사관학교 상징을 획득합니다."
+    },
+    {
+      "name": "전학생",
+      "effect": "매 스테이지 시작 시 및 공동 선택 라운드가 끝난 후마다 무작위 1~3단계 전투사관학교 챔피언 2명을 획득합니다. 이즈리얼을 획득합니다."
+    },
+    {
+      "name": "점수판 등반가",
+      "effect": "매 라운드 하위 4위권일 경우, 아군의 공격력과 주문력이 영구히 1.5% 증가합니다. 상위 4위권일 경우, 아군의 체력이 10% 증가합니다."
+    },
+    {
+      "name": "정밀 사격",
+      "effect": "4초마다 모든 저격수 챔피언이 탄환을 발사해 사거리 내 체력이 가장 낮은 적에게 기본 공격력의 85%에 해당하는 피해를 입힙니다. 진을 획득합니다."
+    },
+    {
+      "name": "정상을 노려라!",
+      "effect": "더 강한 플레이어와 전투할 확률이 증가하며 전투 상대를 알 수 있습니다. 패배 시 경험치를 2 얻습니다. 2회 승리할 때마다 조합 아이템 1개를 획득합니다."
+    },
+    {
+      "name": "정신 결속",
+      "effect": "챔피언이 4초마다 최대 체력의 5%를 회복합니다. 잃은 플레이어 체력 10당 체력 회복량이 0.5% 증가합니다."
+    },
+    {
+      "name": "종을 울려라",
+      "effect": "15초 후 아군 헤비급 챔피언이 최대 체력을 30%, 피해 증폭을 20% 얻습니다. 코부코와 자크를 획득합니다."
+    },
+    {
+      "name": "주인공 버프",
+      "effect": "아군이 방어력 및 마법 저항력을 10 얻습니다. 체력이 50% 아래로 떨어지면 전투가 끝날 때까지 대신 50만큼 얻습니다."
+    },
+    {
+      "name": "준비 II",
+      "effect": "대기석의 챔피언은 라운드마다 영구적으로 45의 체력과 3%의 공격력, 3의 주문력을 얻습니다. 이 효과는 1번으로 시작해 최대 4번까지 중첩됩니다."
+    },
+    {
+      "name": "준비 운동 II",
+      "effect": "아군의 공격 속도가 즉시 8% 증가합니다. 매 라운드 종료 후에 효과가 1% 추가로 증가합니다."
+    },
+    {
+      "name": "창의 의지",
+      "effect": "아군이 공격력을 10%, 마나를 5 얻습니다. B.F. 대검 1개를 획득합니다."
+    },
+    {
+      "name": "책략가 문장",
+      "effect": "책략가 상징을 획득합니다."
+    },
+    {
+      "name": "처형자 문장",
+      "effect": "처형자 상징을 획득합니다."
+    },
+    {
+      "name": "철퇴의 의지",
+      "effect": "연습용 장갑 1개를 획득합니다. 아군이 공격 속도를 6%, 치명타 확률을 20% 얻습니다."
+    },
+    {
+      "name": "초능력 대장간",
+      "effect": "라운드 시작 시 대기석에 있는 유닛이 장착한 완성 아이템이 해당 유닛의 추천 아이템 중 하나로 변합니다. 무작위 완성 아이템 1개를 획득합니다."
+    },
+    {
+      "name": "초월",
+      "effect": "전투 시작 15초 후 아군 유닛이 피해 증폭을 60% 얻습니다."
+    },
+    {
+      "name": "최고의 스승",
+      "effect": "챔피언의 별 레벨을 올릴 때마다 보유한 각기 다른 멘토 챔피언의 멘토 추가 효과를 영구적으로 50%만큼 얻습니다. 야스오를 획득합니다."
+    },
+    {
+      "name": "최후의 저항",
+      "effect": "처음으로 탈락할 상황에서 죽음을 모면하고 아군이 영구적으로 150의 체력, 10의 방어력과 마법 저항력, 10%의 모든 피해 흡혈을 얻습니다."
+    },
+    {
+      "name": "출정",
+      "effect": "2단계 2성 챔피언 1명을 획득합니다. 플레이어에게 80의 피해를 입히면 고단계 챔피언과 아이템이 들어 있는 상자 1개를 획득합니다."
+    },
+    {
+      "name": "치명적인 칼날",
+      "effect": "죽음의 검을 획득합니다. 죽음의 검이 장착한 유닛의 처치 관여 3회당 공격력을 5% 얻습니다."
+    },
+    {
+      "name": "커다란 친구 II",
+      "effect": "체력이 1750 이상인 아군 옆에서 전투를 시작하는 아군 유닛이 내구력을 10% 얻습니다."
+    },
+    {
+      "name": "큰 꾸러미",
+      "effect": "무작위 조합 아이템 3개, 2골드, 재조합기를 획득합니다.재조합기로 어떤 아이템이든 다시 만들 수 있습니다."
+    },
+    {
+      "name": "탈출 속도",
+      "effect": "새로고침 1회당 속도를 1, 레벨 업 시 속도를 6 얻습니다. 크루 유닛이 속도 3마다 공격 속도를 1% 얻습니다."
+    },
+    {
+      "name": "태양불꽃판",
+      "effect": "전투 시작: 모든 적을 불태워 12초 동안 대상 최대 체력의 12%만큼 피해를 입히고 받는 회복 효과를 33% 감소시킵니다."
+    },
+    {
+      "name": "테슬라 코일",
+      "effect": "아이템 3개를 장착한 아군이 5초마다 번개 2개를 방출해 스테이지에 따라 240~365의 마법 피해를 입힙니다."
+    },
+    {
+      "name": "토너먼트의 거인",
+      "effect": "프로레슬러가 공격 속도를 5% 얻습니다. 플레이어 대상 전투에서 승리할 때마다 프로레슬러의 크기가 커지고 영구적으로 공격력을 2, 체력을 30 얻습니다. 문도 박사와 나르를 획득합니다."
+    },
+    {
+      "name": "토너먼트의 인기 스타",
+      "effect": "소울 파이터가 피해를 입힐 경우 명성을 얻습니다. 명성 구간마다 전리품을 획득합니다. 나피리와 칼리스타를 획득합니다."
+    },
+    {
+      "name": "투자 전략 I",
+      "effect": "이자로 획득한 골드당 아군 챔피언이 영구적으로 최대 체력을 7 얻습니다."
+    },
+    {
+      "name": "파워 업로드",
+      "effect": "거대 메크 로봇에게 파워 업을 부여할 수 있습니다. 파워 업을 부여하면 거대 메크 로봇이 체력을 150, 피해 증폭을 10% 얻습니다.아트록스, 세나, 파워 제거기를 획득합니다."
+    },
+    {
+      "name": "파이트 머니",
+      "effect": "조합 아이템 2개를 획득합니다. 5회 승리할 때마다 조합 아이템을 획득합니다."
+    },
+    {
+      "name": "판도라의 아이템 II",
+      "effect": "라운드 시작: 대기석의 아이템이 무작위로 변합니다.무작위 조합 아이템 2개를 획득합니다."
+    },
+    {
+      "name": "포탑 방어",
+      "effect": "무작위 상징을 장착한 훈련 봇을 획득합니다. 훈련 봇은 원거리에서 적을 공격하며 게임이 진행될수록 업그레이드됩니다."
+    },
+    {
+      "name": "폭발적인 성장",
+      "effect": "다음 4번의 라운드 시작 시 경험치를 8 얻습니다."
+    },
+    {
+      "name": "폭발적인 성장+",
+      "effect": "다음 4번의 라운드 시작 시 경험치를 11 얻습니다."
+    },
+    {
+      "name": "프로레슬러 문장",
+      "effect": "프로레슬러 상징을 획득합니다."
+    },
+    {
+      "name": "피의 격노",
+      "effect": "아군 유닛이 잃은 체력에 비례해 피해 증폭을 5~35% 얻습니다. 피해 증폭은 체력이 30%일 때 최대가 됩니다."
+    },
+    {
+      "name": "하나 더!",
+      "effect": "다음 완성 아이템 제작 시 해당 아이템의 추가 복사본을 획득합니다. 즉시 3골드를 획득합니다."
+    },
+    {
+      "name": "하나 더!+",
+      "effect": "다음 완성 아이템 제작 시 해당 아이템의 복사본을 획득합니다. 조합 아이템 1개를 획득합니다."
+    },
+    {
+      "name": "학급 회장",
+      "effect": "전투 시작: 파워 업된 전투사관학교 챔피언 및 해당 챔피언과 인접한 아군이 체력을 70, 공격력을 8%, 주문력을 8% 얻습니다. 전투사관학교 유닛은 두 배로 얻습니다. 카타리나를 획득합니다."
+    },
+    {
+      "name": "헤비급 문장",
+      "effect": "헤비급 상징을 획득합니다."
+    },
+    {
+      "name": "황금 단두대",
+      "effect": "처형자가 적을 처치할 때마다 치명타 확률에 비례해 일정 확률로 전리품을 떨어뜨립니다. 전리품의 가치에도 치명타가 적용되어 더 많은 전리품을 제공할 수 있습니다. 카타리나와 칼리스타를 획득합니다."
+    },
+    {
+      "name": "황금 더미",
+      "effect": "훈련 봇 1개를 획득합니다. 10초마다 모든 훈련 봇이 1골드를 제공합니다."
+    },
+    {
+      "name": "황금빛 퀘스트",
+      "effect": "처음으로 165골드 이상 보유 시, 5단계 2성 챔피언 1명과 이 챔피언에 어울리는 아이템 2개를 획득합니다."
+    },
+    {
+      "name": "황혼 강습",
+      "effect": "쉔을 획득합니다. 가장 강한 아군 쉔이 원거리 딜러로 변하고 사거리가 +3 증가합니다. 쉔의 스킬이 더 이상 보호막을 부여하지 않지만 추가 피해를 입힙니다."
+    },
+    {
+      "name": "회복의 구 II",
+      "effect": "적이 사망하면 가장 가까운 아군이 체력을 400 회복합니다."
+    },
+    {
+      "name": "휴대용 대장간",
+      "effect": "유물 4개 중 하나를 선택합니다.유물은 고유한 효과를 지닌 강력한 아이템입니다."
+    },
+    {
+      "name": "흡혈의 활력",
+      "effect": "적 전략가에게 입힌 피해량의 12%만큼 플레이어 체력을 회복합니다. 아군 유닛이 모든 피해 흡혈을 12% 얻습니다."
+    },
+    {
+      "name": "희생양",
+      "effect": "훈련 봇과 4골드를 획득합니다. 플레이어 대상 전투에서 훈련 봇이 맨 처음으로 죽으면 1골드를 획득합니다."
+    },
+    {
+      "name": "9개의 목숨",
+      "effect": "플레이어 체력을 9에 맞춥니다. 전투 패배 시 체력을 1 잃습니다. 패배마다 전리품을 획득합니다."
+    },
+    {
+      "name": "간이 대장간",
+      "effect": "지금 그리고 플레이어 대상 전투 10번마다 유물 모루를 획득합니다.유물은 고유한 효과를 지닌 강력한 아이템입니다."
+    },
+    {
+      "name": "거울의 전당",
+      "effect": "전투 시작: 아군 전방 가로 1열에 위치한 모든 챔피언이 해당 열 중앙에 있는 챔피언의 분신으로 변신합니다. 분신은 기존 체력의 115%로 체력이 조정되고 5% 감소된 피해를 입힙니다."
+    },
+    {
+      "name": "결투가 머리띠",
+      "effect": "결투가 상징, 애쉬, B.F. 대검을 획득합니다."
+    },
+    {
+      "name": "결투가 왕관",
+      "effect": "결투가 상징, 구인수의 격노검, 케일을 획득합니다."
+    },
+    {
+      "name": "고귀한 모험",
+      "effect": "2단계 챔피언을 3명 획득합니다. 이 중에서 두 명을 3성으로 업그레이드하면 전리품 구를 획득합니다. 다음 2번의 스테이지 시작 시 하급 챔피언 복제기를 획득합니다."
+    },
+    {
+      "name": "극진한 헌신",
+      "effect": "무작위 상징 1개를 획득합니다. 즉시 및 각 스테이지 시작 시 이 무작위 상징의 특성을 보유한 1성 챔피언과 2골드를 획득합니다. 챔피언의 단계는 스테이지와 동일하며 최대 5입니다."
+    },
+    {
+      "name": "급식소",
+      "effect": "전투 시작 12초 후, 아군 챔피언이 공격 속도를 20% 얻고 기본 공격 시 맛있는 투사체를 날려 공격력의 120%만큼 마법 피해를 입힙니다."
+    },
+    {
+      "name": "기다림의 미학 II",
+      "effect": "무작위 2단계 챔피언을 1명 획득합니다. 게임이 끝날 때까지 해당 유닛의 복사본을 각 라운드 시작 시 획득합니다."
+    },
+    {
+      "name": "꼬꼬마 거인",
+      "effect": "플레이어 대상 전투가 끝날 때마다 2의 플레이어 체력과 1골드를 얻습니다. 또한 전략가의 이동 속도가 증가합니다."
+    },
+    {
+      "name": "꼬꼬마 거인+",
+      "effect": "플레이어 대상 전투가 끝날 때마다 플레이어 체력을 2 얻고 1골드를 획득합니다. 또한 전략가의 이동 속도가 증가합니다. 즉시 15골드를 획득합니다."
+    },
+    {
+      "name": "나는 머리",
+      "effect": "거대 메크 로봇이 체력을 400, 피해 증폭을 10%, 내구력을 10% 얻습니다.거대 메크 7명을 배치하고, 10레벨에 도달했으며, 3개의 거대 메크 증강을 모두 확보했다면, 메카합체 프로토콜이 활성화됩니다."
+    },
+    {
+      "name": "넘치는 대검",
+      "effect": "B.F. 대검 5개를 획득합니다. B.F. 대검이 공격 속도를 +2% 제공합니다."
+    },
+    {
+      "name": "넘치는 지팡이",
+      "effect": "쓸데없이 큰 지팡이 5개를 획득합니다. 쓸데없이 큰 지팡이가 공격 속도를 +5% 제공합니다."
+    },
+    {
+      "name": "넘치는 허리띠",
+      "effect": "거인의 허리띠 5개를 획득합니다. 거인의 허리띠가 추가 체력을 +60 제공합니다."
+    },
+    {
+      "name": "대관식",
+      "effect": "전략가의 왕관 1개를 획득합니다. 전략가의 왕관, 방패, 망토가 장착 유닛에게 추가로 공격 속도를 20%, 공격력을 25%, 주문력을 30 부여합니다."
+    },
+    {
+      "name": "도굴꾼 II",
+      "effect": "완성 아이템 모루 1개를 획득합니다. 플레이어가 탈락할 때마다 해당 플레이어의 완성 아이템 하나를 선택해 획득합니다."
+    },
+    {
+      "name": "레벨 업!",
+      "effect": "경험치를 구매하면 2의 추가 경험치를 얻습니다. 즉시 12의 경험치를 얻습니다."
+    },
+    {
+      "name": "루덴의 메아리 III",
+      "effect": "마나를 60 사용할 때마다 아군 유닛이 다음 스킬로 피해를 입힐 때 대상과 주변 적에게 110~300의 추가 마법 피해를 입힙니다. (현재 스테이지에 비례)"
+    },
+    {
+      "name": "마법사 머리띠",
+      "effect": "마법사 상징, 카르마, 여신의 눈물을 획득합니다."
+    },
+    {
+      "name": "마법사 왕관",
+      "effect": "마법사 상징, 푸른 파수꾼, 럭스를 획득합니다."
+    },
+    {
+      "name": "무한한 힘",
+      "effect": "라바돈의 죽음모자, 모렐로노미콘, 쓸데없이 큰 지팡이, 자석 제거기를 획득합니다.주문력 기반 핵심 유닛에게 유용합니다!"
+    },
+    {
+      "name": "방랑하는 조련사 II",
+      "effect": "영구적인 상징 3개를 장착한 훈련 봇을 1개 획득합니다. 6골드를 획득합니다."
+    },
+    {
+      "name": "별 수호자 머리띠",
+      "effect": "별 수호자 상징과 렐을 획득합니다."
+    },
+    {
+      "name": "별 수호자 왕관",
+      "effect": "별 수호자 상징, 굳건한 심장, 렐을 획득합니다."
+    },
+    {
+      "name": "봉쇄자 머리띠",
+      "effect": "봉쇄자 상징, 크산테, 거인의 허리띠를 획득합니다."
+    },
+    {
+      "name": "봉쇄자 왕관",
+      "effect": "봉쇄자 상징, 수호자의 맹세, 케넨을 획득합니다."
+    },
+    {
+      "name": "불타는 영혼 II",
+      "effect": "전투 시작: 가장 공격 속도가 높은 아군 챔피언이 주문력을 35, 공격 속도를 35% 얻습니다. 이 효과는 3초마다 다른 아군에게 반복해서 적용됩니다."
+    },
+    {
+      "name": "붉고 푸른 효과",
+      "effect": "붉은 덩굴정령, 푸른 파수꾼, 챔피언 복제기를 1개씩 획득합니다."
+    },
+    {
+      "name": "빌붙기",
+      "effect": "전투 시작: 1개 이하의 아이템을 장착한 챔피언 최대 6명이 아이템을 장착한 가장 가까이 있는 아군으로부터 무작위 완성 아이템 복사본 1개를 획득합니다."
+    },
+    {
+      "name": "빛비늘 정수",
+      "effect": "거물의 갑옷 1개를 획득합니다. 5라운드 후, 도박꾼의 칼날 1개를 획득합니다.이 아이템은 골드를 제공하고 전투 시 위력도 올려줍니다."
+    },
+    {
+      "name": "사이버네틱 신체 III",
+      "effect": "아이템을 장착한 아군 챔피언이 체력을 500 얻습니다."
+    },
+    {
+      "name": "사이버네틱 이식술 III",
+      "effect": "아이템을 장착한 아군 챔피언이 체력을 200, 공격력을 30% 얻습니다."
+    },
+    {
+      "name": "사이버네틱 통신 III",
+      "effect": "아이템을 장착한 아군 챔피언이 180의 체력을 얻고 매초 3의 마나를 회복합니다."
+    },
+    {
+      "name": "삼인방 II",
+      "effect": "3단계 챔피언을 3명 획득합니다. 아군이 공격 속도를 5% 얻습니다. 전투 시작: 3단계 무작위 챔피언 3명이 체력을 300, 공격 속도를 25% 얻습니다."
+    },
+    {
+      "name": "생일 선물",
+      "effect": "레벨 업할 때마다 2성 챔피언과 1골드를 획득합니다. 획득하는 챔피언의 단계는 상점 레벨보다 4 낮습니다. (최대 5단계)"
+    },
+    {
+      "name": "소울 파이터 머리띠",
+      "effect": "소울 파이터 상징과 칼리스타를 획득합니다."
+    },
+    {
+      "name": "소울 파이터 왕관",
+      "effect": "소울 파이터 상징, 내셔의 이빨, 칼리스타를 획득합니다."
+    },
+    {
+      "name": "속임수 잔치",
+      "effect": "속임수 거울을 획득합니다. 속임수 거울이 9초마다 분신을 소환합니다. 각 추가 분신은 40%의 최대 체력과 120%의 최대 마나를 갖습니다."
+    },
+    {
+      "name": "수련 II",
+      "effect": "아군이 치명타 확률을 20% 얻으며, 스킬에 치명타가 적용될 수 있습니다. 스킬에 치명타가 적용되면 4초에 걸쳐 마나의 20%를 회복합니다."
+    },
+    {
+      "name": "수정 갬빗 머리띠",
+      "effect": "수정 갬빗 상징과 잔나를 획득합니다."
+    },
+    {
+      "name": "수정 갬빗 왕관",
+      "effect": "수정 갬빗 상징, 적응형 투구, 잔나를 획득합니다."
+    },
+    {
+      "name": "수호자의 선택",
+      "effect": "레벨 업하면 강력한 아이템을 획득합니다.4레벨: 조합 아이템 모루6레벨: 완성 아이템 모루7레벨: 찬란한 아이템 5가지 중 1개 선택"
+    },
+    {
+      "name": "슈프림 셀 머리띠",
+      "effect": "슈프림 셀 상징과 카이사를 획득합니다."
+    },
+    {
+      "name": "슈프림 셀 왕관",
+      "effect": "슈프림 셀 상징, 최후의 속삭임, 카이사를 획득합니다."
+    },
+    {
+      "name": "신동 머리띠",
+      "effect": "신동 상징, 유미, 쓸데없이 큰 지팡이를 획득합니다."
+    },
+    {
+      "name": "신동 왕관",
+      "effect": "신동 상징, 쇼진의 창, 이즈리얼을 획득합니다."
+    },
+    {
+      "name": "악령 머리띠",
+      "effect": "악령 상징과 자크를 획득합니다."
+    },
+    {
+      "name": "악령 왕관",
+      "effect": "악령 상징, 태양불꽃 망토, 자크를 획득합니다."
+    },
+    {
+      "name": "양보다 질",
+      "effect": "아이템을 정확히 1개 장착한 유닛의 아이템이 찬란한 아이템으로 업그레이드됩니다. 찬란한 아이템을 장착한 유닛이 체력을 4% 얻습니다. 자석 제거기를 2개 획득합니다.도적의 장갑은 아이템 여러 개로 간주합니다."
+    },
+    {
+      "name": "영웅 등장!",
+      "effect": "10초 후 대기석의 가장 왼쪽에 있는 챔피언이 전투에 참가하며 2칸 내의 적을 1.5초 동안 기절시킵니다. 해당 챔피언은 최대 체력을 50% 얻습니다."
+    },
+    {
+      "name": "영원한 브론즈 II",
+      "effect": "아군이 브론즈 등급 특성당 피해 증폭을 3.5%, 내구력을 1% 얻습니다."
+    },
+    {
+      "name": "예상된 예상 밖의 결과",
+      "effect": "즉시 및 다음 2번의 스테이지 시작 시 주사위를 3개 굴립니다. 주사위 눈의 총합에 따라 다양한 보상을 획득합니다."
+    },
+    {
+      "name": "요새 머리띠",
+      "effect": "요새 상징, 거인의 허리띠, 레오나를 획득합니다."
+    },
+    {
+      "name": "요새 왕관",
+      "effect": "요새 상징, 저녁갑주, 신 짜오를 획득합니다."
+    },
+    {
+      "name": "유연함",
+      "effect": "무작위 상징 1개를 획득합니다. 매 스테이지 시작 시 무작위 상징 1개를 획득합니다. 모든 아군이 장착한 상징 1개당 체력을 20 얻습니다."
+    },
+    {
+      "name": "응당한 대가",
+      "effect": "즉시 6레벨이 되고 경험치를 4 얻습니다. 추후 증강이 자동으로 선택됩니다."
+    },
+    {
+      "name": "이단아 머리띠",
+      "effect": "이단아 상징, 사미라, 곡궁을 획득합니다."
+    },
+    {
+      "name": "이단아 왕관",
+      "effect": "이단아 상징, 피바라기, 쉔을 획득합니다."
+    },
+    {
+      "name": "이세계",
+      "effect": "다른 세계에서 온 특별한 2성 챔피언 1명을 획득합니다. 이 챔피언은 이 게임에서 특별한 특성을 갖습니다."
+    },
+    {
+      "name": "입문용 키트",
+      "effect": "4단계 챔피언, 해당 챔피언과 특성이 같은 1단계 2성 챔피언, 4골드를 획득합니다.다음 2번의 스테이지 시작 시 해당 4단계 챔피언을 다시 획득합니다."
+    },
+    {
+      "name": "장기 투자",
+      "effect": "더 이상 이자를 획득하지 않으며, 지금 바로 15골드를 획득합니다. 라운드 시작 시 4의 경험치를 획득합니다.이자는 저축한 10골드당 추가로 획득하는 골드입니다."
+    },
+    {
+      "name": "저격수 머리띠",
+      "effect": "저격수 상징, 징크스, 곡궁을 획득합니다."
+    },
+    {
+      "name": "저격수 왕관",
+      "effect": "저격수 상징, 무한의 대검, 진을 획득합니다."
+    },
+    {
+      "name": "전략가의 주방",
+      "effect": "무작위 상징 1개를 획득합니다. 플레이어 대상 전투 6회 후 전략가의 망토 1개를 획득합니다."
+    },
+    {
+      "name": "전리품 III",
+      "effect": "적 처치 시 45% 확률로 전리품을 획득합니다."
+    },
+    {
+      "name": "전쟁기계 머리띠",
+      "effect": "전쟁기계 상징, 세트, 거인의 허리띠를 획득합니다."
+    },
+    {
+      "name": "전쟁기계 왕관",
+      "effect": "전쟁기계 상징, 스테락의 도전, 아트록스를 획득합니다."
+    },
+    {
+      "name": "전투사관학교 머리띠",
+      "effect": "전투사관학교 상징과 가렌을 획득합니다."
+    },
+    {
+      "name": "전투사관학교 왕관",
+      "effect": "전투사관학교 상징, 정령의 형상, 가렌을 획득합니다."
+    },
+    {
+      "name": "조용한 사직 II",
+      "effect": "다음 PvP 라운드 5회 동안 유닛을 구매하거나 판매할 수 없습니다. 이후 12골드와 완성 아이템 모루 1개를 획득합니다."
+    },
+    {
+      "name": "주사위 던지기",
+      "effect": "찬란한 도적의 장갑을 획득합니다. 찬란한 도적의 장갑은 라운드마다 두 개의 무작위 찬란한 아이템을 장착시킵니다.찬란한 아이템은 매우 강력한 완성 아이템입니다."
+    },
+    {
+      "name": "주인공",
+      "effect": "무작위 1단계 챔피언 증강을 얻고 해당 챔피언의 2성 복사본과 조합 아이템 1개를 획득합니다. 플레이어 대상 전투가 끝난 후마다 해당 챔피언의 복사본 1명을 획득합니다."
+    },
+    {
+      "name": "준비 운동 III",
+      "effect": "아군의 공격 속도가 즉시 12% 증가합니다. 매 라운드 종료 후에 효과가 2% 추가로 증가합니다."
+    },
+    {
+      "name": "진형 유지",
+      "effect": "전투마다 전방에 있는 아군 챔피언 한 명당 후방에 있는 아군 챔피언이 공격력을 7%, 주문력을 8 얻습니다."
+    },
+    {
+      "name": "찬란한 유물",
+      "effect": "찬란한 아이템 5개 중 하나를 선택합니다. 자석 제거기를 획득합니다.찬란한 아이템은 매우 강력한 완성 아이템입니다."
+    },
+    {
+      "name": "찬란한 재조정기",
+      "effect": "걸작 업그레이드 1개 및 조합 아이템 모루 1개를 획득합니다.걸작 업그레이드는 아이템을 찬란한 아이템으로 업그레이드합니다!"
+    },
+    {
+      "name": "책략가 머리띠",
+      "effect": "책략가 상징, 라이즈, 여신의 눈물을 획득합니다."
+    },
+    {
+      "name": "책략가 왕관",
+      "effect": "책략가 상징, 잔나, 적응형 투구를 획득합니다."
+    },
+    {
+      "name": "처형자 머리띠",
+      "effect": "처형자 상징, 아칼리, 연습용 장갑을 획득합니다."
+    },
+    {
+      "name": "처형자 왕관",
+      "effect": "처형자 상징, 타격대의 철퇴, 카타리나를 획득합니다."
+    },
+    {
+      "name": "최대치",
+      "effect": "최대 레벨이 7이 됩니다. 팀 규모를 +1 증가시키는 전략가의 방패 1개와 50골드를 획득합니다."
+    },
+    {
+      "name": "최후의 초월",
+      "effect": "아군이 피해 증폭을 15% 얻습니다. 15초 후 이 피해 증폭이 45%로 증가합니다."
+    },
+    {
+      "name": "출세가도",
+      "effect": "경험치 구매 비용이 1 감소합니다. 레벨 업할 때마다 체력을 2, 무료 새로고침을 2회 얻습니다."
+    },
+    {
+      "name": "친구 만들기!",
+      "effect": "무작위 3성 1단계 챔피언 1명을 획득합니다. 8골드를 획득합니다."
+    },
+    {
+      "name": "투자 전략 II",
+      "effect": "이자로 획득한 골드당 아군 챔피언이 영구적으로 최대 체력을 8 얻습니다. 최대 이자가 7골드로 증가합니다. 3골드를 획득합니다."
+    },
+    {
+      "name": "투자+",
+      "effect": "26골드를 획득합니다. 각 라운드 시작 시, 50골드를 모은 상태에서 초과 10골드마다 상점 새로고침을 1회 획득합니다. (최대 80골드)"
+    },
+    {
+      "name": "투자++",
+      "effect": "45골드를 획득합니다. 각 라운드 시작 시, 50골드를 모은 상태에서 초과 10골드마다 상점 새로고침을 1회 획득합니다. (최대 80골드)"
+    },
+    {
+      "name": "파묻힌 보물 III",
+      "effect": "다음 6번의 라운드 시작 시 무작위 조합 아이템을 획득합니다. (이번 라운드 포함)"
+    },
+    {
+      "name": "판도라의 아이템 III",
+      "effect": "라운드 시작: 대기석의 아이템이 무작위로 변합니다.무작위 찬란한 아이템 1개를 획득합니다."
+    },
+    {
+      "name": "프로레슬러 머리띠",
+      "effect": "프로레슬러 상징과 문도 박사를 획득합니다."
+    },
+    {
+      "name": "프로레슬러 왕관",
+      "effect": "프로레슬러 상징, 거인의 결의, 문도 박사를 획득합니다."
+    },
+    {
+      "name": "프리즘 공급",
+      "effect": "다음 플레이어 대상이 아닌 전투 라운드에서 놀라운 전리품이 든 추가 프리즘 구 1개를 획득합니다."
+    },
+    {
+      "name": "프리즘 운명",
+      "effect": "무작위 프리즘 증강을 얻고 5골드를 획득합니다."
+    },
+    {
+      "name": "프리즘 티켓",
+      "effect": "상점을 새로고침할 때마다 45% 확률로 무료 새로고침을 획득합니다."
+    },
+    {
+      "name": "행운의 장갑",
+      "effect": "도적의 장갑이 항상 챔피언에게 최적의 아이템을 제공합니다. 연습용 장갑 2개를 획득합니다."
+    },
+    {
+      "name": "행운의 장갑+",
+      "effect": "도적의 장갑이 항상 챔피언에게 최적의 아이템을 제공합니다. 연습용 장갑 2개를 획득합니다."
+    },
+    {
+      "name": "헤비급 머리띠",
+      "effect": "헤비급 상징, 뽀삐, 거인의 허리띠를 획득합니다."
+    },
+    {
+      "name": "헤비급 왕관",
+      "effect": "헤비급 상징, 정령의 형상, 코부코를 획득합니다."
+    },
+    {
+      "name": "헤지 펀드",
+      "effect": "25골드를 획득합니다. 최대 이자가 10골드로 증가합니다.이자는 저축한 10골드당 추가로 획득하는 골드입니다."
+    },
+    {
+      "name": "혼돈의 부름",
+      "effect": "강력한 무작위 보상을 획득합니다."
+    },
+    {
+      "name": "황금 알",
+      "effect": "11턴 후 부화하는 황금 알을 획득합니다. 알이 부화하면 막대한 전리품을 얻습니다. 플레이어 대상 전투에서 승리하면 부화기 타이머를 한 턴만큼 가속합니다."
+    },
+    {
+      "name": "흥청망청",
+      "effect": "레벨 업하면 레벨+1만큼 무료 상점 새로고침 기회를 얻습니다. 2골드를 획득합니다."
+    }
+  ],
+  "total_augments": 344,
+  "power_ups": [
+    {
+      "name": "2라운드",
+      "effect": "(1) 사망 시 동일한 아이템을 장착한 훈련 봇을 소환합니다. 훈련 봇은 이 유닛의 체력을 85%만큼 갖습니다.",
+      "tags": [
+        "가중치:10"
+      ]
+    },
+    {
+      "name": "9,000 초과",
+      "effect": "(1) 각 라운드 시작 시 영구적으로 무작위 추가 능력치를 얻습니다.현재: +0 공격력, +0 주문력, +0% 공격 속도, +0 방어력, +0 마법 저항력, +0 체력, +0 마나 회복",
+      "tags": [
+        "가중치:10",
+        "최대 스테이지:2"
+      ]
+    },
+    {
+      "name": "가시 돋친 껍질",
+      "effect": "(1) 방어력을 40 얻습니다. 이 챔피언을 공격하는 적은 25+스테이지당 5만큼 물리 피해를 입습니다. (공격자당 재사용 대기시간 1초)",
+      "tags": [
+        "가중치:10"
+      ]
+    },
+    {
+      "name": "강한 불꽃",
+      "effect": "(1) 3초마다 가장 가까운 적을 감전시켜 적 최대 체력의 9%에 해당하는 마법 피해를 입힙니다. 적이 어떤 방식으로든 기절할 때마다 감전됩니다.",
+      "tags": [
+        "가중치:10"
+      ]
+    },
+    {
+      "name": "거인화",
+      "effect": "(1) 1000 체력, 20% 내구력, 10% 피해 증폭",
+      "tags": [
+        "가중치:10",
+        "최소 스테이지:3",
+        "최소 레벨:6"
+      ]
+    },
+    {
+      "name": "결승 진출",
+      "effect": "(1) 피해 증폭을 12%, 피해량 감소를 8% 얻습니다. 탈락한 플레이어 1명당 2% 피해 증폭, 2% 내구력 증가합니다.",
+      "tags": [
+        "가중치:10",
+        "최소 스테이지:4",
+        "최대 스테이지:4"
+      ]
+    },
+    {
+      "name": "공격 전문가",
+      "effect": "(1) 공격력을 5% 얻습니다. 다른 모든 요소로부터 얻는 공격력이 30% 증가합니다.",
+      "tags": [
+        "가중치:10"
+      ]
+    },
+    {
+      "name": "공포의 노트",
+      "effect": "(1) 18초 및 30초에 생존 시, 체력이 가장 높은 적 처치",
+      "tags": [
+        "가중치:10"
+      ]
+    },
+    {
+      "name": "과다출혈",
+      "effect": "(1) 스킬이 4초에 걸쳐 60%의 추가 피해를 고정 피해로 입힙니다.",
+      "tags": [
+        "가중치:10"
+      ]
+    },
+    {
+      "name": "과잉 반응",
+      "effect": "(1) 처치 관여 시 공격 속도를 90% 얻습니다. 공격 속도는 3초에 걸쳐 빠르게 사라집니다.",
+      "tags": [
+        "가중치:10"
+      ]
+    },
+    {
+      "name": "관리인",
+      "effect": "(1) 스킬 사용 시 체력 비율이 가장 낮은 아군이 6초 동안 120(주문력)의 보호막을 얻습니다.",
+      "tags": [
+        "가중치:10"
+      ]
+    },
+    {
+      "name": "굶주린 영웅",
+      "effect": "(1) 체력을 100, 공격력을 8% 얻습니다. 라운드마다 플레이어 체력을 3 지불해 체력을 75, 공격력을 3 얻을 수 있습니다.",
+      "tags": [
+        "가중치:10",
+        "최소 스테이지:3",
+        "최대 스테이지:4",
+        "최소 레벨:3",
+        "최소 체력:50"
+      ]
+    },
+    {
+      "name": "궁극의 초월",
+      "effect": "(1) 7레벨 및 10레벨에서 추가로 초월합니다.7레벨: 기본 공격 3회마다 주문력을 5% 얻습니다.10레벨: 파동 2개를 추가로 발사해 55%의 피해를 입힙니다.",
+      "tags": [
+        "가중치:15",
+        "최대 레벨:5"
+      ]
+    },
+    {
+      "name": "그림자 분신",
+      "effect": "(1) 동일한 아이템을 장착하고 25%의 피해를 입히는 이 챔피언의 완벽한 복사본을 생성합니다.",
+      "tags": [
+        "가중치:10"
+      ]
+    },
+    {
+      "name": "극대화 공격",
+      "effect": "(1) 공격력을 12% 얻고 처치 관여 2회당 영구적으로 1% 얻습니다. (현재: 0% 공격력)",
+      "tags": [
+        "가중치:10",
+        "최대 스테이지:2"
+      ]
+    },
+    {
+      "name": "극대화 아르카나",
+      "effect": "(1) 주문력을 20% 얻고 처치 관여 2회당 영구적으로 1% 얻습니다. (현재: 0% 주문력)",
+      "tags": [
+        "가중치:10",
+        "최대 스테이지:2"
+      ]
+    }
+  ],
+  "total_power_ups": 16,
+  "crawl_urls": {
+    "synergies": "https://lolchess.gg/synergies/set15",
+    "items": "https://lolchess.gg/items/set15/guide",
+    "augments": "https://lolchess.gg/augments/set15",
+    "power_ups": "https://lolchess.gg/rewards/set15/power-ups"
+  }
+}
