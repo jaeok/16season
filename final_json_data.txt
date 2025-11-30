@@ -1,776 +1,1053 @@
-json_data_string = """
-    {
-        "champions_and_traits": [
-            {
-            "name": "가렌",
-            "traits": [
-                "전투사관학교",
-                "요새"
-            ]
-            },
-            {
-            "name": "나르",
-            "traits": [
-                "프로레슬러",
-                "저격수"
-            ]
-            },
-            {
-            "name": "나피리",
-            "traits": [
-                "소울 파이터",
-                "전쟁기계"
-            ]
-            },
-            {
-            "name": "렐",
-            "traits": [
-                "별 수호자",
-                "요새"
-            ]
-            },
-            {
-            "name": "루시안",
-            "traits": [
-                "거대 메크",
-                "마법사"
-            ]
-            },
-            {
-            "name": "말파이트",
-            "traits": [
-                "크루",
-                "봉쇄자"
-            ]
-            },
-            {
-            "name": "시비르",
-            "traits": [
-                "크루",
-                "저격수"
-            ]
-            },
-            {
-            "name": "신드라",
-            "traits": [
-                "수정 갬빗",
-                "별 수호자",
-                "신동"
-            ]
-            },
-            {
-            "name": "아트록스",
-            "traits": [
-                "거대 메크",
-                "전쟁기계",
-                "헤비급"
-            ]
-            },
-            {
-            "name": "이즈리얼",
-            "traits": [
-                "전투사관학교",
-                "신동"
-            ]
-            },
-            {
-            "name": "자크",
-            "traits": [
-                "악령",
-                "헤비급"
-            ]
-            },
-            {
-            "name": "칼리스타",
-            "traits": [
-                "소울 파이터",
-                "처형자"
-            ]
-            },
-            {
-            "name": "케넨",
-            "traits": [
-                "슈프림 셀",
-                "마법사",
-                "봉쇄자"
-            ]
-            },
-            {
-            "name": "케일",
-            "traits": [
-                "악령",
-                "결투가"
-            ]
-            },
-            {
-            "name": "갱플랭크",
-            "traits": [
-                "거대 메크",
-                "결투가"
-            ]
-            },
-            {
-            "name": "라칸",
-            "traits": [
-                "전투사관학교",
-                "봉쇄자"
-            ]
-            },
-            {
-            "name": "럭스",
-            "traits": [
-                "소울 파이터",
-                "마법사"
-            ]
-            },
-            {
-            "name": "문도 박사",
-            "traits": [
-                "프로레슬러",
-                "전쟁기계"
-            ]
-            },
-            {
-            "name": "바이",
-            "traits": [
-                "수정 갬빗",
-                "전쟁기계"
-            ]
-            },
-            {
-            "name": "쉔",
-            "traits": [
-                "크루",
-                "요새",
-                "이단아"
-            ]
-            },
-            {
-            "name": "신 짜오",
-            "traits": [
-                "소울 파이터",
-                "요새"
-            ]
-            },
-            {
-            "name": "자야",
-            "traits": [
-                "별 수호자",
-                "이단아"
-            ]
-            },
-            {
-            "name": "잔나",
-            "traits": [
-                "수정 갬빗",
-                "봉쇄자",
-                "책략가"
-            ]
-            },
-            {
-            "name": "진",
-            "traits": [
-                "악령",
-                "저격수"
-            ]
-            },
-            {
-            "name": "카이사",
-            "traits": [
-                "슈프림 셀",
-                "결투가"
-            ]
-            },
-            {
-            "name": "카타리나",
-            "traits": [
-                "전투사관학교",
-                "처형자"
-            ]
-            },
-            {
-            "name": "코부코",
-            "traits": [
-                "멘토",
-                "헤비급"
-            ]
-            },
-            {
-            "name": "니코",
-            "traits": [
-                "별 수호자",
-                "봉쇄자"
-            ]
-            },
-            {
-            "name": "다리우스",
-            "traits": [
-                "슈프림 셀",
-                "헤비급"
-            ]
-            },
-            {
-            "name": "람머스",
-            "traits": [
-                "괴물 트레이너"
-            ]
-            },
-            {
-            "name": "룰루",
-            "traits": [
-                "괴물 트레이너"
-            ]
-            },
-            {
-            "name": "말자하",
-            "traits": [
-                "악령",
-                "신동"
-            ]
-            },
-            {
-            "name": "비에고",
-            "traits": [
-                "소울 파이터",
-                "결투가"
-            ]
-            },
-            {
-            "name": "세나",
-            "traits": [
-                "거대 메크",
-                "처형자"
-            ]
-            },
-            {
-            "name": "스몰더",
-            "traits": [
-                "괴물 트레이너"
-            ]
-            },
-            {
-            "name": "스웨인",
-            "traits": [
-                "수정 갬빗",
-                "마법사",
-                "요새"
-            ]
-            },
-            {
-            "name": "아리",
-            "traits": [
-                "별 수호자",
-                "마법사"
-            ]
-            },
-            {
-            "name": "야스오",
-            "traits": [
-                "멘토",
-                "이단아"
-            ]
-            },
-            {
-            "name": "우디르",
-            "traits": [
-                "멘토",
-                "결투가",
-                "전쟁기계"
-            ]
-            },
-            {
-            "name": "제이스",
-            "traits": [
-                "전투사관학교",
-                "헤비급"
-            ]
-            },
-            {
-            "name": "직스",
-            "traits": [
-                "크루",
-                "책략가"
-            ]
-            },
-            {
-            "name": "케이틀린",
-            "traits": [
-                "전투사관학교",
-                "저격수"
-            ]
-            },
-            {
-            "name": "코그모",
-            "traits": [
-                "괴물 트레이너"
-            ]
-            },
-            {
-            "name": "라이즈",
-            "traits": [
-                "멘토",
-                "책략가",
-                "처형자"
-            ]
-            },
-            {
-            "name": "레오나",
-            "traits": [
-                "전투사관학교",
-                "요새"
-            ]
-            },
-            {
-            "name": "볼리베어",
-            "traits": [
-                "프로레슬러",
-                "이단아"
-            ]
-            },
-            {
-            "name": "뽀삐",
-            "traits": [
-                "별 수호자",
-                "헤비급"
-            ]
-            },
-            {
-            "name": "사미라",
-            "traits": [
-                "소울 파이터",
-                "이단아"
-            ]
-            },
-            {
-            "name": "세트",
-            "traits": [
-                "소울 파이터",
-                "전쟁기계"
-            ]
-            },
-            {
-            "name": "아칼리",
-            "traits": [
-                "슈프림 셀",
-                "처형자"
-            ]
-            },
-            {
-            "name": "애쉬",
-            "traits": [
-                "수정 갬빗",
-                "결투가"
-            ]
-            },
-            {
-            "name": "유미",
-            "traits": [
-                "전투사관학교",
-                "신동"
-            ]
-            },
-            {
-            "name": "자르반 4세",
-            "traits": [
-                "거대 메크",
-                "책략가"
-            ]
-            },
-            {
-            "name": "징크스",
-            "traits": [
-                "별 수호자",
-                "저격수"
-            ]
-            },
-            {
-            "name": "카르마",
-            "traits": [
-                "거대 메크",
-                "마법사"
-            ]
-            },
-            {
-            "name": "크산테",
-            "traits": [
-                "악령",
-                "봉쇄자"
-            ]
-            },
-            {
-            "name": "그웬",
-            "traits": [
-                "소울 파이터",
-                "마법사"
-            ]
-            },
-            {
-            "name": "리 신",
-            "traits": [
-                "태세의 대가"
-            ]
-            },
-            {
-            "name": "바루스",
-            "traits": [
-                "악령",
-                "저격수"
-            ]
-            },
-            {
-            "name": "브라움",
-            "traits": [
-                "프로레슬러",
-                "레슬링 챔피언",
-                "요새"
-            ]
-            },
-            {
-            "name": "세라핀",
-            "traits": [
-                "별 수호자",
-                "신동"
-            ]
-            },
-            {
-            "name": "에코",
-            "traits": []
-            },
-            {
-            "name": "요네",
-            "traits": [
-                "거대 메크",
-                "이단아"
-            ]
-            },
-            {
-            "name": "자이라",
-            "traits": [
-                "수정 갬빗",
-                "장미 어머니"
-            ]
-            },
-            {
-            "name": "트위스티드 페이트",
-            "traits": [
-                "해적선장",
-                "크루"
-            ]
-            }
-      ],
-      "synergies_and_counts": [
+{
+    "unlockables": [
         {
-            "synergy_name": "별 수호자",
-            "count": 10
+            "champion_name": "Zaahen",
+            "cost": "7",
+            "unlock_condition": "Get the Xin Zhao Champion Augment + field a 3-star Xin Zhao for 5 rounds"
         },
         {
-            "synergy_name": "수정 갬빗",
-            "count": 10
+            "champion_name": "Sylas",
+            "cost": "7",
+            "unlock_condition": "Sell a 2-star Jarvan, a 2-star Garen, and a 2-star Lux"
         },
         {
-            "synergy_name": "별 수호자",
-            "count": 9
+            "champion_name": "Ryze",
+            "cost": "7",
+            "unlock_condition": "Field 4 region traits together in combat + Level 8"
         },
         {
-            "synergy_name": "책략가",
-            "count": 5
+            "champion_name": "Brock",
+            "cost": "7",
+            "unlock_condition": "Collect 500 Ixtal Clues total"
         },
         {
-            "synergy_name": "신동",
-            "count": 5
+            "champion_name": "Baron Nashor",
+            "cost": "7",
+            "unlock_condition": "Level 10 + Void 7"
         },
         {
-            "synergy_name": "해적선장",
-            "count": 1
-        },
-        {
-            "synergy_name": "처형자",
-            "count": 4
-        },
-        {
-            "synergy_name": "책략가",
-            "count": 4
-        },
-        {
-            "synergy_name": "처형자",
-            "count": 3
-        },
-        {
-            "synergy_name": "소울 파이터",
-            "count": 8
-        },
-        {
-            "synergy_name": "레슬링 챔피언",
-            "count": 1
-        },
-        {
-            "synergy_name": "태세의 대가",
-            "count": 1
-        },
-        {
-            "synergy_name": "이단아",
-            "count": 2
-        },
-        {
-            "synergy_name": "프로레슬러",
-            "count": 2
-        },
-        {
-            "synergy_name": "장미 어머니",
-            "count": 1
-        },
-        {
-            "synergy_name": "신동",
-            "count": 2
-        },
-        {
-            "synergy_name": "멘토",
-            "count": 4
-        },
-        {
-            "synergy_name": "처형자",
-            "count": 2
-        },
-        {
-            "synergy_name": "저격수",
-            "count": 5
-        },
-        {
-            "synergy_name": "거대 메크",
-            "count": 7
-        },
-        {
-            "synergy_name": "거대 메크",
-            "count": 5
-        },
-        {
-            "synergy_name": "요새",
-            "count": 2
-        },
-        {
-            "synergy_name": "전투사관학교",
-            "count": 7
-        },
-        {
-            "synergy_name": "별 수호자",
-            "count": 8
-        },
-        {
-            "synergy_name": "처형자",
-            "count": 5
-        },
-        {
-            "synergy_name": "마법사",
-            "count": 2
-        },
-        {
-            "synergy_name": "헤비급",
-            "count": 2
-        },
-        {
-            "synergy_name": "책략가",
-            "count": 2
-        },
-        {
-            "synergy_name": "거대 메크",
-            "count": 3
-        },
-        {
-            "synergy_name": "저격수",
-            "count": 2
-        },
-        {
-            "synergy_name": "결투가",
-            "count": 6
-        },
-        {
-            "synergy_name": "크루",
-            "count": 4
-        },
-        {
-            "synergy_name": "전쟁기계",
-            "count": 2
-        },
-        {
-            "synergy_name": "프로레슬러",
-            "count": 4
-        },
-        {
-            "synergy_name": "전쟁기계",
-            "count": 6
-        },
-        {
-            "synergy_name": "악령",
-            "count": 2
-        },
-        {
-            "synergy_name": "봉쇄자",
-            "count": 6
-        },
-        {
-            "synergy_name": "멘토",
-            "count": 1
-        },
-        {
-            "synergy_name": "봉쇄자",
-            "count": 2
-        },
-        {
-            "synergy_name": "악령",
-            "count": 6
-        },
-        {
-            "synergy_name": "소울 파이터",
-            "count": 2
-        },
-        {
-            "synergy_name": "슈프림 셀",
-            "count": 4
-        },
-        {
-            "synergy_name": "책략가",
-            "count": 3
-        },
-        {
-            "synergy_name": "요새",
-            "count": 6
-        },
-        {
-            "synergy_name": "결투가",
-            "count": 2
-        },
-        {
-            "synergy_name": "요새",
-            "count": 4
-        },
-        {
-            "synergy_name": "별 수호자",
-            "count": 3
-        },
-        {
-            "synergy_name": "전투사관학교",
-            "count": 3
-        },
-        {
-            "synergy_name": "신동",
-            "count": 3
-        },
-        {
-            "synergy_name": "슈프림 셀",
-            "count": 2
-        },
-        {
-            "synergy_name": "크루",
-            "count": 2
-        },
-        {
-            "synergy_name": "저격수",
-            "count": 3
-        },
-        {
-            "synergy_name": "헤비급",
-            "count": 6
-        },
-        {
-            "synergy_name": "수정 갬빗",
-            "count": 3
-        },
-        {
-            "synergy_name": "이단아",
-            "count": 4
-        },
-        {
-            "synergy_name": "별 수호자",
-            "count": 2
-        },
-        {
-            "synergy_name": "괴물 트레이너",
-            "count": 1
-        },
-        {
-            "synergy_name": "마법사",
-            "count": 6
-        },
-        {
-            "synergy_name": "전쟁기계",
-            "count": 4
-        },
-        {
-            "synergy_name": "이단아",
-            "count": 6
-        },
-        {
-            "synergy_name": "봉쇄자",
-            "count": 4
-        },
-        {
-            "synergy_name": "소울 파이터",
-            "count": 4
-        },
-        {
-            "synergy_name": "별 수호자",
-            "count": 4
-        },
-        {
-            "synergy_name": "신동",
-            "count": 4
-        },
-        {
-            "synergy_name": "전투사관학교",
-            "count": 5
-        },
-        {
-            "synergy_name": "마법사",
-            "count": 4
-        },
-        {
-            "synergy_name": "헤비급",
-            "count": 4
-        },
-        {
-            "synergy_name": "결투가",
-            "count": 4
-        },
-        {
-            "synergy_name": "악령",
-            "count": 4
-        },
-        {
-            "synergy_name": "저격수",
-            "count": 4
-        },
-        {
-            "synergy_name": "크루",
-            "count": 3
-        },
-        {
-            "synergy_name": "별 수호자",
-            "count": 7
-        },
-        {
-            "synergy_name": "소울 파이터",
-            "count": 6
-        },
-        {
-            "synergy_name": "수정 갬빗",
-            "count": 7
-        },
-        {
-            "synergy_name": "슈프림 셀",
-            "count": 3
-        },
-        {
-            "synergy_name": "별 수호자",
-            "count": 5
-        },
-        {
-            "synergy_name": "별 수호자",
-            "count": 6
-        },
-        {
-            "synergy_name": "수정 갬빗",
-            "count": 5
+            "champion_name": "Aurelion Sol",
+            "cost": "7",
+            "unlock_condition": "Field Targon 5 in Combat"
         }
-        ]
-    }
-    """
+    ],
+    "augments": [
+        {
+            "augment_name": "Woven Magic",
+            "tier": "2",
+            "augment_bonus": "Gain a component. Every 1650 Mana your team spends grants an additional component. (Max 3)"
+        },
+        {
+            "augment_name": "U.R.F.",
+            "tier": "2",
+            "augment_bonus": "Gain a Spatula. Champions holding Spatula or Frying Pan items gain 15% Attack Speed and 2 Mana Regen."
+        },
+        {
+            "augment_name": "Silco’s Revenge",
+            "tier": "2",
+            "augment_bonus": "Zaunites explode into Shimmer on death, dealing 8% of their max Health to 2 nearby enemies as magic damage and granting 2 nearby allies 30% Attack Speed for 4 seconds. Gain a Blitzcrank and an Ekko."
+        },
+        {
+            "augment_name": "Secrets of the Sands",
+            "tier": "3",
+            "augment_bonus": "Gain 4 gold. Gain an Azir at Stage 3-5. Every time you unlock a Shuriman, gain an ideal item for them."
+        },
+        {
+            "augment_name": "Worth the Wait  II",
+            "tier": "3",
+            "augment_bonus": "Gain a random 2-cost champion. Gain another copy of them at the start of each round for the rest of the game."
+        },
+        {
+            "augment_name": "Win Out",
+            "tier": "3",
+            "augment_bonus": "When you reach level 9, immediately level to 10 and gain 10 free shop rerolls. Gain 10 XP now."
+        }
+    ],
+    "traits": [
+        {
+            "trait_name": "Ascendant",
+            "description": "After each combat, an Ascendant Charm appears in your shop. These are powerful effects that can be bought for gold.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Bonus Effect"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Assimilator",
+            "description": "Kai'Sa has a different Ability depending if her Attack Damage or Ability Power is higher.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Bonus Effect"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Bilgewater",
+            "description": "Each round, gain Silver Serpents (Serpents), plus 2 additional for each Bilgewater takedown. Silver Serpents can be spent in the Black Market to grant Bilgewater champions bonus stats and special loot. Higher tiers unlock rarer loot.",
+            "bonuses": [
+                {
+                    "needed": "3",
+                    "effect": "18 Serpents"
+                },
+                {
+                    "needed": "5",
+                    "effect": "30 Serpents, improved loot"
+                },
+                {
+                    "needed": "7",
+                    "effect": "55 Serpents, superior loot"
+                },
+                {
+                    "needed": "10",
+                    "effect": "150 Serpents, 2x stats, FIRE CANNONS!"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Blacksmith",
+            "description": "After each player combat your strongest Ornn participates in, he makes progress forging an Artifact item.Each item he is equipped with grants him 200/400/2000 max Health. Artifacts grant 300% more.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Bonus Effect"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Caretaker",
+            "description": "After winning player combat, gain a random unit from Runeterra. After losing combat, gain free rerolls, with the amount increasing by stage.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Bonus Effect"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Chainbreaker",
+            "description": "Sylas rotates between 3 different Abilities, depending on which one is most useful at the moment. He cannot cast the same one twice in a row.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Bonus Effect"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Chronokeeper",
+            "description": "Every 2 casts, the Chronokeeper stores 1 XP. If he has enough stored for you to level up, he transfers you the required XP. If you are level 10, he instead gains 15% Damage Amp.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Bonus Effect"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Dark Child",
+            "description": "Annie summons Tibbers on your bench, who can be fielded and equipped with items separately. His star level is the same as Annie's.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Bonus Effect"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Darkin",
+            "description": "Beocme a Darkin and part of the collection of sentient weapons.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Darkin gain 15% Omnivamp."
+                },
+                {
+                    "needed": "2",
+                    "effect": "AND you heal for 25% of the player damage you deal."
+                },
+                {
+                    "needed": "3",
+                    "effect": "AND whenever Darkin restore 100 Health, they deal 100 magic damage to the 2 closest enemies."
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Demacia",
+            "description": "Each time your team loses 25% max Health, Demacians RALLY, reducing the cost of their abilities by 10%. Demacians gain Armor and Magic Resist.",
+            "bonuses": [
+                {
+                    "needed": "3",
+                    "effect": "12 Armor & MR"
+                },
+                {
+                    "needed": "5",
+                    "effect": "25 Armor & MR"
+                },
+                {
+                    "needed": "7",
+                    "effect": "25 Armor & MR. On Rally, smite enemies for 5% of their max Health."
+                },
+                {
+                    "needed": "11",
+                    "effect": "150 Armor & MR. BATTLE FOR DEMACIA!"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Dragonborn",
+            "description": "On cast, Shyvana replaces her spell with Flame Breath. While transformed, all allies take 10% less damage from enemy Abilities.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Bonus Effect"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Emperor",
+            "description": "Azir deploys two Guards who can be placed anywhere on the battlefield. They do not move or attack, and die when Azir does.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Bonus Effect"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Eternal",
+            "description": "Every 3rd attack deals on the same enemy 350% damage, as Wolf mauls the  target.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Bonus Effect"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Freljord",
+            "description": "Summon a Frozen Tower. Allies in front of it gain Health and allies behind it gain Damage Amp. Freljordians gain 150% more.",
+            "bonuses": [
+                {
+                    "needed": "3",
+                    "effect": "8% Health, 10% DA"
+                },
+                {
+                    "needed": "5",
+                    "effect": "Two Towers. 12% Health, 16% DA"
+                },
+                {
+                    "needed": "7",
+                    "effect": "Towers stun enemies on death for 1.50 seconds. 16% Health, 22% DA."
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Glutton",
+            "description": "Once per Planning phase, you can feed Tahm Kench a champion, permanently granting him either Health, Attack Speed, or Ability Power based on their role and star level.To feed, hold an ally from the bench over Tahm Kench until his mouth opens, then release.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Bonus Effect"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Harvester",
+            "description": "Each time an enemy champion dies, gain 15 Mana. Casting abilities does not consume Mana. All enemies lose 10 Armor and Magic Resist.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Bonus Effect"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Heroic",
+            "description": "Galio cannot be fielded in combat. Instead, his traits count from the bench and when Demacians Rally, he joins the fight. On landing, he creates a 3-hex shockwave that deals 12% of his max Health as magic damage. Enemies hit are knocked up for 1.50 seconds, reduced by distance from the center.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Bonus Effect"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "HexMech",
+            "description": "Gain a Pilot Hex. Combat Start: the unit within jumps into T-Hex, granting her 80% of their Health and bonus stats based on their role and star level.Tank: +15/25/40% Omnivamp\nFighter: +15/25/50% Attack Damage\nMarksman: +10/18/40% Damage Amp\nCaster: +3/6/9 Mana Regen\nAssassin: +30/60/120% Crit ChanceOn death, the pilot ejects while T-Hex knocks back and Stuns nearby enemies for 1.50 seconds.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Bonus Effect"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Huntress",
+            "description": "While your strongest Neeko is alive, your strongest Nidalee is untargetable.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Bonus Effect"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Immortal",
+            "description": "While Xin Zhao is not on your board, Zaahen gains the Ionia, Demacia, and Warden traits.On kill, Zaahen gains a stack of Focus for the rest of combat. If he has 3 or more Focus when dying, he spends it to revive and restore 60% max% Health.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Bonus Effect"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Ionia",
+            "description": "Each game, they walk a different path. Path of Spirit: Ionians gain bonus HP. When one casts, they gain stacking AD and APPath of Generosity: Every third takedown Ionians participate in grants 1 gold. Ionians gain AD and AP, increased by 1% for every gold earned this way.Path of Enlightenment: Ionians gain AD and AP plus more based on your level. After each player combat, gain XP. Path of Transcendence: Ionians gain bonus Health and deal bonus magic damage. These effects increase if they’re three-starred. Path of Precision: Ionian abilities can critically strike and they gain Critical Strike Chance. Whenever an Ionian casts, Ionian units gain stacking AD and AP.",
+            "bonuses": [
+                {
+                    "needed": "3",
+                    "effect": "Ionian Bonus"
+                },
+                {
+                    "needed": "5",
+                    "effect": "Ionian Bonus"
+                },
+                {
+                    "needed": "7",
+                    "effect": "Ionian Bonus"
+                },
+                {
+                    "needed": "10",
+                    "effect": "Ionian Bonus"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Ixtal",
+            "description": "Ixtal has you complete quests you can choose for bonus loot! Completing a Quest grants you a new one at the start of next round.",
+            "bonuses": [
+                {
+                    "needed": "3",
+                    "effect": "Complete Quests to earn Sunshards and spend them for loot!"
+                },
+                {
+                    "needed": "5",
+                    "effect": "Heal 2 player health at the start of each player combat."
+                },
+                {
+                    "needed": "7",
+                    "effect": "After winning combat, find 50 %i:Set16Ixtal% and unearth bonus loot."
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Noxus",
+            "description": "After the enemy team has lost 15% of their Health, summon Atakhan, Bringer of Ruin. Each Noxian champion's star level increases his power.",
+            "bonuses": [
+                {
+                    "needed": "3",
+                    "effect": "He slashes enemies, dealing magic damage."
+                },
+                {
+                    "needed": "5",
+                    "effect": "Noxians get more powerful the longer he is alive."
+                },
+                {
+                    "needed": "7",
+                    "effect": "He drains the souls of enemies on cast."
+                },
+                {
+                    "needed": "10",
+                    "effect": "After 10 seconds, BRING RUIN."
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Piltover",
+            "description": "Build an invention on the right side of the board. After 8 seconds, the invention activates, triggering each of its Modules.",
+            "bonuses": [
+                {
+                    "needed": "2",
+                    "effect": "hoose a Module"
+                },
+                {
+                    "needed": "4",
+                    "effect": "Choose a Second Module"
+                },
+                {
+                    "needed": "6",
+                    "effect": "Choose a Third Module"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Riftscourge",
+            "description": "Baron Nashor takes up 2 team slots and grants +2 to the Void trait.After 8 seconds, the board enters a Void Rift. The Rift grants Void units 30% Damage Amp and constantly strikes enemies with bolts of plasma, dealing 5% max Health as magic damage.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Bonus Effect"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Rune Mage",
+            "description": "The Rune Mage benefits from all active Region traits, but contributes to none.He harnesses the Runic power from active Region traits to modify his Ability, enhancing it in unique ways.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Bonus Effect"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Shadow Isles",
+            "description": "Whenever ANY champion dies, gain Souls (Souls). Shadow Isles champions' abilities are uniquely empowered based on the number of Souls you have.Shadow Isles champions gain Attack Damage and Ability Power.",
+            "bonuses": [
+                {
+                    "needed": "2",
+                    "effect": "1x Souls, 18% AD & AP"
+                },
+                {
+                    "needed": "3",
+                    "effect": "1.30x Souls, 20% AD & AP"
+                },
+                {
+                    "needed": "4",
+                    "effect": "1.60x Souls, 22% AD & AP"
+                },
+                {
+                    "needed": "5",
+                    "effect": "1.90x Souls, 25% AD & AP"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Shurima",
+            "description": "Each second, Shurimans gain 2% Attack Speed and restore 20 Health. At combat start, they gain additional effects.",
+            "bonuses": [
+                {
+                    "needed": "2",
+                    "effect": "20% max Health"
+                },
+                {
+                    "needed": "3",
+                    "effect": "50 Armor and Magic Resist"
+                },
+                {
+                    "needed": "4",
+                    "effect": "A Shuriman ascends to GODHOOD every 3 seconds."
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Star Forger",
+            "description": "Aurelion Sol gains 40% increased Stardust for each other unique Targonian fielded in combat.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Bonus Effect"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Targon",
+            "description": "Targonians are forged by the stars. They are traitless, but stronger than the average champion.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Bonus Effect"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "The Boss",
+            "description": "When Sett first drops below 45% max Health, he leaves combat to start doing sit-ups. Each sit-up restores 15% max Health and gives him 60% Attack and Move Speed.If he reaches full Health, he returns to combat Pumped Up, converting all damage from his attacks and Ability to true damage. If all of his allies die, he immediately returns to combat.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Bonus Effect"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Void",
+            "description": "Gain Mutations that only Void champions can use. Void champions gain Attack Speed.Champions can only have one Mutation at a time. Benching a champion removes their Mutation.",
+            "bonuses": [
+                {
+                    "needed": "2",
+                    "effect": "1 Mutation, 8% AS"
+                },
+                {
+                    "needed": "4",
+                    "effect": "2 Mutations, 18% AS"
+                },
+                {
+                    "needed": "6",
+                    "effect": "3 Mutations, 28% AS"
+                },
+                {
+                    "needed": "9",
+                    "effect": "Mutations become supercharged, increasing their power by 50%. 35% AS"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "World Ender",
+            "description": "Aatrox gains Attack Damage equal to his Omnivamp.On first death, he becomes briefly untargetable and heals back to full Health over 2 seconds. Afterwards, he reduces his maximum Mana by 20 and gains 25% Durability.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Bonus Effect"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Yordle",
+            "description": "Yordles gain Health and Attack Speed for each Yordle fielded. 3 star Yordles grant 50% more!",
+            "bonuses": [
+                {
+                    "needed": "2",
+                    "effect": "Yordles gain 50 Health and 7% Attack Speed for each Yordle fielded. 3 star Yordles grant 50% more!"
+                },
+                {
+                    "needed": "4",
+                    "effect": "AND your first shop each round has a Yordle in it!"
+                },
+                {
+                    "needed": "6",
+                    "effect": "AND get 2 free rerolls each round!"
+                },
+                {
+                    "needed": "8",
+                    "effect": "AND get a Yordle Grab Bag each round!"
+                },
+                {
+                    "needed": "10",
+                    "effect": "Big Yordle Bonus"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Zaun",
+            "description": "After 4 seconds, Zaunites become Shimmer-Fused, granting them 10% Durability and 90% decaying Attack Speed for 4 seconds. After a short cooldown, they become Shimmer-Fused again.",
+            "bonuses": [
+                {
+                    "needed": "3",
+                    "effect": "Refresh after 4 seconds."
+                },
+                {
+                    "needed": "5",
+                    "effect": "At 60% Health, Zaunites restore 25% Health over 3 seconds and instantly become Shimmer-Fused."
+                },
+                {
+                    "needed": "7",
+                    "effect": "Shimmer-Fused bonuses are increased by 30%. Refresh after 3 seconds instead."
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Arcanist",
+            "description": "Your team gains Ability Power, Arcanists gain more.",
+            "bonuses": [
+                {
+                    "needed": "2",
+                    "effect": "18 AP, 25 AP for Arcanists"
+                },
+                {
+                    "needed": "4",
+                    "effect": "25 AP, 45 AP for Arcanists"
+                },
+                {
+                    "needed": "6",
+                    "effect": "40 AP, 70 AP for Arcanists"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Bruiser",
+            "description": "Your team gains 150 maximum Health. Bruisers gain more.",
+            "bonuses": [
+                {
+                    "needed": "2",
+                    "effect": "25% Health"
+                },
+                {
+                    "needed": "4",
+                    "effect": "45% Health"
+                },
+                {
+                    "needed": "6",
+                    "effect": "65% Health"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Defender",
+            "description": "Your team gains 12 Armor and Magic Resist. Defenders gain more.",
+            "bonuses": [
+                {
+                    "needed": "2",
+                    "effect": "30 Armor & MR"
+                },
+                {
+                    "needed": "4",
+                    "effect": "55 Armor & MR"
+                },
+                {
+                    "needed": "6",
+                    "effect": "80 Armor & MR"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Disruptor",
+            "description": "Disruptors' abilities Dazzle enemies hit. Disruptors deal bonus damage to Dazzled enemies.Dazzle: Reduce damage dealt by 10%",
+            "bonuses": [
+                {
+                    "needed": "2",
+                    "effect": "25% bonus damage"
+                },
+                {
+                    "needed": "4",
+                    "effect": "45% bonus damage"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Gunslinger",
+            "description": "Gunslingers gain Attack Damage. Every 4th attack from Gunslingers deals bonus physical damage.",
+            "bonuses": [
+                {
+                    "needed": "2",
+                    "effect": "20% AD, 100 bonus damage"
+                },
+                {
+                    "needed": "4",
+                    "effect": "35% AD, 200 bonus damage"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Invoker",
+            "description": "Your team gains 1 Mana Regen. Invokers gain more Mana from all sources.",
+            "bonuses": [
+                {
+                    "needed": "2",
+                    "effect": "25% more Mana"
+                },
+                {
+                    "needed": "4",
+                    "effect": "45% more Mana"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Juggernaut",
+            "description": "Juggernauts gain Durability, increased while above 50% health. When a Juggernaut dies, other Juggernauts heal for 5% of their max Health.",
+            "bonuses": [
+                {
+                    "needed": "2",
+                    "effect": "18% or 25% DR"
+                },
+                {
+                    "needed": "4",
+                    "effect": "20% or 30% DR"
+                },
+                {
+                    "needed": "6",
+                    "effect": "25% or 33% DR"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Longshot",
+            "description": "Longshots gain Damage Amp and deal more damage to targets farther away.",
+            "bonuses": [
+                {
+                    "needed": "2",
+                    "effect": "18% DA + 2% per Hex"
+                },
+                {
+                    "needed": "3",
+                    "effect": "20% DA + 3% per Hex"
+                },
+                {
+                    "needed": "4",
+                    "effect": "24% DA + 4% per Hex"
+                },
+                {
+                    "needed": "5",
+                    "effect": "30% DA + 5% per Hex"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Quickstriker",
+            "description": "Your team gains 15% Attack Speed. Quickstrikers gain bonus Attack Speed based on their target's missing Health.",
+            "bonuses": [
+                {
+                    "needed": "2",
+                    "effect": "10-30% AS"
+                },
+                {
+                    "needed": "3",
+                    "effect": "20-45% AS"
+                },
+                {
+                    "needed": "4",
+                    "effect": "30-60% AS"
+                },
+                {
+                    "needed": "5",
+                    "effect": "40-80% AS"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Slayer",
+            "description": "Slayers gain Omnivamp and Attack Damage. They increase the bonus Attack Damage by up to 50% based on their missing Health.",
+            "bonuses": [
+                {
+                    "needed": "2",
+                    "effect": "22% AD, 10% SV"
+                },
+                {
+                    "needed": "4",
+                    "effect": "33% AD, 15% SV"
+                },
+                {
+                    "needed": "6",
+                    "effect": "44% AD, 20% SV"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Soulbound",
+            "description": "Lucian and Senna fight together, swapping when either casts. Each champion has a unique ability.Your strongest Soulbound pair grants bonuses to your team. While Senna is out, all allies gain 7% Damage Reduction. While Lucian is out, all allies gain 7% Damage Amp.",
+            "bonuses": [
+                {
+                    "needed": "1",
+                    "effect": "Bonus Effect"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Vanquisher",
+            "description": "Vanquishers' abilities can critically strike. They also gain Critical Strike Chance and Critical Strike Damage.",
+            "bonuses": [
+                {
+                    "needed": "2",
+                    "effect": "15% Crit , 15% CritMult"
+                },
+                {
+                    "needed": "3",
+                    "effect": "20% Crit , 20% CritMult"
+                },
+                {
+                    "needed": "4",
+                    "effect": "25% Crit , 25% CritMult"
+                },
+                {
+                    "needed": "5",
+                    "effect": "30% Crit , 30% CritMult"
+                }
+            ],
+            "champions": []
+        },
+        {
+            "trait_name": "Warden",
+            "description": "When Wardens first drop below 75% and 25% Health, they gain a Shield based on their max Health.",
+            "bonuses": [
+                {
+                    "needed": "2",
+                    "effect": "15% Health"
+                },
+                {
+                    "needed": "3",
+                    "effect": "18% Health"
+                },
+                {
+                    "needed": "4",
+                    "effect": "24% Health"
+                },
+                {
+                    "needed": "5",
+                    "effect": "30% Health"
+                }
+            ],
+            "champions": []
+        }
+    ],
+    "champions": [
+        {
+            "name": "Aurelion Sol",
+            "cost": "7",
+            "ability_name": "The Skies Descend",
+            "ability_description": "Passive: After dealing ability damage to an enemy, Aurelion Sol gain Stardust. Stadust makes The Skies Descend more powerful.Active: Crash a star on target, dealing magic damage in a 2 hex radius.",
+            "ability_stats": [
+                {
+                    "Star Crash Damage:": "400/600/5000 (AP)"
+                }
+            ]
+        },
+        {
+            "name": "Baron Nashor",
+            "cost": "7",
+            "ability_name": "Wrath of the Void",
+            "ability_description": "Passive: Baron Nashor is immune to Crowd Control effects. Attacks deal damage in a line on target. If no enemies are in range, dash to the next one and knock up adjacent enemies on arrival.While in the Void Rift, erupt a tentacle below a random enemy every 3/3/0.25 seconds that knocks them up for 1.5 seconds.Active: Slam and erect spikes in a 2 hex circle, dealing physical damage to enemies hit. Then over 3 seconds, spit 10 globs of acid that deal physical damage.",
+            "ability_stats": [
+                {
+                    "Spike Damage:": "250/375/20000 + 30/45/500 (AD & AP)"
+                },
+                {
+                    "Acid Damage:": "250/375/20000 + 30/45/500 (AD & AP)"
+                }
+            ]
+        },
+        {
+            "name": "Brock",
+            "cost": "7",
+            "ability_name": "Seismic Slam",
+            "ability_description": "Passive: Brock is immune to crowd control effects. Attacks briefly knock up the target and deal 0.5% damage in a 1 hex radius around them.Active: Slam the ground, dealing physical damage to ALL enemies, reduced by 0.15% for each hex from the center (down to 0.4%.) If this is the first time they've been hit by Seismic Slam this combat, knock them up for up to 1.75 seconds. 12 rocks fall around the battlefield, each dealing physical damage to enemies hit.",
+            "ability_stats": [
+                {
+                    "Slam Damage:": "0.02 + 150/200/1500 (Health & AD)"
+                },
+                {
+                    "Rockfall Damage:": "250/375/600 + 20/30/100 (AD & AP)"
+                }
+            ]
+        },
+        {
+            "name": "Ryze",
+            "cost": "7",
+            "ability_name": "Runic Overload",
+            "ability_description": "Ryze releases a runic blast, dealing magic damage. It splits in two, dealing 0.33% of the damage to the closest two enemies. Each secondary blast splits an additional time.Bilgewater — blasts explode on impact, dealing % as Physical Damage to adjacent enemies.Demacia — Execute targets below % (ArmorMR).Freljord — Chill targets for a few seconds and deal bonus true damage.Ionia — Blasts split an additional time.Ixtal — Gain a random Region's effect on combat start and every 10 seconds.Noxus — Blasts now pierce targets, dealing % reduced damage per enemy hit.Piltover — Every third cast is Overcharged, dealing % more damage.Shadow Isles — Increase blast damage by X Souls.Shurima — Knock up enemies with a chance to dredge up Gold or Treasures.Targon — Heal the lowest  ally for % of the damage dealt.Void — Ignore % of enemies' Armor and Magic Resistance.Yordle — Shrink targets hit, lowering their damage by % for a few seconds.Zaun — Poison targets, dealing Magic Damage over a few seconds.",
+            "ability_stats": [
+                {
+                    "Damage:": "300/450/1500 (AP)"
+                }
+            ]
+        },
+        {
+            "name": "Sylas",
+            "cost": "7",
+            "ability_name": "Stolen Might",
+            "ability_description": "Sylas casts one of three spells:Cataclysm: Leap on a nearby enemy. Deal magic damage to all enemies within 2 hexes and Stun them for 1.5/1.75/30 seconds.Demacian Justice: Deal magic damage to target. If they are below 0.15% max Health, execute them.Final Spark: Gain 400/450/800 (AP) Shield for 2 seconds. Deal magic damage to all enemies in a line.",
+            "ability_stats": [
+                {
+                    "Catcalysm DMG:": "120/180/1000 (AP)"
+                },
+                {
+                    "Demacian Justice DMG:": "700/1050/99999 (AP)"
+                },
+                {
+                    "Final Spark DMG:": "360/540/1000 (AP)"
+                }
+            ]
+        },
+        {
+            "name": "Zaahen",
+            "cost": "7",
+            "ability_name": "Divine Challenge",
+            "ability_description": "Zaahen dashes around target and slash in a circle, dealing physical damage to target and physical damage to all other adjacent enemies hit. If the target doesn't die, immediately cast again.If this Ability is cast 25 times in a row, instead slam on target, instantly killing them and dealing physical damage to all enemies within 3 hexes.",
+            "ability_stats": [
+                {
+                    "Damage:": "70/105/1500 + 20/30/200 (AD & AP)"
+                }
+            ]
+        },
+        {
+            "name": "Aatrox",
+            "cost": "5",
+            "ability_name": "The Darkin Blade",
+            "ability_description": "On cast, Aatrox cycles through one of the following abilities:Slash in a line, dealing  physical damage to enemies hit and 20% Sundering them for 4 seconds.Swipe in a cone, dealing physical damage to enemies hit and knocking them up for 1 second.Slam on target, dealing physical damage in a 1 hex circle. Targets below 0.15% max Health are executed.",
+            "ability_stats": [
+                {
+                    "Line Slash:": "150/225/2400 + 20/30/100 (AD & AP)"
+                },
+                {
+                    "Cone Swipe:": "150/225/2400 + 20/30/100 (AD & AP)"
+                },
+                {
+                    "Slam:": "150/225/2400 + 20/30/100 (AD & AP)"
+                }
+            ]
+        },
+        {
+            "name": "Annie",
+            "cost": "5",
+            "ability_name": "Enraged Inferno",
+            "ability_description": "Erupt the entire battlefield in flames, permanently Burning and Wounding all enemies and dealing magic damage to each of them over 45 seconds. Annie's max Mana is reduced by 140 for the rest of combat. Subsquent casts launch a fireball at target that deals magic damage.",
+            "ability_stats": [
+                {
+                    "Erupt Damage:": "1500/2250/8000"
+                },
+                {
+                    "Fireball Damage:": "240/360/3000"
+                }
+            ]
+        },
+        {
+            "name": "Azir",
+            "cost": "5",
+            "ability_name": "Arise!",
+            "ability_description": "Passive: After witnessing 3 attacks from Azir, Sand Soldiers deal magic damage to their target.Active: Summon a Sand Soldier near target and command them to strike. If 2 Soldiers are already out, they all immediately deal magic damage instead.",
+            "ability_stats": [
+                {
+                    "Soldier Damage:": "100/150/3000 (AP)"
+                },
+                {
+                    "2 Soldiers Damage:": "70/105/1500 (AP)"
+                }
+            ]
+        }
+    ],
+    "team_comps": [
+        {
+            "name": "Bruiser Bard",
+            "playstyle": [
+                "15.9",
+                "Level 6 Slow Roll"
+            ],
+            "difficulty": "Easy",
+            "champions": [
+                "Bard",
+                "Sion",
+                "Shen",
+                "Volibear",
+                "Braum",
+                "Lissandra",
+                "Wukong",
+                "Kobuko & Yuumi",
+                "Illaoi"
+            ]
+        },
+        {
+            "name": "Leap of Faith",
+            "playstyle": [
+                "15.9",
+                "Level 5 Slow Roll"
+            ],
+            "difficulty": "Easy",
+            "champions": [
+                "Bard",
+                "Sion",
+                "Illaoi",
+                "Volibear",
+                "Braum",
+                "Lissandra",
+                "Dr. Mundo",
+                "Kobuko & Yuumi",
+                "Shen"
+            ]
+        },
+        {
+            "name": "Slayers",
+            "playstyle": [
+                "15.9",
+                "Fast 8"
+            ],
+            "difficulty": "",
+            "champions": [
+                "Aatrox",
+                "Bel'Veth",
+                "Swain",
+                "Fiddlesticks",
+                "Ambessa",
+                "Gangplank",
+                "Yasuo",
+                "Briar",
+                "Qiyana"
+            ]
+        },
+        {
+            "name": "The Ruined King",
+            "playstyle": [
+                "15.9",
+                "Level 5 Slow Roll"
+            ],
+            "difficulty": "Easy",
+            "champions": [
+                "Thresh",
+                "Kalista",
+                "Yorick",
+                "Viego",
+                "Kindred",
+                "Ornn",
+                "Braum",
+                "Gwen",
+                "Loris"
+            ]
+        },
+        {
+            "name": "Artillery Barrage",
+            "playstyle": [
+                "15.9",
+                "Level 5 Slow Roll"
+            ],
+            "difficulty": "Easy",
+            "champions": [
+                "Jarvan IV",
+                "Lulu",
+                "Rumble",
+                "Kennen",
+                "Sejuani",
+                "Neeko",
+                "Teemo",
+                "Vi"
+            ]
+        }
+    ]
+}
